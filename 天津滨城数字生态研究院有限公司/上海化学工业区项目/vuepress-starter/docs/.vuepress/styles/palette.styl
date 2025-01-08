@@ -1,0 +1,138 @@
+$accentColor = #02ADEC
+
+.theme-default-content:not(.custom) > h1:first-child {
+  margin-top: -1rem;
+}
+
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #DBE1E9;
+  .home-link {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 26px;
+      height: 26px;
+      min-width unset;
+      margin-right: 10px;
+    }
+    .site-name {
+      color: #1A262C;
+      font-family: PingFang SC, sans-serif;
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+  }
+  .links {
+    top: 19px;
+    width: 270px;
+    height: 32px;
+    flex-shrink: 0;
+    .search-box input {
+      width: 100%;
+      border-radius: 4px;
+      border: 1px solid #E8EEF3;
+      //background: #FFF;
+    }
+    .search-box input:focus {
+      border-color: #02ADEC;
+      box-shadow: 0 0 0 2px rgba(2, 173, 236, 0.2);
+    }
+  }
+}
+
+.theme-default-content:not(.custom) {
+  width: 630px;
+  max-width: 630px;
+  margin: 0 auto;
+  padding: 70px 0 0 0;
+  h1:first-child {
+    color: #1A262C;
+    font-family: PingFang SC, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  h2 {
+    color: #1A262C;
+    font-family: PingFang SC, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-bottom: unset;
+    margin-top: 32px;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+}
+
+.page-nav {
+  max-width: unset;
+}
+
+ul li {
+  color: #929DA3;
+  font-family: PingFang SC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+
+.go-to-top {
+  bottom: 7rem!important;
+}
+
+.page-nav {
+  width: 630px;
+  .inner {
+    border-top: unset;
+  }
+}
+
+.sidebar {
+  width: 260px;
+  border-right: 1px solid #DBE1E9;
+}
+
+.sidebar-heading,
+.sidebar-heading.open,
+.sidebar-heading:hover {
+  color: #1A262C;
+  font-family: PingFang SC, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sidebar-group ul li {
+  a.sidebar-link {
+    color: #4B5666;
+    font-family: PingFang SC, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+  }
+}
+
+.sidebar-group a.sidebar-link.active {
+  color: #02ADEC;
+  border-left-color: #02ADEC;
+}
+
+.medium-zoom-overlay {
+  background-color: rgba(0, 0, 0, .5)!important;
+}

@@ -1,0 +1,14 @@
+.ant-input {
+    height: 38px;
+}
+
+.ant-input-affix-wrapper, .ant-input-number {
+    /*border: 1px solid rgba(227,227,227,1)!important;*/
+    border-radius: 4px;
+    width: 100%!important;
+}
+
+/*编码式环境*/
+.codeName .ant-input{
+    height: 47px!important;
+}

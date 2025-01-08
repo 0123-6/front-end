@@ -1,0 +1,16 @@
+{
+  "name": "pinia-hpj",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "vite": "^5.4.7",
+    "vue": "^3.5.8"
+  },
+	"packageManager": "pnpm@9.15.3"
+}

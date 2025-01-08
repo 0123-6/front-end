@@ -1,0 +1,12 @@
+{
+  "name": "xlsx-hpj",
+  "version": "1.0.203",
+  "description": "xlsx库",
+  "main": "xlsx.full.min.js",
+  "files": ["xlsx.full.min.js"],
+  "keywords": [
+    "xlsx"
+  ],
+  "author": "",
+  "license": "ISC"
+}

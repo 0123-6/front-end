@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="59px" height="60px" viewBox="0 0 59 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-10.2305995%" y1="-15.8112588%" x2="83.0329323%" y2="89.5439925%" id="linearGradient-1">
+            <stop stop-color="#65A7FB" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#356EF5" stop-opacity="0.115015844" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-0.8%" y="-0.8%" width="101.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.0546089653 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="知识图谱" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_标注" transform="translate(-400.000000, -714.000000)">
+            <g id="编组-46" transform="translate(400.000000, 714.000000)">
+                <g id="椭圆形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="repeat-2-fill" transform="translate(18.261905, 18.261905)" fill="#356EF5" fill-rule="nonzero">
+                    <path d="M6.53214286,19.8559511 L6.53214286,21.9375785 C6.53214286,22.2351078 6.28842861,22.4761905 5.98779762,22.4761905 C5.86045349,22.4761905 5.73714841,22.4320243 5.63931868,22.3514479 L1.15502439,18.6538769 C0.924069589,18.4634237 0.89286772,18.123775 1.08532642,17.8952958 C1.18875202,17.7724923 1.34196343,17.7015033 1.50351421,17.7015033 L17.4190476,17.7015033 C18.6216151,17.7015033 19.5964286,16.7368493 19.5964286,15.5470555 L19.5964286,6.92923196 L21.7738095,6.92923196 L21.7738095,15.5470555 C21.7738095,17.9267508 19.8240737,19.8559511 17.4190476,19.8559511 L6.53214286,19.8559511 Z M15.2416667,2.62033636 L15.2416667,0.53861195 C15.2416667,0.241147342 15.4854245,0 15.7860119,0 C15.9133887,0 16.0366285,0.0441769521 16.1345017,0.124839478 L20.6188178,3.82238897 C20.849729,4.01282061 20.8809745,4.35245853 20.688494,4.58097004 C20.5850684,4.70377356 20.4318896,4.77477339 20.270328,4.77477339 L4.3547619,4.77478416 C3.15222707,4.77478416 2.17738095,5.73937353 2.17738095,6.92923196 L2.17738095,15.5470555 L0,15.5470555 L0,6.92923196 C0,4.54950433 1.94969223,2.62033636 4.3547619,2.62033636 L15.2416667,2.62033636 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

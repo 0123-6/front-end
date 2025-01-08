@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>学习CSS</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			flex-shrink: 0;
+		}
+		div {
+			background-color: darkblue;
+		}
+		div:hover {
+			background-color: blue;
+		}
+		.sss {
+			background-color: red;
+		}
+		#id2 {
+			background-color: saddlebrown;
+		}
+
+		[qwer] {
+			background-color: darkblue;
+		}
+
+	</style>
+</head>
+<body>
+<!--最外层-->
+<div style="width: 100vw;height: 100vh;display: flex;flex-direction: column;background-color: rebeccapurple;">
+	<div style="margin-top: 100px;margin-left: 100px;width: 600px;height: 600px;background-color: orange;position: relative;display: flex;justify-content: center;align-items: center;">
+		<!--物体-->
+		<div id="id2" qwer style="width: 300px;height: 300px;background-color: chartreuse;transform: none;" class="sss"></div>
+	</div>
+</div>
+</body>
+</html>

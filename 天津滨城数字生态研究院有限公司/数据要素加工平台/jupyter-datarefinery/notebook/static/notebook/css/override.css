@@ -1,0 +1,150 @@
+/*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+    position: relative;
+}
+
+#header-container {
+    display: none!important;
+}
+
+body > #header .header-bar {
+    display: none!important;
+}
+
+#menubar {
+    display: none!important;
+}
+
+.notebook_app {
+    background-color: white!important;
+}
+
+div.cell.selected:before, div.cell.selected.jupyter-soft-selected:before {
+    background: #4CAAB4!important;
+    border-radius: 4px 0 0 4px!important;
+}
+
+.edit_mode div.cell.selected {
+    border-color: #4CAAB4!important;
+}
+
+.notebook_app > #header {
+    box-shadow: unset!important;
+    -webkit-box-shadow: unset!important;
+}
+
+#notebook-container {
+    padding: 13px 0!important;
+    box-shadow: unset!important;
+    -webkit-box-shadow: unset!important;
+}
+
+.container {
+    width: 100%!important;
+}
+
+div#notebook {
+    margin-top: 0!important;
+    padding-top: 0!important;
+}
+
+div.input_area {
+    background: #F9F9F9!important;
+    border: unset!important;
+    border-radius: 4px!important;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border-color: #4CAAB4!important;
+    border-radius: 4px!important;
+}
+
+div.input_prompt {
+    color: #4CAAB4!important;
+}
+
+div.output_prompt {
+    color: #E57F3F!important;
+}
+
+.btn-default {
+    color: #8c8c8c!important;
+    background: white!important;
+    border: 1px solid rgba(224,224,224,1)!important;
+    border-radius: 2px!important;
+}
+
+.btn:hover, .btn:focus, .btn.focus {
+    color: #4CAAB4!important;
+    background: white!important;
+    border: 1px solid #4CAAB4!important;
+    border-radius: 2px!important;
+}
+
+.toolbar {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
+
+.toolbar .btn {
+    height: 32px;
+    padding: 0 10px!important;
+    width: auto;
+    margin: 0 4px 0 5px!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.toolbar .btn-group{
+    margin-left: 0!important;
+}
+
+
+
+.select-xs {
+    height: 32px!important;
+}
+
+.form-control {
+    border-color: rgba(224,224,224,1)!important;
+    box-shadow: unset!important;
+}
+
+.form-control:hover {
+    border-color: #4CAAB4!important;
+}
+
+.form-control:focus {
+    border-color: #4CAAB4!important;
+}
+
+.cm-s-ipython span.cm-keyword {
+    color: #4CAAB4!important;
+    font-weight: 400!important;
+}
+
+.cm-s-ipython span.cm-variable {
+    color: #262626!important;
+}
+
+button {
+    outline: unset!important;
+}
+
+.btn-my-save {
+    background-color: #4CAAB4!important;
+}
+
+.btn-my-save:hover {
+    background-color: #358B94!important;
+}
+
+.btn-my-save:active {
+    background-color: #2D6F75!important;
+}

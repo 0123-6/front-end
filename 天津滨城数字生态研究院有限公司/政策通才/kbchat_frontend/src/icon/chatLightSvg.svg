@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="79.4134469%" y1="81.7930942%" x2="-18.7870083%" y2="9.5%" id="linearGradient-1">
+            <stop stop-color="#2554FF" offset="0%"></stop>
+            <stop stop-color="#53A9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-287.000000, -243.000000)">
+            <g id="搜索备份" transform="translate(287.000000, 243.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="26" height="26"></rect>
+                <g id="message-3-fill-(1)备份" transform="translate(3.000000, 4.000000)" fill="url(#linearGradient-1)">
+                    <path d="M0,5.99374 C0,2.68349 2.67654,0 6.00066,0 L13.9993,0 C17.3134,0 20,2.69478 20,5.99374 L20,18 L6.00066,18 C2.68659,18 0,15.3052 0,12.0063 L0,5.99374 Z M12,8 L12,10 L14,10 L14,8 L12,8 Z M6,8 L6,10 L8,10 L8,8 L6,8 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

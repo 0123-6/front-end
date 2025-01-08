@@ -1,0 +1,47 @@
+// 颜色
+// 主色primary
+$--color-primary: #356df6 !default;
+// 成功success
+$--color-success: #67C23A !default;
+// 警告warning
+$--color-warning: #E6A23C !default;
+// 危险danger
+$--color-danger: #F56C6C !default;
+// 信息info
+$--color-info: #909399 !default;
+
+// 文字
+// 主要文字
+$--color-text-primary: #262626 !default;
+// 正常文字
+$--color-text-regular: #646464 !default;
+// 次要文字
+$--color-text-secondary: #8c8c8c !default;
+// 占位文字
+$--color-text-placeholder: #C0C4CC !default;
+
+// 边框
+// 一级边框
+$--border-color-base: #DCDFE6 !default;
+// 二级边框
+$--border-color-light: #E4E7ED !default;
+// 三级边框
+$--border-color-lighter: #EBEEF5 !default;
+// 四级边框
+$--border-color-extra-light: #F2F6FC !default;
+
+// 背景
+$--background-color-base: #F5F7FA !default;
+
+// 一切element-ui css样式都可以修改
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: 'element-ui/lib/theme-chalk/fonts';
+
+@import "element-ui/packages/theme-chalk/src/index";
+
+// element提示不需要被line-height: 1影响，需要有line-height
+.el-message__content {
+  font-size: 14px;
+  line-height: 1.5;
+}

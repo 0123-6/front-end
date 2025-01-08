@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="超级管理员角色优化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板备份-2" transform="translate(-1078.000000, -565.000000)">
+            <g id="shouquan_normal" transform="translate(1078.000000, 565.000000)">
+                <polygon id="路径" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M12,1 L20.217,2.826 C20.674,2.928 21,3.333 21,3.802 L21,13.789 C21,15.795 19.997,17.669 18.328,18.781 L12,23 L5.672,18.781 C4.002,17.668 3,15.795 3,13.79 L3,3.802 C3,3.333 3.326,2.928 3.783,2.826 L12,1 Z M12,3.049 L5,4.604 L5,13.789 C5,15.126 5.668,16.375 6.781,17.117 L12,20.597 L17.219,17.117 C18.332,16.375 19,15.127 19,13.79 L19,4.604 L12,3.05 L12,3.049 Z M16.452,8.222 L17.867,9.636 L11.503,16 L7.26,11.757 L8.674,10.343 L11.502,13.171 L16.452,8.221 L16.452,8.222 Z" id="形状" fill="#00AB5A" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

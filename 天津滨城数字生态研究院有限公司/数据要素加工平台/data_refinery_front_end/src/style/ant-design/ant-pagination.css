@@ -1,0 +1,30 @@
+.ant-pagination-total-text {
+    margin-right: 14px!important;
+}
+
+.ant-pagination-item,.ant-pagination-prev .ant-pagination-item-link, .ant-pagination-next .ant-pagination-item-link,.ant-pagination-options-quick-jumper input {
+    /*border: 1px solid rgba(0,0,0,0.15)!important;*/
+}
+
+.ant-pagination-disabled .ant-pagination-item-link, .ant-pagination-disabled:hover .ant-pagination-item-link {
+    /*border-color: rgba(0,0,0,0.15)!important;*/
+}
+
+.ant-pagination-item-active {
+    background: #4CAAB4!important;
+    border: unset!important;
+    font-weight: unset!important;
+}
+
+.ant-pagination-item-active a,
+.ant-pagination-item-active:hover a {
+    color: white!important;
+}
+
+.ant-pagination-options {
+    margin-left: 10px!important;
+}
+
+.ant-pagination-options-quick-jumper {
+    margin-left: 18px!important;
+}

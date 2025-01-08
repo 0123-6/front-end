@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo小">
+            <g id="资源-2备份" transform="translate(1.000000, 7.000000)" fill-rule="nonzero">
+                <polyline id="路径" fill="#356DF6" points="19.140658 5.50435181 13.4582455 0.0183234082 7.77773092 5.50435181"></polyline>
+                <polyline id="路径" fill="#356DF6" points="30.4200759 5.50435181 24.7376634 0.0183234082 19.0571489 5.50435181"></polyline>
+                <polyline id="路径" fill="#356DF6" points="13.4164909 0 19.0989034 5.4860284 24.779418 0"></polyline>
+                <polyline id="路径" fill="#356DF6" points="24.635175 0 30.3175875 5.4860284 36 0"></polyline>
+                <polyline id="路径" fill="#17F3FF" points="7.74356811 5.5171782 13.4259806 11.0032066 19.1083931 5.5171782"></polyline>
+                <polyline id="路径" fill="#356DF6" points="17.0643189 18.4974805 11.3819064 23.9835089 5.70139182 18.4974805"></polyline>
+                <polyline id="路径" fill="#356DF6" points="28.3437368 18.4974805 22.6613243 23.9835089 16.9808098 18.4974805"></polyline>
+                <polyline id="路径" fill="#356DF6" points="11.3401518 24 17.0225643 18.5158039 22.7030789 24"></polyline>
+                <polyline id="路径" fill="#356DF6" points="0 24 5.68241248 18.5158039 11.362927 24"></polyline>
+                <polyline id="路径" fill="#17F4FF" points="5.66722902 18.4828218 11.3496415 12.9967934 17.0301561 18.4828218"></polyline>
+                <polyline id="路径" fill="#356DF6" points="24.750949 10.9885479 19.0685365 16.4745763 13.386124 10.9885479"></polyline>
+            </g>
+            <rect id="矩形" stroke="#979797" fill="#D8D8D8" opacity="0" x="0" y="0" width="37" height="37"></rect>
+        </g>
+    </g>
+</svg>

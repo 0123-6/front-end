@@ -1,0 +1,66 @@
+.xflow-json-schema-form {
+    border-left: 1px solid #f2f2f2!important;
+}
+
+.dag-user-custom-clz .xflow-json-schema-form .xflow-json-schema-form-body {
+    background: white!important;
+    box-shadow: unset!important;
+}
+
+.dag-user-custom-clz .xflow-x6-canvas {
+    background: url(../icon/bg.svg)!important;
+}
+
+.ant-tabs-tab {
+    background: white!important;
+}
+
+.xflow-collapse-panel {
+    border-right: 1px solid #f2f2f2!important;
+}
+
+.xflow-collapse-panel-footer {
+    display: none!important;
+}
+
+.xflow-collapse-panel .xflow-collapse-content-item {
+    padding: 0!important;
+    margin: 1px 0 4px!important;
+    background: #FFFFFF!important;
+}
+
+.xflow-collapse-panel .xflow-collapse-content-item:hover {
+    background: unset!important;
+
+    cursor: move!important;
+}
+
+.xflow-toolbar.vertical {
+    /*width: 24px;*/
+    /*height: 108px;*/
+    background: #FFFFFF!important;
+    box-shadow: 0px 4px 8px 0px rgba(205,205,205,0.11)!important;
+    border-radius: 4px!important;
+    /*border: unset;*/
+}
+
+.xflow-toolbar.vertical .x6-toolbar-item {
+    /*padding: 2px 5px;*/
+    color: #939393!important;
+}
+
+.x6-toolbar-content {
+    /*justify-content: center;*/
+}
+
+::backdrop {
+    background: unset!important;
+}
+
+.write-icon-default {
+    color: #8D95B2;
+}
+
+.save-processing-flow-dialog-xflow {
+
+}

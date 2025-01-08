@@ -1,0 +1,80 @@
+.el-table {
+  color: #1A262C;
+
+  &::before {
+    height: 0;
+  }
+
+  .el-table__empty-block {
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 1px;
+      background-color: #EBEEF5;
+      z-index: 1;
+    }
+  }
+
+  thead {
+    color: #5E6A96;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+
+  th.el-table__cell {
+    background: #EFF1F8;
+  }
+
+  tbody tr.is-active,
+  tbody tr:hover {
+
+    >td {
+      background: rgba(53, 109, 246, 0.10) !important;
+    }
+
+  }
+
+  .el-table__row {
+    .el-table__cell {
+      border: 0;
+    }
+  }
+
+  &.el-table {
+    &--medium {
+      .el-table__row {
+        height: 50px;
+      }
+
+      .el-table__cell {
+        padding: 8px 0;
+      }
+    }
+  }
+
+  &.el-table--striped .el-table__body tr.el-table__row--striped td.el-table__cell {
+    background: #F9FAFA;
+  }
+
+  tr.hover-row {
+
+    &,
+    &.el-table__row--striped {
+
+      &,
+      &.current-row,
+      &.selection-row {
+        >td.el-table__cell {
+          background-color: rgba(53, 109, 246, 0.10);
+        }
+      }
+    }
+  }
+
+}

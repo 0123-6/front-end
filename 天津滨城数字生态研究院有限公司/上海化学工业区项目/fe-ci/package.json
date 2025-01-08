@@ -1,0 +1,16 @@
+{
+  "name": "ilink-fe-config",
+  "version": "1.0.0",
+  "description": "前端静态配置中心",
+  "main": "index.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.0",
+    "compressing": "^1.5.1",
+    "rimraf": "^3.0.2",
+    "ssh2": "^1.11.0"
+  },
+  "packageManager": "pnpm@9.15.3"
+}

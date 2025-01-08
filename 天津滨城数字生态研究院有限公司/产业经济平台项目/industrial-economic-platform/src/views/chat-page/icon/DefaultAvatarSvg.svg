@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="8.87906486%" y1="-38.262021%" x2="100%" y2="179.581565%" id="linearGradient-1">
+            <stop stop-color="#EEF4FF" offset="0%"></stop>
+            <stop stop-color="#CDD6F6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="99.4017042%" x2="0%" y2="14.3749597%" id="linearGradient-2">
+            <stop stop-color="#2554FF" offset="0%"></stop>
+            <stop stop-color="#53A9FF" offset="99.9489524%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页_生成内容_更多备份" transform="translate(-1365.000000, -635.000000)">
+            <g id="编组-12" transform="translate(1365.000000, 635.000000)">
+                <rect id="矩形备份-9" fill="url(#linearGradient-1)" x="0" y="0" width="48" height="48" rx="24"></rect>
+                <g id="编组-10" transform="translate(7.786174, 9.641825)">
+                    <path d="M32.2411227,30.0810062 C28.306921,25.7322207 22.6189191,23 16.2927729,23 C9.77953537,23 3.94274564,25.8962174 0,30.471056" id="路径" stroke-opacity="0.7486393" stroke="#2554FF" stroke-width="4.2"></path>
+                    <rect id="矩形" stroke="url(#linearGradient-2)" stroke-width="4" x="9" y="2" width="14" height="13.8919827" rx="6.94599133"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

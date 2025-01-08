@@ -1,0 +1,26 @@
+{
+  "name": "toast-ui-editor-all",
+  "version": "3.2.9",
+  "description": "@toast-ui/editor的完整包",
+  "main": "toastui-editor-all.min.js",
+  "files": [
+	"toastui-editor-all.min.js",
+	"toastui-editor.css"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0123-6/toast-ui-editor.git"
+  },
+  "keywords": [
+    "@toast-ui/editor"
+  ],
+  "author": "peijiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0123-6/toast-ui-editor/issues"
+  },
+  "homepage": "https://github.com/0123-6/toast-ui-editor#readme"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="色版" transform="translate(-283.000000, -529.000000)">
+            <g id="编组-11" transform="translate(283.000000, 529.000000)">
+                <polygon id="路径" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M2,18 L9,18 L9,20 L2,20 L2,18 Z M2,11 L11,11 L11,13 L2,13 L2,11 Z M2,4 L22,4 L22,6 L2,6 L2,4 Z" id="形状" fill="#B2800A" fill-rule="nonzero"></path>
+                <rect id="矩形" stroke="#B2800A" stroke-width="1.4" x="13.7" y="12.7" width="7.6" height="7.6" rx="3.8"></rect>
+                <polygon id="路径" stroke="#B2800A" stroke-width="0.4" fill="#B2800A" fill-rule="nonzero" transform="translate(17.699622, 16.499622) rotate(-315.000000) translate(-17.699622, -16.499622) " points="17.3741225 14.7321225 17.3741225 16.1671225 15.9321225 16.1671225 15.9321225 16.8251225 17.3741225 16.8251225 17.3741225 18.2671225 18.0321225 18.2671225 18.0321225 16.8251225 19.4671225 16.8251225 19.4671225 16.1671225 18.0321225 16.1671225 18.0321225 14.7321225"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

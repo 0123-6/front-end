@@ -1,0 +1,69 @@
+@light-border: 1px solid #d9d9d9;
+@primaryColor: #c2c8d5;
+
+.xflow-algo-node.panel-node {
+  border: 0;
+  width: 215px;
+  min-height: 28px;
+  height: 28px;
+  outline: unset;
+  box-shadow:unset;
+
+  &:hover {
+    border: unset!important;
+    outline: 1px solid rgba(76,170,180,0.23)!important;
+    box-shadow: 0px 0px 8px 0px rgba(31,199,179,0.08)!important;
+    cursor: move;
+  }
+}
+
+.xflow-algo-node {
+  z-index: 10;
+  display: flex;
+  width: 215px;
+  min-height: 36px;
+  height: 36px;
+  //justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  //transition: all ease-in-out 0.15s;
+  border-radius: 4px;
+  border: unset!important;
+
+  box-shadow: 0px 2px 8px 0px rgba(205,205,205,0.4);
+
+  &:hover {
+
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+  }
+  .label {
+    //padding-left: 4px;
+    width: 144px;
+    overflow: hidden;
+    text-align: left;
+    text-overflow: ellipsis;
+    color:#646464;
+    font-size: 14px;
+  }
+  .status {
+    width: 28px;
+  }
+}
+//面板中选中的效果
+.x6-node-selected {
+  .xflow-algo-node {
+    outline: #4CAAB4 solid 1px;
+    box-shadow: 0px 2px 8px 0px rgba(76,170,180,0.17);
+  }
+}
+
+//面板选择拖动看不清bug
+.x6-widget-dnd {
+  opacity: 100!important;
+}

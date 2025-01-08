@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="61.6348776%" y2="389.723965%" id="linearGradient-1">
+            <stop stop-color="#A2B6FF" stop-opacity="0.176494892" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产业经济前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v" transform="translate(-743.000000, -250.000000)">
+            <g id="编组-23" transform="translate(743.000000, 250.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="42" height="42" rx="8"></rect>
+                <path d="M18,11.4578 L18,13.58152 C15.06817,14.76829 13,17.64262 13,21 C13,25.4183 16.58172,29 21,29 C24.3574,29 27.2317,26.9318 28.4185,24 L30.5422,24 C29.2679,28.0571 25.4776,31 21,31 C15.47715,31 11,26.5228 11,21 C11,16.52236 13.94289,12.73207 18,11.4578 Z M21,11 C26.5228,11 31,15.47715 31,21 C31,21.3375 30.9833,21.6711 30.9506,22 L20,22 L20,11.04938 C20.3289,11.01672 20.6625,11 21,11 Z M22,13.06189 L22,20 L28.9381,20 C28.4869,16.38128 25.6187,13.51314 22,13.06189 Z" id="形状" fill="#346DF6" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

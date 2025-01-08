@@ -1,0 +1,18 @@
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    color: #4CAAB4!important;
+    background: rgba(77,169,180,0.07)!important;
+    font-weight: 400!important;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    /*color: #4CAAB4!important;*/
+    background: rgba(77,169,180,0.07)!important;
+    font-weight: 400!important;
+}
+
+.select-h-45 .ant-select-selector {
+    border-radius: 8px!important;
+    height: 45px!important;
+    line-height: 45px!important;
+    padding: 3px 11px!important;
+}

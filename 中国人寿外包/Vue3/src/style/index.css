@@ -1,0 +1,14 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	flex-shrink: 0;
+}
+
+.el-form--inline {
+	.el-form-item {
+		.el-input, .el-cascader, .el-select, .el-autocomplete {
+			width: 240px;
+		}
+	}
+}

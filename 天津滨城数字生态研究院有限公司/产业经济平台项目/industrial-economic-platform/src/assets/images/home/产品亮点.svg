@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="768px" viewBox="0 0 1920 768" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>产品亮点</title>
+    <defs>
+        <linearGradient x1="5.93649323%" y1="41.5594617%" x2="50%" y2="58.4405383%" id="linearGradient-1">
+            <stop stop-color="#FAFCFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="589" height="242" rx="4"></rect>
+        <filter x="-2.2%" y="-4.5%" width="104.4%" height="110.7%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="0" y="0" width="589" height="242" rx="4"></rect>
+        <filter x="-2.2%" y="-4.5%" width="104.4%" height="110.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="-8.52651283e-14" width="589" height="242" rx="4"></rect>
+        <filter x="-2.2%" y="-4.5%" width="104.4%" height="110.7%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="0" y="-8.52651283e-14" width="589" height="242" rx="4"></rect>
+        <filter x="-2.2%" y="-4.5%" width="104.4%" height="110.7%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="-10.2305995%" y1="-15.8112588%" x2="83.0329323%" y2="89.5439925%" id="linearGradient-10">
+            <stop stop-color="#65A7FB" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#356EF5" stop-opacity="0.115015844" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-11" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-0.8%" y="-0.8%" width="101.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.0546089653 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-13" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-0.8%" y="-0.8%" width="101.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-14">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.0546089653 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-15" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-0.8%" y="-0.8%" width="101.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-16">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.0546089653 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-17" cx="29.5" cy="29.5" r="29.5"></circle>
+        <filter x="-0.8%" y="-0.8%" width="101.7%" height="103.4%" filterUnits="objectBoundingBox" id="filter-18">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0745098039   0 0 0 0 0.149019608   0 0 0 0 0.321568627  0 0 0 0.0546089653 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="知识图谱" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(0.000000, -514.000000)">
+            <g id="产品亮点" transform="translate(0.000000, 514.000000)">
+                <g id="编组-46">
+                    <rect id="1" fill="#FBFDFF" x="0" y="0" width="1920" height="768"></rect>
+                    <g id="编组-39" transform="translate(887.000000, 84.000000)">
+                        <text id="产品亮点" font-family="PingFangSC-Medium, PingFang SC" font-size="34" font-weight="400" letter-spacing="-1.45714286" fill="#333333">
+                            <tspan x="38" y="36">产品亮点</tspan>
+                        </text>
+                        <rect id="矩形备份-5" fill="#356EF5" opacity="0.724766323" x="0" y="21" width="14.3846154" height="6"></rect>
+                        <rect id="矩形备份-4" fill="#18F3FF" opacity="0.724766323" x="8" y="21" width="14.3846154" height="6"></rect>
+                    </g>
+                    <g id="编组-4" transform="translate(360.000000, 165.000000)">
+                        <g id="矩形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <g id="编组-15" transform="translate(40.000000, 5.000000)"></g>
+                        <g id="speak-line" transform="translate(60.000000, 28.000000)"></g>
+                        <circle id="椭圆形备份" fill="#356EF5" cx="705" cy="64" r="42"></circle>
+                        <text id="依托相关领域、行业专家，围绕政府经济治理" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="26" letter-spacing="-0.685714286" fill="#646464">
+                            <tspan x="43" y="128">依托相关领域、行业专家，围绕政府经济治理业务进行深入分析与研究，构</tspan>
+                            <tspan x="43" y="154">建产业经济分析体系，输出经济监测指标体系、产业分析指数、产业链图</tspan>
+                            <tspan x="43" y="180">谱、产业报告等知识资产。</tspan>
+                        </text>
+                        <text id="基于知识与规则重塑治理体系与决策模式" font-family="PingFangSC-Medium, PingFang SC" font-size="22" font-weight="400" letter-spacing="-0.942857143" fill="#333333">
+                            <tspan x="117" y="73">基于知识与规则重塑治理体系与决策模式</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-4备份" transform="translate(971.000000, 165.000000)">
+                        <g id="矩形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        </g>
+                        <text id="从多源渠道获取各类经济相关数据，包括全量" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="26" letter-spacing="-0.685714286" fill="#646464">
+                            <tspan x="43" y="128">从多源渠道获取各类经济相关数据，包括全量的企业数据、政策数据和舆情</tspan>
+                            <tspan x="43" y="154">数据等，融合结构化数据与非结构化数据，经过比对、治理、打标、分析、</tspan>
+                            <tspan x="43" y="180">挖掘等流程，形成海量体系化经济数据。</tspan>
+                        </text>
+                        <text id="多源异构数据的融合分析与交叉验证" font-family="PingFangSC-Medium, PingFang SC" font-size="22" font-weight="400" letter-spacing="-0.942857143" fill="#333333">
+                            <tspan x="122" y="71">多源异构数据的融合分析与交叉验证</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-4备份-4" transform="translate(360.000000, 432.000000)">
+                        <g id="矩形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-6"></use>
+                        </g>
+                        <text id="应用大模型、AIGC、知识图谱、自然语言" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.685714286" fill="#646464">
+                            <tspan x="43" y="128">应用大模型、AIGC、知识图谱、自然语言处理等前沿的人工智能技术解决</tspan>
+                            <tspan x="43" y="152">业务痛点，深度赋能宏观经济、产业分析、招商引资、企业服务等场景，提</tspan>
+                            <tspan x="43" y="176">供智能问答、自动生成、预测预警、智能匹配、智能推送等组件辅助决策。</tspan>
+                        </text>
+                        <text id="前沿人工智能技术深度赋能业务场景" font-family="PingFangSC-Medium, PingFang SC" font-size="22" font-weight="400" letter-spacing="-0.942857143" fill="#333333">
+                            <tspan x="117" y="73">前沿人工智能技术深度赋能业务场景</tspan>
+                        </text>
+                    </g>
+                    <g id="编组-4备份-3" transform="translate(971.000000, 432.000000)">
+                        <g id="矩形">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-8"></use>
+                        </g>
+                        <text id="提供标准化SaaS服务平台，开箱即用，使" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="-0.685714286" fill="#646464">
+                            <tspan x="43" y="129">提供标准化SaaS服务平台，开箱即用，使用成本低、上线速度快、按功能</tspan>
+                            <tspan x="43" y="153">采购、按周期付费，提供专业运营和运维，用户拥有很强的自主选择权。</tspan>
+                        </text>
+                        <text id="标准的SaaS化平台支持快速上线服务" font-family="PingFangSC-Medium, PingFang SC" font-size="22" font-weight="400" letter-spacing="-0.942857143" fill="#333333">
+                            <tspan x="122" y="73">标准的SaaS化平台支持快速上线服务</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="编组-15备份" transform="translate(1017.000000, 200.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-11"></use>
+                    </g>
+                    <g id="database-2-line-(10)" transform="translate(19.666667, 18.964286)" fill="#356EF5" fill-rule="nonzero">
+                        <path d="M2.26322751,10.5357143 C2.26322751,10.883282 2.78491277,11.4876992 3.99512842,12.0806936 C5.56080658,12.8479154 7.78184753,13.3082707 10.1845238,13.3082707 C12.5871661,13.3082707 14.8081845,12.8479154 16.3738853,12.0806936 C17.5841462,11.4876992 18.1058201,10.883282 18.1058201,10.5357143 L18.1058201,8.12769361 C16.2386574,9.25834211 13.3839354,9.98120301 10.1845238,9.98120301 C6.98514618,9.98120301 4.13034495,9.25834211 2.26322751,8.12769361 L2.26322751,10.5357143 Z M18.1058201,13.6728064 C16.2386574,14.8034549 13.3839354,15.5263158 10.1845238,15.5263158 C6.98514618,15.5263158 4.13034495,14.8034549 2.26322751,13.6728064 L2.26322751,16.0808271 C2.26322751,16.4283947 2.78491277,17.032812 3.99512842,17.6258064 C5.56080658,18.3930282 7.78184753,18.8533835 10.1845238,18.8533835 C12.5871661,18.8533835 14.8081845,18.3930282 16.3738853,17.6258064 C17.5841462,17.032812 18.1058201,16.4283947 18.1058201,16.0808271 L18.1058201,13.6728064 Z M0,16.0808271 L0,4.9906015 C0,2.23436992 4.55976974,0 10.1845238,0 C15.8093231,0 20.3690476,2.23436992 20.3690476,4.9906015 L20.3690476,16.0808271 C20.3690476,18.8370808 15.8093231,21.0714286 10.1845238,21.0714286 C4.55976974,21.0714286 0,18.8370808 0,16.0808271 Z M10.1845238,7.76315789 C12.5871661,7.76315789 14.8081845,7.30282481 16.3738853,6.5356141 C17.5841462,5.94258647 18.1058201,5.33819135 18.1058201,4.9906015 C18.1058201,4.64301165 17.5841462,4.03861654 16.3738853,3.44558891 C14.8081845,2.6783782 12.5871661,2.21804511 10.1845238,2.21804511 C7.78184753,2.21804511 5.56080658,2.6783782 3.99512842,3.44558891 C2.78491277,4.03861654 2.26322751,4.64301165 2.26322751,4.9906015 C2.26322751,5.33819135 2.78491277,5.94258647 3.99512842,6.5356141 C5.56080658,7.30282481 7.78184753,7.76315789 10.1845238,7.76315789 Z" id="形状"></path>
+                    </g>
+                </g>
+                <g id="编组-16" transform="translate(400.000000, 200.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-13"></use>
+                    </g>
+                    <g id="repeat-2-fill" transform="translate(18.261905, 18.261905)" fill="#356EF5" fill-rule="nonzero">
+                        <path d="M6.53214286,19.8559511 L6.53214286,21.9375785 C6.53214286,22.2351078 6.28842861,22.4761905 5.98779762,22.4761905 C5.86045349,22.4761905 5.73714841,22.4320243 5.63931868,22.3514479 L1.15502439,18.6538769 C0.924069589,18.4634237 0.89286772,18.123775 1.08532642,17.8952958 C1.18875202,17.7724923 1.34196343,17.7015033 1.50351421,17.7015033 L17.4190476,17.7015033 C18.6216151,17.7015033 19.5964286,16.7368493 19.5964286,15.5470555 L19.5964286,6.92923196 L21.7738095,6.92923196 L21.7738095,15.5470555 C21.7738095,17.9267508 19.8240737,19.8559511 17.4190476,19.8559511 L6.53214286,19.8559511 Z M15.2416667,2.62033636 L15.2416667,0.53861195 C15.2416667,0.241147342 15.4854245,0 15.7860119,0 C15.9133887,0 16.0366285,0.0441769521 16.1345017,0.124839478 L20.6188178,3.82238897 C20.849729,4.01282061 20.8809745,4.35245853 20.688494,4.58097004 C20.5850684,4.70377356 20.4318896,4.77477339 20.270328,4.77477339 L4.3547619,4.77478416 C3.15222707,4.77478416 2.17738095,5.73937353 2.17738095,6.92923196 L2.17738095,15.5470555 L0,15.5470555 L0,6.92923196 C0,4.54950433 1.94969223,2.62033636 4.3547619,2.62033636 L15.2416667,2.62033636 Z" id="形状"></path>
+                    </g>
+                </g>
+                <g id="编组-15备份-2" transform="translate(1017.000000, 468.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-15"></use>
+                    </g>
+                    <g id="briefcase-2-line" transform="translate(18.261905, 18.964286)" fill="#356EF5" fill-rule="nonzero">
+                        <path d="M5.44345238,4.3547619 L5.44345238,1.08869048 C5.44345238,0.4874285 5.93088088,0 6.53214286,0 L15.2416667,0 C15.8429504,0 16.3303571,0.4874285 16.3303571,1.08869048 L16.3303571,4.3547619 L20.685119,4.3547619 C21.2864028,4.3547619 21.7738095,4.8421904 21.7738095,5.44345238 L21.7738095,20.685119 C21.7738095,21.2864028 21.2864028,21.7738095 20.685119,21.7738095 L1.08869048,21.7738095 C0.4874285,21.7738095 0,21.2864028 0,20.685119 L0,5.44345238 C0,4.8421904 0.4874285,4.3547619 1.08869048,4.3547619 L5.44345238,4.3547619 Z M19.5964286,13.0642857 L2.17738095,13.0642857 L2.17738095,19.5964286 L19.5964286,19.5964286 L19.5964286,13.0642857 Z M19.5964286,6.53214286 L2.17738095,6.53214286 L2.17738095,10.8869048 L5.44345238,10.8869048 L5.44345238,8.70952381 L7.62083333,8.70952381 L7.62083333,10.8869048 L14.1529762,10.8869048 L14.1529762,8.70952381 L16.3303571,8.70952381 L16.3303571,10.8869048 L19.5964286,10.8869048 L19.5964286,6.53214286 Z M7.62083333,2.17738095 L7.62083333,4.3547619 L14.1529762,4.3547619 L14.1529762,2.17738095 L7.62083333,2.17738095 Z" id="形状"></path>
+                    </g>
+                </g>
+                <g id="编组-16备份" transform="translate(400.000000, 468.000000)">
+                    <g id="椭圆形">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-18)" xlink:href="#path-17"></use>
+                        <use fill="url(#linearGradient-10)" fill-rule="evenodd" xlink:href="#path-17"></use>
+                    </g>
+                    <text id="AI" font-family="SourceHanSansSC-Bold, Source Han Sans SC" font-size="9.8" font-weight="bold" fill="#356EF5">
+                        <tspan x="26.005102" y="32.0952381">AI</tspan>
+                    </text>
+                    <path d="M38.2951057,25.8759938 C37.6791623,21.1841986 33.6046185,17.5595238 28.6699134,17.5595238 C23.3096408,17.5595238 18.9642857,21.836268 18.9642857,27.1119048 C18.9642857,29.3715205 19.7614453,31.4478499 21.0940644,33.0834563 C22.0743449,34.2865787 22.6042965,35.6197329 22.6041994,37.0297837 L22.6038961,41.4404762 L33.5227273,41.4404762 L33.5239405,37.8583333 L35.9491342,37.8583333 C37.2892387,37.8583333 38.3755411,36.7891831 38.3755411,35.4702381 L38.3755411,31.9728726 L40.7525707,30.9707085 C41.1689421,30.7951835 41.2052169,30.3796549 41.0254201,30.1014418 L38.2951057,25.8759938 Z M21.3906926,27.1119048 C21.3906926,23.1551772 24.649709,19.947619 28.6699134,19.947619 C32.3390047,19.947619 35.4232105,22.6359098 35.8885953,26.1819566 L35.9578693,26.709057 L37.8292356,29.6051956 L35.9491342,30.3978044 L35.9491342,35.4702381 L31.0983828,35.4702381 L31.0971696,39.052381 L25.0304607,39.052381 L25.0306063,37.0300225 C25.0307398,35.072859 24.3140884,33.2182643 22.9870015,31.5894639 C21.9586902,30.3273556 21.3906926,28.7655413 21.3906926,27.1119048 Z" id="形状" fill="#356EF5" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

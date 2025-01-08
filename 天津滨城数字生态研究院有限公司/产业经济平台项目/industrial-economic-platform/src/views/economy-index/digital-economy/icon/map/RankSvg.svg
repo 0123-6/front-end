@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="知识图谱" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1260.000000, -80.000000)">
+            <g id="编组-3" transform="translate(1260.000000, 80.000000)">
+                <path d="M3,14 L9,14 L9,22 L3,22 L3,14 Z M10,4 L16,4 L16,22 L10,22 L10,4 Z M17,9 L23,9 L23,22 L17,22 L17,9 Z" id="形状" fill="#F4CC6C" fill-rule="nonzero"></path>
+                <rect id="矩形备份-3" fill="#D8D8D8" opacity="0" x="0" y="0" width="26" height="26"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

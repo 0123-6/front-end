@@ -1,0 +1,404 @@
+{
+  "results": [
+   {
+    "metric_name": "pod_net_bytes_received",
+    "data": {
+     "resultType": "matrix",
+     "result": [
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-7s6r9"
+       },
+       "values": [
+        [
+         1654133676,
+         "1054.2279689435366"
+        ],
+        [
+         1654134276,
+         "1054.2676422422212"
+        ],
+        [
+         1654134876,
+         "1043.6014177875988"
+        ],
+        [
+         1654135476,
+         "1018.8468566014753"
+        ],
+        [
+         1654136076,
+         "1047.2364219647116"
+        ],
+        [
+         1654136676,
+         "1027.460502017646"
+        ],
+        [
+         1654137276,
+         "955.5203602640919"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      },
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-wvcvl"
+       },
+       "values": [
+        [
+         1654133676,
+         "1401.6598726454054"
+        ],
+        [
+         1654134276,
+         "1356.0025401326186"
+        ],
+        [
+         1654134876,
+         "1304.0092014459415"
+        ],
+        [
+         1654135476,
+         "1226.5483418963101"
+        ],
+        [
+         1654136076,
+         "1436.868291767062"
+        ],
+        [
+         1654136676,
+         "1195.2880146979358"
+        ],
+        [
+         1654137276,
+         "1226.140662394812"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      }
+     ]
+    }
+   },
+   {
+    "metric_name": "pod_net_bytes_transmitted",
+    "data": {
+     "resultType": "matrix",
+     "result": [
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-7s6r9"
+       },
+       "values": [
+        [
+         1654133676,
+         "391126.06869883084"
+        ],
+        [
+         1654134276,
+         "388968.8997731336"
+        ],
+        [
+         1654134876,
+         "385096.6943006718"
+        ],
+        [
+         1654135476,
+         "376609.39297557017"
+        ],
+        [
+         1654136076,
+         "387995.2178931747"
+        ],
+        [
+         1654136676,
+         "379725.070104644"
+        ],
+        [
+         1654137276,
+         "352680.66633591574"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      },
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-wvcvl"
+       },
+       "values": [
+        [
+         1654133676,
+         "394911.73101004446"
+        ],
+        [
+         1654134276,
+         "381905.3062188945"
+        ],
+        [
+         1654134876,
+         "365978.9681235623"
+        ],
+        [
+         1654135476,
+         "345140.0280242877"
+        ],
+        [
+         1654136076,
+         "405291.56366367306"
+        ],
+        [
+         1654136676,
+         "333976.7282683094"
+        ],
+        [
+         1654137276,
+         "343282.7144290898"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      }
+     ]
+    }
+   },
+   {
+    "metric_name": "pod_memory_usage_wo_cache",
+    "data": {
+     "resultType": "matrix",
+     "result": [
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-7s6r9"
+       },
+       "values": [
+        [
+         1654133676,
+         "1266798592"
+        ],
+        [
+         1654134276,
+         "1271877632"
+        ],
+        [
+         1654134876,
+         "1269993472"
+        ],
+        [
+         1654135476,
+         "1272266752"
+        ],
+        [
+         1654136076,
+         "1274372096"
+        ],
+        [
+         1654136676,
+         "1269047296"
+        ],
+        [
+         1654137276,
+         "1276895232"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      },
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-wvcvl"
+       },
+       "values": [
+        [
+         1654133676,
+         "1109409792"
+        ],
+        [
+         1654134276,
+         "1109409792"
+        ],
+        [
+         1654134876,
+         "1109409792"
+        ],
+        [
+         1654135476,
+         "1109581824"
+        ],
+        [
+         1654136076,
+         "1109417984"
+        ],
+        [
+         1654136676,
+         "1109417984"
+        ],
+        [
+         1654137276,
+         "1109667840"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      }
+     ]
+    }
+   },
+   {
+    "metric_name": "pod_cpu_usage",
+    "data": {
+     "resultType": "matrix",
+     "result": [
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-7s6r9"
+       },
+       "values": [
+        [
+         1654133676,
+         "0.678"
+        ],
+        [
+         1654134276,
+         "0.671"
+        ],
+        [
+         1654134876,
+         "0.671"
+        ],
+        [
+         1654135476,
+         "0.67"
+        ],
+        [
+         1654136076,
+         "0.65"
+        ],
+        [
+         1654136676,
+         "0.662"
+        ],
+        [
+         1654137276,
+         "0.699"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      },
+      {
+       "metric": {
+        "namespace": "mj-test",
+        "node": "node2",
+        "owner_kind": "ReplicaSet",
+        "owner_name": "mj-test-service1-7d788cb664",
+        "pod": "mj-test-service1-7d788cb664-wvcvl"
+       },
+       "values": [
+        [
+         1654133676,
+         "0.671"
+        ],
+        [
+         1654134276,
+         "0.62"
+        ],
+        [
+         1654134876,
+         "0.652"
+        ],
+        [
+         1654135476,
+         "0.605"
+        ],
+        [
+         1654136076,
+         "0.627"
+        ],
+        [
+         1654136676,
+         "0.702"
+        ],
+        [
+         1654137276,
+         "0.674"
+        ]
+       ],
+       "min_value": "",
+       "max_value": "",
+       "avg_value": "",
+       "sum_value": "",
+       "fee": "",
+       "resource_unit": "",
+       "currency_unit": ""
+      }
+     ]
+    }
+   }
+  ]
+ }

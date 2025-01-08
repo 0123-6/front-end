@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="47px" height="49px" viewBox="0 0 47 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>data.json</title>
+    <defs>
+        <linearGradient x1="50%" y1="1.18058211%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#FF9178" offset="0%"></stop>
+            <stop stop-color="#FD5E3A" offset="100%"></stop>
+        </linearGradient>
+        <path d="M28.125,0 L40,11.874 L40,34.6666667 C40,37.6121853 37.6121853,40 34.6666667,40 L5.33333333,40 C2.38781467,40 3.60722001e-16,37.6121853 0,34.6666667 L0,5.33382961 C-3.60722001e-16,2.38831094 2.38781467,0.000496273311 5.33333333,0.000496273311 L28.125,0 Z" id="path-2"></path>
+        <filter x="-13.8%" y="-8.8%" width="127.5%" height="127.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.785122904   0 0 0 0 0.785122904  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-30.9%" y="-30.4%" width="161.7%" height="160.9%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="1.33333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-30.9%" y="-30.4%" width="161.7%" height="160.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="1.33333333" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <linearGradient x1="14.4533406%" y1="40.5111069%" x2="14.4533406%" y2="92.4164411%" id="linearGradient-6">
+            <stop stop-color="#FFE6E0" offset="0%"></stop>
+            <stop stop-color="#FFB8A8" offset="100%"></stop>
+        </linearGradient>
+        <text id="text-7" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#FFFAF8">
+            <tspan x="7.66601562" y="25.9724091">json</tspan>
+        </text>
+        <filter x="-22.0%" y="-25.0%" width="144.0%" height="178.6%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.818256765   0 0 0 0 0.297179921   0 0 0 0 0.179200259  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="labelstudio导入" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="labelstudio导入有标注信息-JSON格式" transform="translate(-531.000000, -241.000000)">
+            <g id="编组-13" transform="translate(510.000000, 117.000000)">
+                <g id="data.json" transform="translate(24.000000, 128.000000)">
+                    <g id="编组">
+                        <g id="形状结合">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <path d="M25.1358708,0.655729569 L24.6636269,9.31743586 C24.5433613,11.5232988 26.234072,13.4089986 28.4399349,13.5292642 C28.592742,13.5375954 28.7459013,13.5371504 28.8986574,13.5279316 L37.3770492,13.0162589 L37.3770492,13.0162589 L25.1358708,0.655729569 Z" id="路径-2" fill="#7F0303" opacity="0.309502738" filter="url(#filter-4)"></path>
+                        <path d="M27.7588216,1.49095642e-13 L27.2865777,8.66170629 C27.1663121,10.8675692 28.8570228,12.753269 31.0628857,12.8735346 C31.2156928,12.8818658 31.3688521,12.8814208 31.5216082,12.872202 L40,12.3605294 L40,12.3605294 L27.7588216,1.49095642e-13 Z" id="路径-2备份-2" fill="#AA0800" opacity="0.309502738" filter="url(#filter-5)"></path>
+                        <path d="M28.1237893,0.000496273312 L28.1237893,7.80362852 C28.1237893,10.0127675 29.9146503,11.8036285 32.1237893,11.8036285 L39.927068,11.8036285 L39.927068,11.8036285 L28.1237893,0.000496273312 Z" id="路径-2备份" fill="url(#linearGradient-6)"></path>
+                    </g>
+                    <g id="json" fill="#FFFAF8" fill-opacity="1">
+                        <use filter="url(#filter-8)" xlink:href="#text-7"></use>
+                        <use xlink:href="#text-7"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

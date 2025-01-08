@@ -1,0 +1,217 @@
+// cover some element-ui styles
+
+
+$--color-primary: #0164FF;
+$--color-danger: #FD5E3A;
+$--color-warning: #E56E0D;
+$--color-success: #00AB5A;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+.el-breadcrumb__inner,
+.el-breadcrumb__inner a {
+  font-weight: 400 !important;
+}
+
+.el-upload {
+  input[type="file"] {
+    display: none !important;
+  }
+}
+
+.el-upload__input {
+  display: none;
+}
+
+.cell {
+  .el-tag {
+    margin-right: 0;
+  }
+}
+
+.small-padding {
+  .cell {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.fixed-width {
+  .el-button--mini {
+    padding: 7px 10px;
+    width: 60px;
+  }
+}
+
+.status-col {
+  .cell {
+    padding: 0 10px;
+    text-align: center;
+
+    .el-tag {
+      margin-right: 0;
+    }
+  }
+}
+
+// to fixed https://github.com/ElemeFE/element/issues/2461
+.el-dialog {
+  transform: none;
+  left: 0;
+  position: relative;
+  margin: 0 auto;
+}
+
+// refine element ui upload
+.upload-container {
+  .el-upload {
+    width: 100%;
+
+    .el-upload-dragger {
+      width: 100%;
+      height: 200px;
+    }
+  }
+}
+
+// dropdown
+.el-dropdown-menu {
+  a {
+    display: block
+  }
+}
+
+// fix date-picker ui bug in filter-item
+.el-range-editor.el-input__inner {
+  display: inline-flex !important;
+}
+
+// to fix el-date-picker css style
+.el-range-separator {
+  box-sizing: content-box;
+}
+
+.el-button{
+  border-radius: 4px;
+}
+
+//.el-button--medium{
+//  padding: 0 20px;
+//}
+
+.el-tag{
+  border-radius: 0px;
+}
+
+.el-input__inner{
+  // border-radius: 0px;
+}
+
+//.el-button--medium{
+//  border-radius: 0px;
+//}
+
+.el-menu-item{
+  height: 50px;
+  line-height: 50px;
+}
+
+.el-submenu__title{
+  height: 45px;
+  line-height: 45px;
+}
+
+.el-submenu .el-menu-item{
+  height: 50px;
+  line-height: 50px;
+}
+
+.el-textarea__inner{
+  border-radius: 4px;
+}
+
+.el-dialog__body{
+  padding: 10px 20px 10px 20px;
+}
+.el-dialog__headerbtn {
+  top: 12px;
+  right: 12px;
+}
+
+.el-carousel__container{
+  height: 100%;
+}
+
+.el-tooltip__popper.is-light {
+  border: none;
+  box-shadow: 0px 2px 11px 0px rgba(220,229,231,1);
+  .popper__arrow {
+    border-color: transparent !important;
+  }
+}
+.el-tooltip__popper {
+  max-width: 500px;
+  line-height: 180%;
+}
+// .el-tabs__content{
+//   display: none;
+// }
+
+// .el-tabs__item{
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.table-filters-popover {
+  padding: 0;
+  min-width: 140px !important;
+  .popper__arrow {
+    display: none !important;
+  }
+  .el-checkbox-group {
+    padding: 12px;
+    max-height: 180px;
+    overflow: auto;
+    border-bottom: 1px solid #DCDFE6;
+    .el-checkbox {
+      font-weight: 400;
+    }
+    .el-checkbox + .el-checkbox {
+      margin-top: 12px;
+    }
+  }
+  .table-filters-popover-buttons {
+    height: 48px;
+    line-height: 48px;
+    padding: 0px 10px;
+    padding-left: 16px;
+    .el-button {
+      padding: 4px 8px;
+      border-radius: 4px;
+      &.el-button--text {
+        border: none;
+        &:disabled {
+          border: none;
+          color: #B7B7B7;
+          &:hover {
+            background: transparent;
+          }
+        }
+      }
+    }
+  }
+}
+
+td {
+  &.table-operation-container {
+    .cell {
+      padding: 0 16px !important;
+    }
+  }
+}
+

@@ -1,0 +1,20 @@
+{{- if .Values.serviceAccount.create -}}
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  labels:
+    app: {{ template "jupyter.name" .}}
+    chart: {{ .Chart.Name }}-{{ .Chart.Version }}
+    heritage: {{ .Release.Service }}
+    release: {{ .Release.Name }}
+  name: {{ template "jupyter.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+roleRef:
+  apiGroup: rbac.authorization.k8s.io
+  kind: ClusterRole
+  name: {{ template "jupyter.fullname" . }}
+subjects:
+- kind: ServiceAccount
+  name: {{ template "jupyter.fullname" . }}
+  namespace: {{ .Release.Namespace }}
+{{- end -}}

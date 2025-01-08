@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 28</title>
+    <defs>
+        <circle id="path-1" cx="27" cy="27" r="27"></circle>
+        <filter x="-13.0%" y="-9.3%" width="125.9%" height="125.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.00392156863   0 0 0 0 1   0 0 0 0 0.0469122789  0 0 0 0.315696023 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AI中台三期-权限管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="权限管理-用户管理-批量创建第四步-完成创建" transform="translate(-923.000000, -404.000000)">
+            <g id="编组-5" transform="translate(927.000000, 406.000000)">
+                <g id="椭圆形备份-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#00AB5A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M17,25.3726863 L23.678258,33.1507891 C24.081957,33.6209735 24.7892027,33.6778444 25.2628455,33.2782087 L41,20 L41,20" id="路径-4" stroke="#FFFFFF" stroke-width="3.7622592" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

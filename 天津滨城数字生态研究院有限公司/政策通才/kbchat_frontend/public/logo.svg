@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 6</title>
+    <defs>
+        <linearGradient x1="79.1723832%" y1="89.2507336%" x2="-18.2232507%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2554FF" offset="0%"></stop>
+            <stop stop-color="#53A9FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="0%" y1="15.2777778%" x2="50%" y2="84.7222222%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#B0CEFF" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-3" points="29.1180801 15.9603881 18.7217031 23.1839135 28.250834 23.1839135 28.250834 26.7903881 11.7943106 26.7903881 11.7943106 23.1839135 22.1906875 15.9603881 12.6615567 15.9603881 12.6615567 12.3539135 29.1180801 12.3539135"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页_列表_-语音识别过程结果" transform="translate(-36.000000, -25.000000)">
+            <g id="编组-6" transform="translate(36.000000, 25.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="39.8357488" height="40" rx="14.0790005"></rect>
+                <g id="路径" fill-rule="nonzero">
+                    <use fill="#FFFFFF" xlink:href="#path-3"></use>
+                    <use fill="url(#linearGradient-2)" xlink:href="#path-3"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

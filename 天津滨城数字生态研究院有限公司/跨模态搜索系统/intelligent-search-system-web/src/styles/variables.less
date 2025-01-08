@@ -1,0 +1,62 @@
+//-Button Colors---------------- 按钮颜色
+@primary-color: #0C61AA ;
+@primary-plain-color: rgba(12,97,170,0.14);
+@primary-hover-color: #0D7CDB;
+@primary-focus-color: #095290;
+@success-color: #0CAA63;
+@success-plain-color: rgba(12,170,99,0.14);
+@success-hover-color: #0CC06F;
+@success-focus-color: #089053;
+@warning-color: #CA920D;
+@warning-plain-color: rgba(202,146,13,0.14);
+@warning-hover-color: #E4A614;
+@warning-focus-color: #B2800A;
+@danger-color: #CA360D;
+@danger-plain-color: rgba(202,54,13,0.14);
+@danger-hover-color: #EE3D0C;
+@danger-focus-color: #AD2B07;
+@blue-color: #0C8DAA;
+@blue-plain-color: rgba(12,141,170,0.14);
+@blue-hover-color: #11B2D7;
+@blue-focus-color: #08778F;
+@disabled-color: #b7b7b7;
+
+//-Font Colors---------------- 文字颜色
+@text-primary-dark: #262626;
+@text-primary: #323232;
+@text-lighter: #646464;
+@text-light: #8C8C8C;
+
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-center {
+  &:extend(.align-center);
+  justify-content: center;
+}
+
+// 单行文本超出隐藏并显示...省略号
+.line-text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本超出隐藏并显示...省略号，传入变量行数
+.ellipsis-muti-line(@lineNum) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lineNum;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+}

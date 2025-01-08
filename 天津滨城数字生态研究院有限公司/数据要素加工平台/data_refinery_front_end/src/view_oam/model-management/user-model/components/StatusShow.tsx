@@ -1,0 +1,65 @@
+import React from "react";
+import CheckOrange from "../../../../icon/table/status/审核橙.svg";
+import Downline from "../../../../icon/table/status/已下线.svg";
+import DownlineRejected from "../../../../icon/table/status/被驳回.svg";
+import DownlineRejected2 from "../../../../icon/table/status/驳回下线.svg";
+import RunError from "../../../../icon/table/status/运行失败.svg";
+import RunSuccess from "../../../../icon/table/status/运行成功.svg";
+import Running from "../../../../icon/table/status/运行中.svg";
+import CheckYellow from "../../../../icon/table/status/审核黄.svg";
+import NotRun from "../../../../icon/table/status/未运行.svg";
+
+interface Iprops {
+	status: string,
+	className?: string,
+}
+
+const modelStatusMap = {
+	"发布审核中": {
+		icon: CheckOrange,
+		className: 'text-status-orange bg-status-orange-bg',
+	},
+	"发布中": {
+		icon: Running,
+		className: 'text-status-running bg-status-running-bg',
+	},
+	"发布失败": {
+		icon: RunError,
+		className: 'text-status-error bg-status-error-bg',
+	},
+	"已发布": {
+		icon: RunSuccess,
+		className: 'text-status-success bg-status-success-bg',
+	},
+	"发布被驳回": {
+		icon: DownlineRejected,
+		className: 'text-status-purple bg-status-purple-bg',
+	},
+	"下线审核中": {
+		icon: CheckYellow,
+		className: 'text-[#E9A40C] bg-[#fbf2de]',
+	},
+	"下线被驳回": {
+		icon: DownlineRejected2,
+		className: 'text-[#4A5AD6] bg-[#e6e8fa]',
+	},
+	"已下线": {
+		icon: Downline,
+		className: 'text-status-white bg-status-white-bg',
+	},
+	"未发布": {
+		icon: NotRun,
+		className: 'text-status-notrun bg-status-notrun-bg',
+	},
+}
+
+export default function StatusShow(props: Iprops) {
+	const {status,className=''} = props
+	return (
+		<span style={{width: '94px', height: '23px'}}
+		      className={`inline-flex items-center rounded-xl pl-2 ${modelStatusMap[status]?.className} ${className}`}>
+			<img src={modelStatusMap[status]?.icon} alt="" style={{width: '14px', height: '14px'}} className={`${status==='发布中'?'rotate':''}`}/>
+			<span className={"ml-1 inline-flex items-center text-xs font-medium leading-[12px]"}>{status}</span>
+		</span>
+	)
+}

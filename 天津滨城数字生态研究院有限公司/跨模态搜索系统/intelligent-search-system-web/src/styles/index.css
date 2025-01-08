@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-hidden{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.text-hidden-2{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+.text-hidden-3{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    word-break: break-all;
+}
+
+button:focus {
+    outline: 0;
+}
+
+/* 文字选择没效果 */
+* {
+    user-select: none;
+}
+
+/* 滚动条 */
+*::-webkit-scrollbar{
+    width: 8px;
+    height: 8px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: #c0c4cced;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+*::-webkit-scrollbar-thumb:hover{
+    opacity: 1;
+    display: block!important;
+}
+
+*::-webkit-scrollbar-track{
+    background-color: transparent;
+}

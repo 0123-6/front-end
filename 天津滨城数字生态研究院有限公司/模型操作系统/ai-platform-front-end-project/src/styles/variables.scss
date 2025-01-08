@@ -1,0 +1,87 @@
+
+//-Common----------------
+$white: #ffffff;
+$black: #000000;
+
+
+//-Blue----------------
+$blue-lightest: #E6F7FF;
+$blue-lighter: #e6f0ff;
+$blue-light: #1F76FF;
+$blue:#0164FF ;
+$blue-dark: #0358DC;
+
+$grey: #606266;
+$disabled: #B7B7B7;
+
+$sub-green: #00B1B2;
+$green: #00AB5A;
+$warning: #E56E0D;
+$danger: #FD5E3A;
+
+  // sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#409EFF;
+$subMenuActiveText:#f4f4f5; // https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:#263445;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+
+$sideBarWidth: 205px;
+
+// operation-button-color
+$primaryBg: rgba(1,100,255,0.14);
+$primaryBorder: rgba(1,100,255,1);
+$primaryText: #0164FF;
+$primaryBgHover: rgba(1,100,255,0.14);
+$primaryBorderHover: rgba(57,134,255,1);
+$primaryTextHover: #418BFF;
+$primaryBgFocus: rgba(3,88,220,0.14);
+$primaryBorderFocus: rgba(3,88,220,1);
+$primaryTextFocus: #0358DC;
+
+$dangerBg: rgba(253,94,58,0.14);
+$dangerBorder: rgba(253,94,58,1);
+$dangerText: #FD5E3A;
+$dangerBgHover: rgba(255,122,91,0.14);
+$dangerBorderHover: rgba(255,122,91,1);
+$dangerTextHover: #FF7A5B;
+$dangerBgFocus: rgba(253,94,58,0.14);
+$dangerBorderFocus: rgba(205,70,40,1);
+$dangerTextFocus: #CD4628;
+
+$successBg: rgba(0,171,90,0.14);
+$successBorder: rgba(0,171,90,1);
+$successText: #00AB5A;
+$successBgHover: rgba(0,189,100,0.14);
+$successBorderHover: rgba(0,189,100,1);
+$successTextHover: #00BD64;
+$successBgFocus: rgba(2,155,83,0.14);
+$successBorderFocus: rgba(2,155,83,1);
+$successTextFocus: #029B53;
+
+$warningBg: rgba(229,110,13,0.14);
+$warningBorder: rgba(229,110,13,1);
+$warningText: #E56E0D;
+$warningBgHover: rgba(248,145,60,0.14);
+$warningBorderHover: rgba(248,145,60,1);
+$warningTextHover: #F8913C;
+$warningBgFocus: rgba(229,110,13,0.14);
+$warningBorderFocus: rgba(189,90,9,1);
+$warningTextFocus: #D96609;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+}

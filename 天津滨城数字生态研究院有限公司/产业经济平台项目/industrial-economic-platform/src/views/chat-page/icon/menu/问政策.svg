@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0%" y1="0%" x2="61.6348776%" y2="389.723965%" id="linearGradient-1">
+            <stop stop-color="#FF2100" stop-opacity="0.113642339" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="产业经济前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v" transform="translate(-743.000000, -327.000000)">
+            <g id="编组-27" transform="translate(743.000000, 327.000000)">
+                <rect id="矩形" fill="url(#linearGradient-1)" x="0" y="0" width="42" height="42" rx="8"></rect>
+                <path d="M23,29 L23,31 L21,31 L21,29 L13,29 C12.44772,29 12,28.5523 12,28 L12,12 C12,11.44772 12.44772,11 13,11 L19,11 C20.1947,11 21.2671,11.52375 22,12.35418 C22.7329,11.52375 23.8053,11 25,11 L31,11 C31.5523,11 32,11.44772 32,12 L32,28 C32,28.5523 31.5523,29 31,29 L23,29 Z M30,27 L30,13 L25,13 C23.8954,13 23,13.89543 23,15 L23,27 L30,27 Z M21,27 L21,15 C21,13.89543 20.1046,13 19,13 L14,13 L14,27 L21,27 Z" id="形状" fill="#FB5D4B" fill-rule="nonzero"></path>
+                <polygon id="路径-79" fill-opacity="0.0865905335" fill="#FB5D4B" points="14 12.0811807 22 13 25.6366144 12.0811807 32 12.0811807 32 28 12.5780842 28 13.1804655 12.0811807"></polygon>
+                <polygon id="路径" fill="#FB5D4B" points="17.6395686 18.9750694 15.4764503 20 15.8895723 17.8291451 14.139576 16.2917956 16.5579837 15.975076 17.6395686 14 18.7211535 15.975076 21.139576 16.2917956 19.3895355 17.8291451 19.8026649 20"></polygon>
+                <line x1="24.2542074" y1="20" x2="29.1274173" y2="20" id="路径-2" stroke="#FB5D4B"></line>
+                <line x1="24.2542074" y1="24" x2="29.1274173" y2="24" id="路径-2备份-2" stroke="#FB5D4B"></line>
+            </g>
+        </g>
+    </g>
+</svg>

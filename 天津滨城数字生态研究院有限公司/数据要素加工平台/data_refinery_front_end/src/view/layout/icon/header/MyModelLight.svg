@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1849.000000, -918.000000)">
+            <g id="编组-58" transform="translate(1849.000000, 918.000000)">
+                <rect id="矩形备份-132" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <g id="编组-11" transform="translate(2.000000, 1.000000)" fill="#11A7B2">
+                    <polygon id="路径备份-9" fill-opacity="0.678480455" points="6 6.99985919 6 13.9997184 12 10.4999296 11.9997213 3.50007041"></polygon>
+                    <polygon id="路径备份-8" fill-opacity="0.405634527" points="0 3.50007041 6 6.99985919 6 14 0 10.4999296"></polygon>
+                    <polygon id="路径备份-7" fill-opacity="0.197570374" points="6 6.99985919 12 3.50007041 6 0 0 3.50007041"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

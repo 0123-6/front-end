@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="189px" viewBox="0 0 189 189" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5FCFF" offset="0%"></stop>
+            <stop stop-color="#DEF2FC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.401884492" offset="0%"></stop>
+            <stop stop-color="#F5FCFF" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-3" x="45" y="57" width="100" height="66" rx="8"></rect>
+        <filter x="-8.0%" y="-9.1%" width="116.0%" height="124.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.807929343   0 0 0 0 0.924747641   0 0 0 0 0.979010098  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M17.5,0 C27.1649831,0 35,7.93095586 35,17.7142857 C35,26.5248493 28.6456092,33.8330921 20.3228177,35.1993181 L20.3233061,39.7131804 C21.6844959,40.6246702 22.5806452,42.1765757 22.5806452,43.937788 L22.5806452,58.9193548 C22.5806452,61.7253177 20.3059628,64 17.5,64 C14.6940372,64 12.4193548,61.7253177 12.4193548,58.9193548 L12.4193548,43.937788 C12.4193548,42.1765757 13.3155041,40.6246702 14.6766939,39.7131804 L14.6771823,35.1993181 C6.35439084,33.8330921 0,26.5248493 0,17.7142857 C0,7.93095586 7.83501688,0 17.5,0 Z M17.5,4.57142857 C10.3292061,4.57142857 4.51612903,10.4556861 4.51612903,17.7142857 C4.51612903,24.9728853 10.3292061,30.8571429 17.5,30.8571429 C24.6707939,30.8571429 30.483871,24.9728853 30.483871,17.7142857 C30.483871,10.4556861 24.6707939,4.57142857 17.5,4.57142857 Z" id="path-5"></path>
+        <filter x="-20.0%" y="-7.8%" width="140.0%" height="121.9%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.819885069   0 0 0 0 0.874283439   0 0 0 0 0.901482624  0 0 0 0.320689808 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页_未搜索到内容" transform="translate(-1015.000000, -354.000000)">
+            <g id="未搜索到内容" transform="translate(1015.000000, 354.000000)">
+                <circle id="椭圆形" fill="url(#linearGradient-1)" cx="94.5" cy="94.5" r="94.5"></circle>
+                <g id="矩形">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#FFFFFF" stroke-width="2" fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <g id="形状结合" transform="translate(131.742641, 113.242641) rotate(-45.000000) translate(-131.742641, -113.242641) translate(114.242641, 81.242641)">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#D6E5F3" fill-rule="evenodd" xlink:href="#path-5"></use>
+                </g>
+                <rect id="矩形" fill="#0C61AA" opacity="0.128758022" x="58" y="71" width="33" height="7" rx="3.5"></rect>
+                <rect id="矩形备份-4" fill="#0C61AA" opacity="0.128758022" x="58" y="85" width="33" height="7" rx="3.5"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

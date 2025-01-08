@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.003922 0 0 0 0 0.392157 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="AI中台第一期" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件部分" transform="translate(-445.000000, -429.000000)">
+            <g id="moxingkaifa_icon" transform="translate(445.000000, 429.000000)">
+                <polygon id="路径" points="0 0 16 0 16 16 0 16"></polygon>
+                <g filter="url(#filter-1)" id="编组">
+                    <g transform="translate(1.000000, 2.000000)">
+                        <path d="M0,12.022 L14,12.022 L14,0 L0,0 L0,12.022 Z M1.36759844,10.721 L12.6334536,10.721 L12.6334536,1.3 L1.36759844,1.3 L1.36759844,10.721 Z" id="Fill-1" fill="#000000"></path>
+                        <polygon id="Fill-2" fill="#000000" points="5.16699729 7.2532 3.86462278 6.0152 5.16699729 4.7762 4.2002104 3.8572 1.92999699 6.0152 4.2002104 8.1722"></polygon>
+                        <polygon id="Fill-3" fill="#000000" points="9.51364593 8.1721 11.7828073 6.0151 9.51364593 3.8581 8.54685903 4.7761 9.84923354 6.0151 8.54685903 7.2531"></polygon>
+                        <polygon id="Fill-4" fill="#000000" points="6.45632702 9.761 8.41094079 2.693 7.0896303 2.362 5.13396453 9.43"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,36 @@
+/*xflow页面树结构*/
+.ant-tree-switcher-noop {
+    width: 0!important;
+}
+
+.ant-tree .ant-tree-treenode {
+    padding: 6px 0!important;
+}
+.ant-tree.ant-tree-directory .ant-tree-treenode::before {
+    bottom: 0!important;
+}
+
+.ant-tree-switcher {
+    line-height: 21px!important;
+    width: auto!important;
+}
+
+.ant-tree-indent-unit {
+    width: 21px!important;
+}
+
+.ant-tree .ant-tree-node-content-wrapper {
+    min-height: 21px!important;
+    line-height: 21px!important;
+    padding: 0 0 0 18px!important;
+}
+
+.ant-tree-switcher .ant-tree-switcher-icon,
+.ant-tree-switcher .ant-select-tree-switcher-icon {
+    padding-left: 8px!important;
+}
+
+/*oam不显示展开icon*/
+.model-catalog-tree .ant-tree-switcher {
+    display: none!important;
+}

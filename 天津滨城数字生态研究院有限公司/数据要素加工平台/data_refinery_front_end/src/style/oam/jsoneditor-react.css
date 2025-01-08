@@ -1,0 +1,70 @@
+.jsoneditor {
+    background: #FBFBFB!important;
+    border: 1px solid rgba(248,248,248,1)!important;
+    border-radius: 1px!important;
+}
+
+.jsoneditor-menu {
+    height: 40px!important;
+    background-color: white!important;
+    box-shadow: 0px 1px 0px 0px rgba(245,245,245,1)!important;
+    border-radius: 2px 2px 0px 0px!important;
+    border-bottom: 1px solid #f5f5f5!important;
+    padding: 0 0 0 2px!important;
+    display: flex!important;
+    align-items: center!important;
+}
+
+.jsoneditor-menu > button,
+.jsoneditor-menu > .jsoneditor-modes > button {
+    width: 24px!important;
+    height: 24px!important;
+    background-color: #4CAAB4!important;
+    /*border: 1px solid rgba(232,232,232,0.23)!important;*/
+    border: unset!important;
+    border-radius: 4px!important;
+    opacity: 1!important;
+    margin: 0 0 0 8px!important;
+}
+
+textarea.jsoneditor-text {
+    background-color: #fbfbfb!important;
+    height: 208px!important;
+    opacity: 1!important;
+}
+
+div.jsoneditor-outer.has-main-menu-bar {
+    margin-top: -40px!important;
+    padding-top: 40px!important;
+}
+
+.detail-pointer-events-none textarea {
+    /*pointer-events: none!important;*/
+}
+
+.jsoneditor-modal .pico-modal-header {
+    background: #4CAAB4!important;
+}
+
+.jsoneditor-modal .jsoneditor-jmespath-label {
+    color: #4CAAB4!important;
+}
+
+.jsoneditor-modal a{
+    color: #4CAAB4!important;
+}
+
+.jsoneditor-modal .jsoneditor-button-group.jsoneditor-button-group-value-asc input.jsoneditor-button-asc,
+.jsoneditor-modal .jsoneditor-button-group.jsoneditor-button-group-value-desc input.jsoneditor-button-desc {
+    background: #4CAAB4!important;
+    border-color: #4CAAB4!important;
+}
+
+.jsoneditor-modal #query, .jsoneditor-modal .jsoneditor-transform-preview {
+    outline: unset!important;
+}
+
+.selectr-option.active {
+    background-color: #4CAAB4!important;
+}
+

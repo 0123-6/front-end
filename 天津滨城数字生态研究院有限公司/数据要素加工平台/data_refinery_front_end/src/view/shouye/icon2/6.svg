@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="684px" height="537px" viewBox="0 0 684 537" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 62</title>
+    <defs>
+        <rect id="path-1" x="57.9869074" y="0" width="62.619497" height="62.7096774" rx="9.28"></rect>
+        <filter x="-230.0%" y="-226.4%" width="559.9%" height="559.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="239.768752" y="0" width="62.619497" height="62.7096774" rx="9.28"></rect>
+        <filter x="-230.0%" y="-226.4%" width="559.9%" height="559.3%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="410.504719" y="0" width="62.619497" height="62.7096774" rx="9.28"></rect>
+        <filter x="-230.0%" y="-226.4%" width="559.9%" height="559.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="13" y="196" width="122" height="149" rx="8.26969624"></rect>
+        <filter x="-118.0%" y="-95.3%" width="336.1%" height="293.3%" filterUnits="objectBoundingBox" id="filter-8">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="278" y="229" width="67" height="67" rx="5.82"></rect>
+        <filter x="-214.9%" y="-211.9%" width="529.9%" height="529.9%" filterUnits="objectBoundingBox" id="filter-10">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M202.4268,227.555814 L225.61614,240.944186 C228.355453,242.525729 230.04294,245.448542 230.04294,248.611628 L230.04294,275.388372 C230.04294,278.551458 228.355453,281.474271 225.61614,283.055814 L202.4268,296.444186 C199.687487,298.025729 196.312513,298.025729 193.5732,296.444186 L170.38386,283.055814 C167.644547,281.474271 165.95706,278.551458 165.95706,275.388372 L165.95706,248.611628 C165.95706,245.448542 167.644547,242.525729 170.38386,240.944186 L193.5732,227.555814 C196.312513,225.974271 199.687487,225.974271 202.4268,227.555814 Z" id="path-11"></path>
+        <filter x="-187.9%" y="-190.0%" width="475.8%" height="485.5%" filterUnits="objectBoundingBox" id="filter-12">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-13" x="426" y="180" width="79" height="33" rx="8"></rect>
+        <filter x="-182.3%" y="-430.3%" width="464.6%" height="972.7%" filterUnits="objectBoundingBox" id="filter-14">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-15" x="426" y="301" width="79" height="33" rx="8"></rect>
+        <filter x="-182.3%" y="-430.3%" width="464.6%" height="972.7%" filterUnits="objectBoundingBox" id="filter-16">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="47.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0773114825 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="数据要素所有版本" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页备份" transform="translate(-898.000000, -3050.000000)">
+            <g id="编组-42" transform="translate(585.000000, 3144.000000)">
+                <g id="编组-62" transform="translate(396.000000, 0.000000)">
+                    <line x1="120.5" y1="31.5" x2="410.5" y2="31.5" id="路径-10备份" stroke="#DAD6D6" stroke-width="2.32" stroke-dasharray="2.32"></line>
+                    <polygon id="三角形备份-12" fill="#D9D9D9" transform="translate(245.130271, 30.193548) rotate(-270.000000) translate(-245.130271, -30.193548) " points="245.130271 25.5550671 249.775432 34.8320296 240.48511 34.8320296"></polygon>
+                    <polygon id="三角形备份-13" fill="#D9D9D9" transform="translate(234.866238, 31.032258) rotate(-270.000000) translate(-234.866238, -31.032258) " points="234.866238 26.3937768 239.511399 35.6707393 230.221076 35.6707393"></polygon>
+                    <polygon id="三角形备份-15" fill="#D9D9D9" transform="translate(405.866238, 31.032258) rotate(-270.000000) translate(-405.866238, -31.032258) " points="405.866238 26.3937768 410.511399 35.6707393 401.221076 35.6707393"></polygon>
+                    <g id="矩形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <polygon id="路径" points="70.3943047 12.7741935 107.502155 12.7741935 107.502155 49.9354839 70.3943047 49.9354839"></polygon>
+                    <path d="M73.4866256,32.9032258 L82.7635881,32.9032258 L82.7635881,45.2903226 L73.4866256,45.2903226 L73.4866256,32.9032258 Z M95.1328715,25.1612903 L104.409834,25.1612903 L104.409834,45.2903226 L95.1328715,45.2903226 L95.1328715,25.1612903 Z M84.3097485,17.4193548 L93.586711,17.4193548 L93.586711,45.2903226 L84.3097485,45.2903226 L84.3097485,17.4193548 Z M76.5789464,36 L76.5789464,42.1935484 L79.6712673,42.1935484 L79.6712673,36 L76.5789464,36 Z M87.4020694,20.516129 L87.4020694,42.1935484 L90.4943902,42.1935484 L90.4943902,20.516129 L87.4020694,20.516129 Z M98.2251923,28.2580645 L98.2251923,42.1935484 L101.317513,42.1935484 L101.317513,28.2580645 L98.2251923,28.2580645 Z" id="形状" fill="#8AC0C3" fill-rule="nonzero"></path>
+                    <text id="数据资源(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" letter-spacing="-0.685714313" fill="#B7B7B7">
+                        <tspan x="52.9869074" y="85.528921">数据资源(x)</tspan>
+                    </text>
+                    <g id="矩形备份-56" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-3"></use>
+                    </g>
+                    <polygon id="Fill-1" stroke="#8AC0C3" stroke-width="1.17134781" fill="#8AC0C3" points="257.455398 25.2927355 271.215359 33.3313963 271.215359 49.0514765 273.338481 49.0514765 273.338481 33.3809726 286.876622 25.469169 285.812181 23.6027649 272.407994 31.4372877 272.225066 31.4372877 258.512638 23.4263313"></polygon>
+                    <path d="M272.46378,14.6054669 L257.581593,23.363182 C257.503404,23.4091942 257.455398,23.4931448 257.455398,23.5838682 L257.455398,41.0275994 C257.455398,41.118746 257.503849,41.2030218 257.582617,41.2488845 L272.474861,49.919939 C272.554522,49.9663219 272.652965,49.9663076 272.732613,49.9199015 L287.614799,41.2488965 C287.69353,41.2030244 287.741952,41.118769 287.741952,41.027649 L287.741952,23.5839179 C287.741952,23.4931678 287.693919,23.4091966 287.615693,23.3631938 L272.723449,14.6054289 C272.643305,14.5582979 272.54391,14.5583124 272.46378,14.6054669 Z M259.60889,39.6653279 L259.60889,24.7602337 C259.60889,24.6693262 259.657089,24.585234 259.73553,24.5392864 L272.464131,17.0833781 C272.544087,17.0365426 272.643109,17.0365595 272.72305,17.0834223 L285.441524,24.5392233 C285.519967,24.5852084 285.56814,24.6693444 285.568088,24.760273 L285.559561,39.6655329 C285.559509,39.7563302 285.511378,39.8403102 285.433061,39.8862517 L272.723071,47.342076 C272.643121,47.3889758 272.544067,47.3890071 272.464087,47.342158 L259.73553,39.8862752 C259.657089,39.8403276 259.60889,39.7562354 259.60889,39.6653279 Z" id="Fill-2" stroke="#8AC0C3" stroke-width="1.25501551" fill="#8AC0C3"></path>
+                    <text id="模型F(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" letter-spacing="-0.685714313" fill="#B7B7B7">
+                        <tspan x="240.716819" y="85.528921">模型F(x)</tspan>
+                    </text>
+                    <g id="矩形备份-38" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-5"></use>
+                    </g>
+                    <rect id="矩形" stroke="#8AC0C3" stroke-width="3.48" x="423.260542" y="35.0709677" width="14.84314" height="14.8645161" rx="2.32"></rect>
+                    <rect id="矩形备份-25" stroke="#8AC0C3" stroke-width="3.48" x="446.452949" y="35.0709677" width="14.84314" height="14.8645161" rx="2.32"></rect>
+                    <rect id="矩形备份-26" stroke="#8AC0C3" stroke-width="3.48" x="434.856745" y="13.9354839" width="14.84314" height="14.8645161" rx="2.32"></rect>
+                    <text id="数据要素(y)" font-family="PingFangSC-Regular, PingFang SC" font-size="16" font-weight="normal" letter-spacing="-0.685714313" fill="#B7B7B7">
+                        <tspan x="401.012929" y="85.528921">数据要素(y)</tspan>
+                    </text>
+                    <text id="输入" font-family="PingFangSC-Medium, PingFang SC" font-size="13.92" font-weight="400" letter-spacing="-0.596571462" fill="#8C8C8C">
+                        <tspan x="177.929136" y="53.9143493">输入</tspan>
+                    </text>
+                    <text id="生成" font-family="PingFangSC-Medium, PingFang SC" font-size="13.92" font-weight="400" letter-spacing="-0.596571462" fill="#8C8C8C">
+                        <tspan x="351.942065" y="53.9143493">生成</tspan>
+                    </text>
+                    <polygon id="三角形备份-21" fill="#D9D9D9" transform="translate(162.000000, 264.000000) rotate(-270.000000) translate(-162.000000, -264.000000) " points="162 260 166 268 158 268"></polygon>
+                    <path d="M8,138 L525,138 C529.418278,138 533,141.581722 533,146 L533,366 C533,370.418278 529.418278,374 525,374 L8,374 C3.581722,374 5.41083001e-16,370.418278 0,366 L0,146 C-5.41083001e-16,141.581722 3.581722,138 8,138 Z" id="矩形" stroke-opacity="0.445194698" stroke="#DAD6D6" stroke-width="2" stroke-dasharray="2"></path>
+                    <polygon id="三角形备份-23" fill="#D9D9D9" transform="translate(184.000000, 264.000000) scale(-1, 1) rotate(-270.000000) translate(-184.000000, -264.000000) " points="184 260 188 268 180 268"></polygon>
+                    <polygon id="三角形备份-24" fill="#D9D9D9" transform="translate(274.000000, 264.000000) rotate(-270.000000) translate(-274.000000, -264.000000) " points="274 260 278 268 270 268"></polygon>
+                    <polygon id="三角形备份-16" fill="#D9D9D9" transform="translate(232.000000, 264.000000) rotate(-90.000000) translate(-232.000000, -264.000000) " points="232 260 236 268 228 268"></polygon>
+                    <text id="风险评估引擎" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="271" y="314">风险评估引擎</tspan>
+                    </text>
+                    <text id="模型F(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="176" y="314">模型F(x)</tspan>
+                    </text>
+                    <g id="矩形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-7"></use>
+                    </g>
+                    <text id="模型f-(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="45" y="227">模型f  (x)</tspan>
+                    </text>
+                    <text id="1" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" letter-spacing="-0.428571429" fill="#B7B7B7">
+                        <tspan x="78" y="227">1</tspan>
+                    </text>
+                    <polygon id="Fill-1" fill="#8AC0C3" points="29.0006773 213 22 217.00067 22 225.00067 29.0006773 229 36 225.00067 36 217.00067"></polygon>
+                    <polygon id="Fill-2" fill="#FFFFFF" points="32.4912627 219.956662 31.5145815 218.506016 29.0004064 220.16179 26.4848766 218.506016 25.5081955 219.956662 28.1199032 221.676789 28.1199032 225.310106 29.8809095 225.310106 29.8809095 221.675448"></polygon>
+                    <text id="模型f-(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="45" y="253">模型f  (x)</tspan>
+                    </text>
+                    <polygon id="Fill-1" fill="#8AC0C3" points="29.0006773 239 22 243.00067 22 251.00067 29.0006773 255 36 251.00067 36 243.00067"></polygon>
+                    <polygon id="Fill-2" fill="#FFFFFF" points="32.4912627 245.956662 31.5145815 244.506016 29.0004064 246.16179 26.4848766 244.506016 25.5081955 245.956662 28.1199032 247.676789 28.1199032 251.310106 29.8809095 251.310106 29.8809095 247.675448"></polygon>
+                    <text id="模型f-(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="45" y="278">模型f  (x)</tspan>
+                    </text>
+                    <polygon id="Fill-1" fill="#8AC0C3" points="29.0006773 264 22 268.00067 22 276.00067 29.0006773 280 36 276.00067 36 268.00067"></polygon>
+                    <polygon id="Fill-2" fill="#FFFFFF" points="32.4912627 270.956662 31.5145815 269.506016 29.0004064 271.16179 26.4848766 269.506016 25.5081955 270.956662 28.1199032 272.676789 28.1199032 276.310106 29.8809095 276.310106 29.8809095 272.675448"></polygon>
+                    <text id="……" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="45" y="299">……</tspan>
+                    </text>
+                    <polygon id="Fill-1备份" fill="#8AC0C3" points="29.0006773 289 22 293.00067 22 301.00067 29.0006773 305 36 301.00067 36 293.00067"></polygon>
+                    <polygon id="Fill-2备份" fill="#FFFFFF" points="32.4912627 295.956662 31.5145815 294.506016 29.0004064 296.16179 26.4848766 294.506016 25.5081955 295.956662 28.1199032 297.676789 28.1199032 301.310106 29.8809095 301.310106 29.8809095 297.675448"></polygon>
+                    <text id="模型f-(x)" font-family="PingFangSC-Regular, PingFang SC" font-size="14" font-weight="normal" letter-spacing="-0.6" fill="#B7B7B7">
+                        <tspan x="45" y="328">模型f  (x)</tspan>
+                    </text>
+                    <text id="n" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" letter-spacing="-0.428571429" fill="#B7B7B7">
+                        <tspan x="77" y="328">n</tspan>
+                    </text>
+                    <polygon id="Fill-1备份-2" fill="#8AC0C3" points="29.0006773 314 22 318.00067 22 326.00067 29.0006773 330 36 326.00067 36 318.00067"></polygon>
+                    <polygon id="Fill-2备份-2" fill="#FFFFFF" points="32.4912627 320.956662 31.5145815 319.506016 29.0004064 321.16179 26.4848766 319.506016 25.5081955 320.956662 28.1199032 322.676789 28.1199032 326.310106 29.8809095 326.310106 29.8809095 322.675448"></polygon>
+                    <g id="矩形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-9"></use>
+                    </g>
+                    <path d="M323.7915,269.010425 C326.029038,263.615576 324.62932,257.373664 320.311672,253.492459 C315.994024,249.611254 309.718905,248.954128 304.711151,251.858783 L303.042777,248.894365 C308.23692,245.881936 314.617377,245.897534 319.797157,248.935324 C327.348569,253.358912 330.241314,262.830714 326.721246,270.729003 L328.978261,272.049935 L321.973443,275.828416 L321.695942,267.783357 L323.7915,269.010425 Z M299.209845,258.61249 C296.972452,264.007655 298.37208,270.249932 302.689448,274.131364 C307.006815,278.012796 313.281527,278.669961 318.288957,275.765135 L319.957223,278.729727 C314.763416,281.742333 308.383373,281.726733 303.20393,278.688765 C295.653007,274.264919 292.760449,264.792563 296.280289,256.893812 L294.021739,255.57451 L301.026102,251.795807 L301.303586,259.841337 L299.208163,258.614197 L299.209845,258.61249 Z" id="形状" fill="#8AC0C3" fill-rule="nonzero"></path>
+                    <polygon id="Fill-1" stroke="#8AC0C3" stroke-width="1.23293104" fill="#8AC0C3" points="304.009317 260.489895 310.532136 264.3216 310.532136 271.814726 311.538588 271.814726 311.538588 264.345231 317.956256 260.573994 317.451664 259.684355 311.097497 263.418755 311.010781 263.418755 304.510494 259.600256"></polygon>
+                    <path d="M311.117671,255.399417 L304.07469,259.566871 C304.03417,259.590847 304.009317,259.634431 304.009317,259.681513 L304.009317,267.983868 C304.009317,268.03117 304.034402,268.074925 304.075223,268.098824 L311.122967,272.225041 C311.164548,272.249385 311.216033,272.249378 311.257607,272.225022 L318.300587,268.09883 C318.341389,268.074926 318.36646,268.031182 318.36646,267.983894 L318.36646,259.681539 C318.36646,259.634443 318.341592,259.590848 318.301053,259.566877 L311.253309,255.399397 C311.211477,255.374662 311.159495,255.374669 311.117671,255.399417 Z M305.030165,267.334548 L305.030165,260.242254 C305.030165,260.195076 305.055119,260.151418 305.09577,260.127475 L311.117853,256.580511 C311.159587,256.55593 311.211375,256.555939 311.253101,256.580534 L317.270385,260.127442 C317.311036,260.151404 317.335977,260.195086 317.33595,260.242274 L317.331915,267.334654 C317.331888,267.381775 317.306969,267.425375 317.266383,267.449315 L311.253112,270.996235 C311.211381,271.02085 311.159577,271.020866 311.117831,270.996278 L305.09577,267.449327 C305.055119,267.425384 305.030165,267.381726 305.030165,267.334548 Z" id="Fill-2" stroke="#8AC0C3" stroke-width="1.27645695" fill="#8AC0C3"></path>
+                    <polygon id="路径" points="359 214 407 214 407 262 359 262"></polygon>
+                    <line x1="135" y1="264" x2="160" y2="264" id="路径-8" stroke="#DAD6D6" stroke-width="2" stroke-dasharray="2"></line>
+                    <line x1="232" y1="264" x2="271" y2="264" id="路径-8备份" stroke="#DAD6D6" stroke-width="2" stroke-dasharray="2"></line>
+                    <text id="组合" font-family="PingFangSC-Medium, PingFang SC" font-size="12" font-weight="400" letter-spacing="-0.514285714" fill="#8C8C8C">
+                        <tspan x="138" y="282">组合</tspan>
+                    </text>
+                    <g id="多边形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-11"></use>
+                    </g>
+                    <polygon id="Fill-1" stroke="#8AC0C3" stroke-width="1.00978259" fill="#8AC0C3" points="185.252101 254.779856 197.11802 261.702036 197.11802 275.238771 198.948896 275.238771 198.948896 261.744726 210.623529 254.931784 209.705607 253.324603 198.14649 260.070998 197.988742 260.070998 186.163813 253.172674"></polygon>
+                    <path d="M198.194753,245.576838 L185.361009,253.118246 C185.293537,253.157895 185.252101,253.230304 185.252101,253.308563 L185.252101,268.329089 C185.252101,268.407713 185.293921,268.480402 185.361891,268.519921 L198.204308,275.986705 C198.272921,276.026597 198.357668,276.026585 198.42627,275.986672 L211.260013,268.519932 C211.327952,268.480404 211.369748,268.407733 211.369748,268.329132 L211.369748,253.308606 C211.369748,253.230324 211.328288,253.157897 211.260784,253.118256 L198.418367,245.576805 C198.349337,245.536269 198.263771,245.536281 198.194753,245.576838 Z M187.109167,267.156022 L187.109167,254.321545 C187.109167,254.243127 187.15077,254.170596 187.218459,254.131003 L198.195056,247.710595 C198.263924,247.670313 198.349169,247.670328 198.418023,247.710633 L209.385886,254.130949 C209.453578,254.170574 209.495158,254.243143 209.495113,254.321579 L209.48776,267.156199 C209.487715,267.234522 209.446171,267.306956 209.378589,267.346544 L198.418041,273.766879 C198.349179,273.807216 198.263906,273.807243 198.195018,273.76695 L187.218459,267.346564 C187.15077,267.306971 187.109167,267.23444 187.109167,267.156022 Z" id="Fill-2" stroke="#8AC0C3" stroke-width="1.08190992" fill="#8AC0C3"></path>
+                    <path d="M429.012929,199 L409,199 C403.477153,199 399,203.477153 399,209 L399,307 C399,312.522847 403.477153,317 409,317 L429.012929,317 L429.012929,317" id="路径-19" stroke="#DAD6D6" stroke-width="2" stroke-dasharray="2"></path>
+                    <line x1="345" y1="263" x2="395" y2="263" id="路径-20" stroke="#DAD6D6" stroke-width="2" stroke-dasharray="2"></line>
+                    <g id="矩形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-14)" xlink:href="#path-13"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-13"></use>
+                    </g>
+                    <text id="重构风险" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" letter-spacing="-0.6" fill="#8C8C8C">
+                        <tspan x="440" y="201">重构风险</tspan>
+                    </text>
+                    <g id="矩形备份-50" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-16)" xlink:href="#path-15"></use>
+                        <use stroke="#F8F8F8" stroke-width="1" fill="#FFFFFF" xlink:href="#path-15"></use>
+                    </g>
+                    <text id="防御机制" font-family="PingFangSC-Medium, PingFang SC" font-size="14" font-weight="400" letter-spacing="-0.6" fill="#8C8C8C">
+                        <tspan x="440" y="322">防御机制</tspan>
+                    </text>
+                    <line x1="269.078501" y1="90.528921" x2="269.078501" y2="137" id="路径-21" stroke="#DAD6D6" stroke-width="2.32" stroke-dasharray="2.32"></line>
+                    <polygon id="三角形备份-14" fill="#D9D9D9" transform="translate(269.130271, 133.193548) rotate(-180.000000) translate(-269.130271, -133.193548) " points="269.130271 128.555067 273.775432 137.83203 264.48511 137.83203"></polygon>
+                    <text id="2" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" letter-spacing="-0.428571429" fill="#B7B7B7">
+                        <tspan x="77" y="253">2</tspan>
+                    </text>
+                    <text id="3" font-family="PingFangSC-Regular, PingFang SC" font-size="10" font-weight="normal" letter-spacing="-0.428571429" fill="#B7B7B7">
+                        <tspan x="77" y="278">3</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="28px" viewBox="0 0 28 28" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <circle id="path-1" cx="13" cy="13" r="13"></circle>
+        <filter x="-7.7%" y="-3.8%" width="115.4%" height="115.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 0.318173797   0 0 0 0 0.00392156863  0 0 0 0.315696023 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="labelstudio导入" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="labelstudio导入有标注信息备_导入失败" transform="translate(-968.000000, -418.000000)">
+            <g id="编组-6" transform="translate(956.000000, 418.000000)">
+                <g id="编组-9" transform="translate(0.000000, -0.000000)">
+                    <g id="编组-3" transform="translate(13.000000, 0.000000)">
+                        <g id="编组-5">
+                            <g id="椭圆形备份-3">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#FD5E3A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            </g>
+                            <path d="M12.725907,14.2653564 L14.0453715,14.2653564 L14.4937332,9.9012996 L14.5577849,8 L12.2134936,8 L12.2775453,9.9012996 L12.725907,14.2653564 Z M13.3792341,17.6596228 C14.1350439,17.6596228 14.7115089,17.1492068 14.7115089,16.4091036 C14.7115089,15.6817608 14.1350439,15.145824 13.3792341,15.145824 C12.6234243,15.145824 12.0469593,15.6817608 12.0469593,16.4091036 C12.0469593,17.1492068 12.6234243,17.6596228 13.3792341,17.6596228 Z" id="形状" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                        <g id="！" transform="translate(12.000000, 8.000000)"></g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

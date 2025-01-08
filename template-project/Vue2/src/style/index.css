@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+
+	/*不会自动增长*/
+	flex-grow: 0;
+	/*不会自动压缩*/
+	flex-shrink: 0;
+	/*主轴大小自动*/
+	flex-basis: auto;
+}
+
+[data-overlayscrollbars-viewport] {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+body {
+	width: 100vw;
+	min-width: 1200px;
+	height: 100vh;
+
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	line-height: 20px;
+	background-color: red;
+}
+
+.el-form--inline {
+	.el-form-item {
+		.el-input, .el-cascader, .el-select, .el-autocomplete {
+			width: 240px;
+		}
+	}
+}

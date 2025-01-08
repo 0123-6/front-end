@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#2554FF" offset="0%"></stop>
+            <stop stop-color="#53A9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页_列表_-语音" transform="translate(-746.000000, -992.000000)">
+            <g id="编组-7" transform="translate(746.000000, 992.000000)">
+                <rect id="矩形备份-6" fill-opacity="0.0822856343" fill="#2554FF" x="0" y="0" width="41.2153846" height="41.2153846" rx="20.6076923"></rect>
+                <rect id="矩形" stroke="url(#linearGradient-1)" stroke-width="0.727076923" fill="#FDFFFF" x="4.33846154" y="4.33846154" width="32.5384615" height="32.5384615" rx="15.9956923"></rect>
+                <polygon id="路径" fill="url(#linearGradient-1)" points="22.2087912 20.9692658 25.3076923 24.0681419 24.0681319 25.3076923 20.9692308 22.2088163 17.8703297 25.3076923 16.6307692 24.0681419 19.7296703 20.9692658 16.6307692 17.8703372 17.8703297 16.6307692 20.9692308 19.7297154 24.0681319 16.6307692 25.3076923 17.8703372"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

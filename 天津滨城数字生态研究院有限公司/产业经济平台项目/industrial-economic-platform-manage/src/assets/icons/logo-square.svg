@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="89px" viewBox="0 0 89 89" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo方</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo方" fill-rule="nonzero">
+            <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="89" height="89"></rect>
+            <g id="编组" transform="translate(5.000000, 17.000000)">
+                <polyline id="路径" fill="#356DF6" points="42.3379717 12.6111321 29.7688208 0.0419811 17.203868 12.6111321"></polyline>
+                <polyline id="路径" fill="#356DF6" points="67.2873585 12.6111321 54.7182076 0.0419811 42.1532547 12.6111321"></polyline>
+                <polyline id="路径" fill="#356DF6" points="29.6764623 1.77635684e-15 42.2456132 12.5691509 54.8105661 1.77635684e-15"></polyline>
+                <polyline id="路径" fill="#356DF6" points="54.4915095 1.77635684e-15 67.0606604 12.5691509 79.6298113 1.77635684e-15"></polyline>
+                <polyline id="路径" fill="#17F3FF" points="17.1283019 12.6405189 29.6974529 25.2096698 42.2666038 12.6405189"></polyline>
+                <polyline id="路径" fill="#356DF6" points="37.7452359 42.3799528 25.1760849 54.9491038 12.6111321 42.3799528"></polyline>
+                <polyline id="路径" fill="#356DF6" points="62.6946227 42.3799528 50.1254717 54.9491038 37.5605189 42.3799528"></polyline>
+                <polyline id="路径" fill="#356DF6" points="25.0837264 54.9868868 37.6528774 42.421934 50.2178302 54.9868868"></polyline>
+                <polyline id="路径" fill="#356DF6" points="-1.77635684e-15 54.9868868 12.569151 42.421934 25.1341038 54.9868868"></polyline>
+                <polyline id="路径" fill="#17F4FF" points="12.5355661 42.3463679 25.104717 29.777217 37.6696698 42.3463679"></polyline>
+                <polyline id="路径" fill="#356DF6" points="54.7475944 25.1760849 42.1784434 37.7452359 29.6092925 25.1760849"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

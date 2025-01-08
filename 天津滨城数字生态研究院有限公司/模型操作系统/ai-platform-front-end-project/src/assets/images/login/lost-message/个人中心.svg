@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="51px" viewBox="0 0 38 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状</title>
+    <g id="AI中台三期-权限管理" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="权限管理-个人中心页面" transform="translate(-393.000000, -173.000000)" fill="#FCF9F9" fill-rule="nonzero">
+            <g id="编组-6" transform="translate(379.000000, 160.000000)">
+                <path d="M14,65 C14,54.0595021 22.7304474,45.1904762 33.5,45.1904762 C44.2695526,45.1904762 53,54.0595021 53,65 L14,65 L14,65 Z M33.5,42.7142857 C25.4196875,42.7142857 18.875,36.0657143 18.875,27.8571429 C18.875,19.6485714 25.4196875,13 33.5,13 C41.5803125,13 48.125,19.6485714 48.125,27.8571429 C48.125,36.0657143 41.5803125,42.7142857 33.5,42.7142857 Z" id="形状"></path>
+            </g>
+        </g>
+    </g>
+</svg>

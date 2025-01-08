@@ -1,0 +1,52 @@
+.ant-table-column-sorters,
+.ant-table-filter-column{
+    justify-content: left!important;
+}
+
+.ant-table-column-title {
+    flex: unset!important;
+}
+
+.ant-table-tbody > tr.ant-table-row-selected > td {
+    background: white!important;
+}
+
+/*表格*/
+.ant-table-wrapper {
+    border: unset!important;
+}
+
+.ant-table-thead > tr > th {
+    background: #F8F8F8!important;
+    color: #646464!important;
+    border-bottom: unset!important;
+}
+
+.ant-table.ant-table-small .ant-table-thead > tr > th {
+    padding: 10px 8px!important;
+}
+
+.ant-table-tbody > tr > td {
+    border-bottom: unset!important;
+}
+
+.ant-table-thead > tr > th:not(:last-child):not(.ant-table-selection-column):not(.ant-table-row-expand-icon-cell):not([colspan])::before {
+    width: 0px!important;
+}
+
+.ant-table-filter-trigger {
+    margin: 0 0 0 4px!important;
+    padding: 0 5px!important;
+}
+
+.ant-table-filter-dropdown-btns {
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.ant-table-filter-dropdown-btns .ant-btn {
+    border-radius: 8px!important;
+    margin-left: 6px!important;
+    margin-right: 6px!important;
+}

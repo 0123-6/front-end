@@ -1,0 +1,244 @@
+.ant-modal{
+    color: unset!important;
+}
+
+.ant-modal-body {
+    padding: 0!important;
+    height: calc(100% - 45px)!important;
+    line-height: 1!important;
+}
+
+.ant-modal-mask {
+    background-color: rgba(0,0,0,0.51)!important;
+}
+
+.ant-modal-header {
+    border-radius: 16px 16px 0 0!important;
+    border-bottom: 1px solid #F2F2F2!important;
+    padding: 0!important;
+}
+
+.ant-modal-title {
+    font-size: 16px!important;
+    color: #262626!important;
+    line-height: 16px!important;
+    font-weight: 400!important;
+}
+
+.ant-modal-close-x {
+    width: 44px!important;
+    height: 44px!important;
+    line-height: 44px!important;
+}
+
+.ant-modal-content {
+    border-radius: 16px!important;
+    height: 100%!important;
+    box-shadow: 0 2px 17px 0 rgba(42,43,45,0.5)!important;
+}
+
+.experiment .ant-modal{
+    width: 900px!important;
+    height: 462px!important;
+}
+.experiment .ant-modal-body {
+    padding: 27px 100px 0 100px!important;
+}
+
+/*创建*/
+.experiment-create .ant-modal{
+    width: 520px!important;
+    height: 462px!important;
+}
+.experiment-create .ant-modal-body {
+    padding: 27px 50px 0 50px!important;
+}
+
+/*编辑*/
+.experiment-edit .ant-modal{
+    width: 520px!important;
+    height: 429px!important;
+}
+
+.experiment-edit .ant-modal-body {
+    padding: 27px 50px 0 50px!important;
+}
+
+/*离线数据包 编辑弹框*/
+.offline-packet-edit .ant-modal{
+    width: 520px!important;
+    height: 486px!important;
+}
+
+.offline-packet-edit .ant-modal-body {
+    padding: 27px 50px 0 50px!important;
+}
+
+/*删除*/
+.experiment-delete .ant-modal{
+    width: 400px!important;
+    height: 208px!important;
+}
+
+/*退出实验*/
+.experiment-xflow-close .ant-modal{
+    width: 400px!important;
+    height: 208px!important;
+}
+
+/*api-serve 发布弹框*/
+.api-serve-apply-modal .ant-modal{
+    width: 480px!important;
+    height: 358px!important;
+}
+
+.api-serve-apply-modal .ant-modal-body {
+    padding: 0 48px 0 48px!important;
+}
+
+/*api-serve 创建弹框*/
+.api-serve-create-modal .ant-modal{
+    width: 480px!important;
+    height: 426px!important;
+}
+
+.api-serve-create-modal .ant-modal-body {
+    padding: 0 48px 0 27px!important;
+}
+
+/*运行成功弹框*/
+.experiment-xflow-result-success .ant-modal{
+    width: 900px!important;
+    height: 671px!important;
+}
+
+/*运行失败弹框*/
+.experiment-xflow-result-error .ant-modal{
+    width: 900px!important;
+    height: 331px!important;
+}
+
+/*选择加工流程弹框*/
+.processing-create .ant-modal{
+    width: 900px!important;
+    height: 772px!important;
+}
+
+/*我的模型 申请发布弹框*/
+.my-model-apply-publish .ant-modal {
+    width: 520px!important;
+    height: 433px!important;
+}
+
+/*我的模型 测试弹框*/
+.my-model-test .ant-modal {
+    width: 520px!important;
+    height: 433px!important;
+}
+
+/*我的模型 测试弹框第二步*/
+.my-model-test-2 .ant-modal {
+    width: 779px!important;
+    height: 380px!important;
+}
+
+/*我的模型 下线弹框*/
+.my-model-apply-offline .ant-modal {
+    width: 520px!important;
+    height: 433px!important;
+}
+
+/*我的模型 编辑图片弹框*/
+.my-model-edit-image .ant-modal {
+    width: 520px!important;
+    height: 460px!important;
+}
+
+.save-processing-flow-dialog .ant-modal {
+    width: 900px!important;
+    height: 772px!important;
+}
+
+.save-processing-flow-dialog .ant-modal-body {
+    padding: 0!important;
+    height: 731px!important;
+}
+
+/*oam用户模型 审核弹框*/
+.oam-user-model-review-modal .ant-modal {
+    width: 520px!important;
+    height: 521px!important;
+}
+
+/*oam用户模型 上线弹框*/
+.oam-user-model-online-modal .ant-modal {
+    width: 520px!important;
+    height: 375px!important;
+}
+
+/*oam用户模型 下线弹框*/
+.oam-user-model-offline-modal .ant-modal {
+    width: 400px!important;
+    height: 278px!important;
+}
+
+/*oam用户模型 批量下线弹框*/
+.oam-user-model-batch-offline-modal .ant-modal {
+    width: 783px!important;
+    height: 726px!important;
+}
+
+/*oam用户模型 批量通过弹框*/
+.oam-user-model-batch-pass-modal .ant-modal {
+    width: 883px!important;
+    height: 774px!important;
+}
+
+/*oam用户模型 风险评估弹框*/
+.oam-user-model-risk-assessment-modal .ant-modal {
+    width: 822px!important;
+    height: 761px!important;
+}
+
+.modal-width-822 .ant-modal{
+    width: 822px!important;
+}
+
+.modal-height-260 .ant-modal{
+    height: 260px!important;
+}
+
+/*注册弹框*/
+.register-modal .ant-modal {
+    width: 520px!important;
+    height: 705px!important;
+}
+
+/*登录弹框*/
+.login-modal .ant-modal {
+    width: 520px!important;
+    height: 528px!important;
+}
+
+/*问题模板弹框*/
+.question-template-modal .ant-modal {
+    width: 46.9vw!important;
+    min-width: 700px!important;
+    height: 57.4vh!important;
+    min-height: 400px!important;
+}
+
+/*修改密码弹框*/
+.change-password-modal .ant-modal {
+    width: 27.1vw!important;
+    min-width: 400px!important;
+    height: 35.7vh!important;
+    min-height: 300px!important;
+}
+
+.chat-change-password-modal .ant-modal {
+    width: 27.1vw!important;
+    min-width: 400px!important;
+    height: 48.9vh!important;
+    min-height: 400px!important;
+}

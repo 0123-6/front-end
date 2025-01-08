@@ -1,0 +1,200 @@
+//-Button Colors---------------- 按钮颜色
+@primary-color: #356DF6;
+@primary-plain-color: #356DF6;
+@primary-hover-color: #0D7CDB;
+@primary-focus-color: #356DF6;
+@success-color: #68CD44;
+@success-plain-color: #68CD44;
+@success-hover-color: #0CC06F;
+@success-focus-color: #68CD44;
+@warning-color: #F8AA50;
+@warning-plain-color: #F8AA50;
+@warning-hover-color: #E4A614;
+@warning-focus-color: #F8AA50;
+@danger-color: #CC4F47;
+@danger-plain-color: #CC4F47;
+@danger-hover-color: #EE3D0C;
+@danger-focus-color: #CC4F47;
+@blue-color: #0C8DAA;
+@blue-plain-color: rgba(12,141,170,0.14);
+@blue-hover-color: #11B2D7;
+@blue-focus-color: #08778F;
+@disabled-color: #b7b7b7;
+
+//-Font Colors---------------- 文字颜色
+@text-primary-dark: #262626;
+@text-primary: #323232;
+@text-lighter: #646464;
+@text-light: #8C8C8C;
+
+@background-color: #f5f7f9;
+
+
+.align-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-height {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.flex-center {
+  &:extend(.align-center);
+  justify-content: center;
+}
+
+// 单行文本超出隐藏并显示...省略号
+.line-text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// 多行文本超出隐藏并显示...省略号，传入变量行数
+.ellipsis-muti-line(@lineNum) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lineNum;
+  /*! autoprefixer: ignore next */
+  -webkit-box-orient: vertical;
+}
+
+.primaryBtn {
+  background: #356DF6;
+  border: 1px solid #356DF6;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  &:hover {
+    background: @primary-hover-color;
+    border: 1px solid @primary-hover-color;
+  }
+  &:focus {
+    background: @primary-focus-color;
+    border: 1px solid @primary-focus-color;
+  }
+}
+
+.secondaryBtn {
+    background: #356DF61A;
+    border: 1px solid #356DF6;
+    color: #356DF6;
+    border-radius: 4px;
+    &:hover {
+        background: @primary-plain-color;
+        border: 1px solid @primary-hover-color;
+    }
+    &:focus {
+        background: @primary-plain-color;
+        border: 1px solid @primary-focus-color;
+    }
+}
+
+.cancelBtn {
+  background: transparent;
+  border: 1px solid #86909C;
+  border-radius: 4px;
+  color: #86909C;
+  font-weight: 400;
+  &:hover {
+  }
+  &:focus {
+  }
+}
+
+.ghostBtn {
+  background: transparent;
+  border: 1px solid #356DF6;
+  color: #356DF6;
+    border-radius: 4px;
+  &:hover {
+    color: @primary-hover-color;
+  }
+  &:focus {
+    color: @primary-focus-color;
+  }
+}
+
+.textBtn {
+    background: transparent;
+    border: none;
+    color: #356DF6;
+  font-size: 14px;
+  font-family: PingFang SC;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+    &:hover {
+        color: @primary-hover-color;
+      background:transparent;
+    }
+    &:focus {
+        color: @primary-focus-color;
+      background:transparent;
+    }
+}
+
+.disabledTextBtn {
+  border: none;
+  background: transparent;
+  color: #B7B7B7;
+  &:hover {
+    background: transparent;
+    border: none;
+    color: #B7B7B7;
+  }
+  &:focus {
+    background: transparent;
+    border: none;
+    color: #B7B7B7;
+  }
+}
+
+.disabledBtn {
+    background: #E4E7ED;
+    border: 1px solid #E4E7ED;
+    color: #B7B7B7;
+    border-radius: 4px;
+    &:hover {
+        background: #E4E7ED;
+        border: 1px solid #E4E7ED;
+        color: #B7B7B7;
+    }
+    &:focus {
+        background: #E4E7ED;
+        border: 1px solid #E4E7ED;
+        color: #B7B7B7;
+    }
+}
+
+.dangerDot {
+  background: #FF4D4F;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.infoDot {
+  background: #909399;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.successDot {
+  background: #52C41A;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  margin-right: 4px;
+}

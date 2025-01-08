@@ -1,0 +1,29 @@
+{
+  "name": "hpj-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "函数式编程项目",
+  "module": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "hpj",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.37",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.2.0",
+    "vite-plugin-cdn-import": "^0.3.5",
+    "vite-plugin-compression2": "^1.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "echarts": "^5.5.0",
+    "lodash": "^4.17.21",
+    "web-vitals": "^3.5.2"
+  }
+}

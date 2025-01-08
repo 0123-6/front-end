@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="AI中台第一期" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="组件部分" transform="translate(-445.000000, -389.000000)">
+            <g id="moxingku-line-icon" transform="translate(445.000000, 389.000000)">
+                <polygon id="路径" points="0 0 16 0 16 16 0 16"></polygon>
+                <g id="编组" transform="translate(2.000000, 1.000000)" fill="#0164FF">
+                    <path d="M6.00058055,0 L0,3.46473149 L0,10.3930334 L6.00058055,13.8566038 L12,10.3930334 L12,3.46473149 L6.00058055,0 Z M1.50943396,9.5222061 L1.50943396,4.33671988 L6.00058055,1.74281567 L10.4894049,4.33671988 L10.4894049,9.5222061 L6.00058055,12.1137881 L1.50943396,9.5222061 Z" id="Fill-1"></path>
+                    <polygon id="Fill-2" points="8.99251089 6.02473149 8.15535559 4.768418 6.00034833 6.20238026 3.84417997 4.768418 3.00702467 6.02473149 5.24563135 7.51442671 5.24563135 10.661016 6.75506531 10.661016 6.75506531 7.5132656"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "官网": "node ../../dist.js 官网 hiabr-website-web"
+  }
+}

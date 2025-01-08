@@ -1,0 +1,17 @@
+{
+  "name": "project-1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "three": "^0.168.0"
+  },
+  "packageManager": "pnpm@9.15.3"
+}

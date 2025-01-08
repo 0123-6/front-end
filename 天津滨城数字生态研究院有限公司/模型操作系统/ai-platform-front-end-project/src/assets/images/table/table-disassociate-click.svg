@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="超级管理员角色优化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1252.000000, -659.000000)">
+            <g id="取消关联_click" transform="translate(1252.000000, 659.000000)">
+                <polygon id="路径" points="0 0 24 0 24 24 0 24"></polygon>
+                <path d="M21,3 C21.5522847,3 22,3.44771525 22,4 L22.0003901,12.599909 C21.3908262,12.2882415 20.7154431,12.0869737 20.0006121,12.0224767 L20,5 L4,5 L4,19 L14.2070823,19.0001762 C14.4171306,19.7427306 14.7792282,20.4214413 15.2576141,21.0005473 L3,21 C2.44771525,21 2,20.5522847 2,20 L2,4 C2,3.44771525 2.44771525,3 3,3 L21,3 Z M9,13 L9,17 L7,17 L7,13 L9,13 Z M13,7 L13,17 L11,17 L11,7 L13,7 Z M17,10 L17.0006219,12.5993917 C16.2006906,13.0081841 15.5140566,13.607079 15.0002965,14.3364999 L15,10 L17,10 Z" id="形状结合" fill="#CD4628" fill-rule="nonzero"></path>
+                <rect id="矩形" stroke="#CD4628" stroke-width="1.2" x="15.6" y="13.6" width="7.8" height="7.8" rx="3.9"></rect>
+                <g id="+" transform="translate(19.499622, 17.499622) rotate(-315.000000) translate(-19.499622, -17.499622) translate(17.732122, 15.732122)" fill="#CD4628" fill-rule="nonzero" stroke="#CD4628" stroke-width="0.4">
+                    <polygon id="路径" points="1.442 0 1.442 1.435 0 1.435 0 2.093 1.442 2.093 1.442 3.535 2.1 3.535 2.1 2.093 3.535 2.093 3.535 1.435 2.1 1.435 2.1 0"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="138px" height="138px" viewBox="0 0 138 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F5FCFF" stop-opacity="0.477786618" offset="0%"></stop>
+            <stop stop-color="#DEF2FC" stop-opacity="0.457935253" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" stop-opacity="0.401884492" offset="0%"></stop>
+            <stop stop-color="#F5FCFF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M42,5.6 L53.2,5.6 C54.74644,5.6 56,6.853616 56,8.4 L56,53.2 C56,54.74644 54.74644,56 53.2,56 L2.8,56 C1.253616,56 0,54.74644 0,53.2 L0,8.4 C0,6.853616 1.253616,5.6 2.8,5.6 L14,5.6 L14,0 L19.6,0 L19.6,5.6 L36.4,5.6 L36.4,0 L42,0 L42,5.6 Z M5.6,22.4 L5.6,50.4 L50.4,50.4 L50.4,22.4 L5.6,22.4 Z M11.2,28 L16.8,28 L16.8,33.6 L11.2,33.6 L11.2,28 Z M11.2,39.2 L16.8,39.2 L16.8,44.8 L11.2,44.8 L11.2,39.2 Z M22.4,28 L44.8,28 L44.8,33.6 L22.4,33.6 L22.4,28 Z M22.4,39.2 L36.4,39.2 L36.4,44.8 L22.4,44.8 L22.4,39.2 Z" id="path-3"></path>
+        <filter x="-25.1%" y="-19.7%" width="150.2%" height="150.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="0.551746" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.807929343   0 0 0 0 0.924747641   0 0 0 0 0.979010098  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="模型库" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="模型库_已过期" transform="translate(-891.000000, -381.000000)">
+            <g id="编组-4" transform="translate(816.000000, 381.000000)">
+                <g id="暂无数据" transform="translate(75.000000, 0.000000)">
+                    <g id="编组-9">
+                        <circle id="椭圆形" fill="url(#linearGradient-1)" cx="69" cy="69" r="69"></circle>
+                        <g id="file-list-2-fill" transform="translate(38.698413, 38.698413)">
+                            <polygon id="路径" points="0 0 60.6031746 0 60.6031746 60.6031746 0 60.6031746"></polygon>
+                        </g>
+                    </g>
+                    <g id="形状" transform="translate(41.000000, 38.000000)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                        <use stroke="#FFFFFF" stroke-width="1.103492" fill="url(#linearGradient-2)" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

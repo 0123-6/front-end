@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="104px" viewBox="0 0 100 104" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>形状</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#0164FF" stop-opacity="0.0498371258" offset="0%"></stop>
+            <stop stop-color="#0164FF" stop-opacity="0.0342454177" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="模型监控优化" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="模型监监控" transform="translate(-1149.000000, -111.000000)" fill="url(#linearGradient-1)">
+            <g id="编组-7备份" transform="translate(779.000000, 76.000000)">
+                <g id="file-chart-fill" transform="translate(370.000000, 35.000000)">
+                    <path d="M72.2222222,0 L100,27.75 L100,105.4944 C99.9969339,108.535956 97.5279359,111 94.4833333,111 L5.51666667,111 C2.48086413,110.978867 0.0242133044,108.527144 0,105.4944 L0,5.5056 C0,2.4642 2.47222222,0 5.51666667,0 L72.2222222,0 Z M44,28 L44,83 L55,83 L55,28 L44,28 Z M66,50 L66,83 L77,83 L77,50 L66,50 Z M22,61 L22,83 L33,83 L33,61 L22,61 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

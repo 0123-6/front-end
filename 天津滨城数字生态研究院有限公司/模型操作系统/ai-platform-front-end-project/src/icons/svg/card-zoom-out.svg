@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="AI中台二期补充" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3数据管理-上线管理-详情-单个" transform="translate(-1521.000000, -617.000000)">
+            <g id="编组-11" transform="translate(1521.000000, 617.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="22" height="22"></rect>
+                <g id="编组-8" transform="translate(3.000000, 2.000000)">
+                    <circle id="椭圆形" fill="#CCCCCC" cx="8.5" cy="8.5" r="8.5"></circle>
+                    <polygon id="+" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF" fill-rule="nonzero" points="9.47578288 12.2745303 9.47578288 9.11983299 12.4 9.11983299 12.4 8.14029228 9.47578288 8.14029228 9.47578288 5 8.42421712 5 8.42421712 8.14029228 5.5 8.14029228 5.5 9.11983299 8.42421712 9.11983299 8.42421712 12.2745303"></polygon>
+                    <line x1="12.7753906" y1="12.7783203" x2="17" y2="17.0029297" id="路径-3" stroke="#CCCCCC" stroke-width="2" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

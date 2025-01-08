@@ -1,0 +1,530 @@
+import React, {useEffect, useRef, useState} from "react";
+import {useHistory} from 'react-router-dom';
+import {message, Pagination, Popover, Table, Tooltip} from "antd";
+import {applicationFieldList, dataTypeList} from "../../../utils/static";
+import ViewSvg from "../../../icon/table/ViewSvg";
+import OnlineSvg from "../../icon/OnlineSvg";
+import OfflineSvg from "../../icon/OfflineSvg";
+import {PopoverContent} from "../../../view/data-element/common/PopoverContent";
+import {createRandomArray, formatPhone} from "../../../utils/util";
+import StatusShow, { statusList } from "./components/StatusShow";
+import ReviewSvg from "../../icon/ReviewSvg";
+import NavigationComponent from "../../../components/NavigationComponent";
+import SearchBig from "../../../components/SearchBig";
+import DraggableModalPrompt from "../../../components/draggable-modal/draggable-modal-prompt";
+import { post } from "../../../axios";
+import ReviewModal from "./components/ReviewModal";
+import DataManagementSvg from "../../layout/icon/DataManagement";
+
+export const hintMap = {
+	'上线审核': '审核通过，允许该数据发布，请点击“通过”。审核不通过，请点击“驳回”。',
+	'下线审核': '审核通过，允许该数据下线，请点击“通过”。审核不通过，请点击“驳回”。',
+}
+
+export default function UserData() {
+	// state
+	// @ts-ignore
+	const history = useHistory();
+	const keyword = useRef('')
+	// 升降序
+	// 升序
+	const orderByAsc = useRef('')
+	const orderByDesc = useRef('')
+	// 类型
+	const filterTypeList = useRef([])
+	// 行业
+	const filterIndustryList = useRef([])
+	// 降序
+	const pageSize = useRef(10);
+	const pageSizeChange = useRef(false);
+	const pageNum = useRef(1);
+	const [pageSum, setPageSum] = useState(0);
+	// 是否是首次加载
+	const first = useRef(true)
+	const [loading, setLoading] = useState(false);
+	const [data, setData] = useState([]);
+	// 单选选择的项
+	const selectedItem = useRef(null);
+	// 弹框
+	// 审核弹框
+	const [showReviewModal, setShowReviewModal] = useState(false);
+	// 上线弹框
+	const [showOnlineModal, setShowOnlineModal] = useState(false);
+	// 下线弹框
+	const [showOfflineModal, setShowOfflineModal] = useState(false);
+	const columns = [
+		{
+			title: 'ID',
+			dataIndex: 'id',
+			key: 'id',
+			width: 40,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '名称',
+			dataIndex: 'name',
+			key: 'name',
+			width: 251,
+			render: (_text, _record, _index) => (
+				<Tooltip title={((_text) && (_text)?.length>16)?(_text):null} overlayClassName='my-model-table'>
+					<div className={"w-full flex items-center cursor-pointer hover:text-main text-hidden"}
+					     onClick={() => handleView(_index)}>{_text}</div>
+				</Tooltip>
+			),
+		},
+		{
+			title: '类型',
+			dataIndex: 'type_desc',
+			filters: dataTypeList,
+			width: 161,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '创建时间',
+			dataIndex: 'created_at',
+			key: 'created_at',
+			sorter:true,
+			width: 151,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '提供者',
+			dataIndex: 'user',
+			width: 116,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex"}>
+					<Popover title={null}
+					         placement="leftTop"
+					         overlayClassName={'person-popover-2'}
+					         trigger="hover"
+					         content={PopoverContent({user: _text,showPhone: true})}
+					>
+						<div className={"w-full flex"}
+						     style={{height: '22px'}}>
+							{/*头像*/}
+							<div className="rounded-full overflow-hidden outline-2 outline outline-white-divide"
+							     style={{width: '22px', minWidth: '22px', height: '22px'}}>
+								<img className="" src={(_text?.avatar) ? (_text?.avatar) : null} alt=""
+								     style={{width: '100%', height: '100%'}}/>
+							</div>
+							{/*姓名*/}
+							<div className={"ml-1.5 h-full flex items-center"}>
+								<span className={"flex items-center text-hidden"}>
+									<span>{(_text?.nickname) ? (_text?.nickname) : ((_text?.mobile) ? formatPhone(_text?.mobile) : '静态内容')}</span>
+								</span>
+							</div>
+						</div>
+					</Popover>
+				</div>
+			),
+		},
+		{
+			title: '企业',
+			dataIndex: 'company',
+			key: 'company',
+			width: 251,
+			render: (_text, _record, _index) => (
+				<Tooltip title={((_text) && (_text)?.length>16)?(_text):null} overlayClassName='my-model-table'>
+					<div className={"w-full flex items-center text-hidden"}
+					     onClick={null}>{_text}</div>
+				</Tooltip>
+			),
+		},
+		{
+			title: '大小',
+			dataIndex: 'size',
+			key: 'size',
+			width: 100,
+			sorter: true,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '样本',
+			dataIndex: 'sample',
+			key: 'sample',
+			width: 100,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '行业',
+			dataIndex: 'industry',
+			key: 'industry',
+			filters: applicationFieldList.map(item => ({text: item, value: item})),
+			width: 100,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '已授权',
+			dataIndex: 'authorized',
+			key: 'authorized',
+			width: 100,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '已使用',
+			dataIndex: 'used',
+			key: 'used',
+			width: 100,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center"}>{_text?_text:'-'}</div>
+			),
+		},
+		{
+			title: '样例',
+			dataIndex: 'example',
+			key: 'example',
+			width: 100,
+			render: (_text, _record, _index) => (
+				<div className={"w-full flex items-center cursor-pointer hover:text-main text-hidden"}
+				     onClick={() => handleView(_index)}>查看</div>
+			),
+		},
+		{
+			title: '状态',
+			dataIndex: 'status_desc',
+			filters: statusList,
+			width: 110,
+			render: (_text, _record, _index) => (
+				<StatusShow status={_text}/>
+			),
+		},
+		{
+			title: '备注',
+			dataIndex: 'audit_info',
+			key: '备注',
+			width: 100,
+			render: (_text, _record, _index) => (
+				<Tooltip title={((_text?.report) && (_text?.report)?.length>6)?(_text?.report):null} overlayClassName='my-model-table'>
+					<span className={'w-full text-hidden'}>{(_text?.report)?(_text?.report):'—'}</span>
+				</Tooltip>
+			),
+		},
+		{
+			title: '操作',
+			key: 'action',
+			align: 'center',
+			fixed: 'right',
+			width: 136,
+			render: (_text, _record, index) => (
+				<span className={"w-full inline-flex items-center text-table-icon"}>
+          <Tooltip title="查看" overlayClassName={"operator-line"}>
+            <span className={`ml-1 hover:cursor-pointer hover:text-[#0083e4]`}
+                  onClick={() => handleView(index)}><ViewSvg /></span>
+          </Tooltip>
+          <Tooltip title="审核" mouseEnterDelay={0} mouseLeaveDelay={0} overlayClassName={"operator-line"}>
+            <span className={`ml-1 ${(_record.status_desc==='上线审核'||_record.status_desc==='下线审核')?'hover:cursor-pointer hover:text-[#f47929]':'text-table-icon-disable hover:cursor-not-allowed '}`}
+                  onClick={(_record.status_desc==='上线审核'||_record.status_desc==='下线审核')?() => handleReview(index):null}><ReviewSvg/></span>
+          </Tooltip>
+					<Tooltip title="上线" overlayClassName={"operator-line"}>
+            <span className={`ml-1 ${(_record.status_desc==='未上线'||_record.status_desc==='驳回上线'||_record.status_desc==='已下线')?'hover:cursor-pointer hover:text-[#00b677]':'text-table-icon-disable hover:cursor-not-allowed '}`}
+                  onClick={(_record.status_desc==='未上线'||_record.status_desc==='驳回上线'||_record.status_desc==='已下线')?() => handleOnline(index):null}><OnlineSvg/></span>
+          </Tooltip>
+					<Tooltip title="下线" overlayClassName={"operator-line"}>
+            <span className={`ml-1 ${(_record.status_desc==='已上线'||_record.status_desc==='驳回下线')?'hover:cursor-pointer hover:text-[#fd4932]':'text-table-icon-disable hover:cursor-not-allowed '}`}
+                  onClick={(_record.status_desc==='已上线'||_record.status_desc==='驳回下线')?() => handleOffline(index):null}><OfflineSvg/></span>
+          </Tooltip>
+        </span>
+			),
+		},
+	]
+	// mounted
+	useEffect(() => {
+		search()
+	}, [])
+	// methods
+	const keydown = (e) => {
+		if (e.keyCode === 13) {
+			changeKeyword()
+		}
+	}
+	const changeKeyword = () => {
+		pageNum.current = 1
+		search()
+	}
+
+	// 跳转到详情页面
+	const handleView = (index) => {
+		console.log(`View record at index ${index}`);
+		selectedItem.current = data[index]
+		// 将内容写入缓存
+		localStorage.setItem('selectedItem', JSON.stringify(selectedItem.current))
+		history.push({
+			pathname: `/oam/data-management/user-data/detail/${data[index].id}`
+		})
+	};
+
+	const handleReview = (index) => {
+		selectedItem.current = data[index]
+		setShowReviewModal(true)
+	}
+
+	const handleOnline = (index) => {
+		selectedItem.current = data[index]
+		setShowOnlineModal(true)
+	}
+	const handleOffline = (index) => {
+		selectedItem.current = data[index]
+		setShowOfflineModal(true)
+	}
+
+	const getFalseData = async (_params) => {
+		return new Promise<any>((resolve, _reject) => {
+			setTimeout(() => {
+				let data = {
+					list: createRandomArray(),
+					total_num: 100,
+				}
+				for(let i = 0; i < data.list.length; i++) {
+					data.list[i].type = dataTypeList[i%dataTypeList.length].value
+					data.list[i].type_desc = dataTypeList[i%dataTypeList.length].text
+					data.list[i].created_at = '2021-08-12 12:12:12'
+					data.list[i].size = '100M'
+					data.list[i].sample = 10
+					data.list[i].industry = applicationFieldList[i%applicationFieldList.length]
+					data.list[i].authorized = 10
+					data.list[i].used = 5
+					data.list[i].status = statusList[i%statusList.length].value
+					data.list[i].status_desc = statusList[i%statusList.length].text
+					data.list[i].description = data.list[i].name+'的描述'
+					data.list[i].coverUrl = 'http://minio.model-hubs.cn/web-static/dataset-cover/202308/9FgEYdc1TC.png'
+					data.list[i].company = '公司'+i
+				}
+				const res = {
+					"code": 0,
+					"msg": "success",
+					"data": data
+				}
+				resolve(res);
+			}, 200);
+		});
+	}
+	const search = async () => {
+		console.log('into search method')
+		let params = {
+			page_num: pageNum.current,
+			page_size: pageSize.current,
+			filter_name: keyword.current,
+			// model_type_id: filterTypeList.current,
+			order_by_desc: orderByDesc.current,
+			order_by_asc: orderByAsc.current,
+		}
+		console.log(params)
+		setLoading(true)
+		// const res = await get('/drapi/oam/user/comps', params)
+		const res = await getFalseData(params)
+		// @ts-ignore
+		for (let i = 0; i < res.data.list.length; i++) {
+			// @ts-ignore
+			res.data.list[i] = {
+				// @ts-ignore
+				...res.data.list[i],
+				// @ts-ignore
+				key: res.data.list[i].id,
+			}
+		}
+		// 判断是否为特殊情况,data.total_num>0,但是data.list为空,而且pageNum.current>1
+		if (res.data.total_num > 0 && res.data.list.length === 0 && pageNum.current > 1) {
+			pageNum.current -= 1
+			search()
+			return
+		}
+		// @ts-ignore
+		setData(res.data.list)
+		// @ts-ignore
+		setPageSum(res.data.total_num)
+		setLoading(false)
+		first.current = false
+	}
+	// 分页相关
+	const onShowSizeChange = (_current, newPageSize) => {
+		console.log('into onShowSizeChange: _current: ', _current, ' ,newPageSize: ', newPageSize)
+		console.log('pageNum: ', pageNum.current, ' ,pageSize: ', pageSize.current)
+		pageNum.current = 1
+		pageSize.current = newPageSize
+		pageSizeChange.current = true
+		console.log('pageNum: ', pageNum.current, ' ,pageSize: ', pageSize.current)
+	};
+	const changePageNum = (value) => {
+		console.log('into changePageNum,嘿嘿嘿,传入的value为：', value)
+		console.log('pageNum: ', pageNum.current, ' ,pageSize: ', pageSize.current)
+		if (pageSizeChange.current === true) {
+			pageSizeChange.current = false
+		} else {
+			pageNum.current = value
+		}
+		console.log('pageNum: ', pageNum.current, ' ,pageSize: ', pageSize.current)
+		search()
+	}
+	const handleChange = (pagination, filters, sorter) => {
+		console.log('Various parameters', pagination, filters, sorter);
+		filterTypeList.current = filters.type_desc
+		filterIndustryList.current = filters.industry
+		orderByAsc.current = null
+		orderByDesc.current = null
+		if (sorter && sorter.order) {
+			if (sorter.order === 'ascend') {
+				orderByAsc.current = sorter.columnKey
+			} else if (sorter.order === 'descend') {
+				orderByDesc.current = sorter.columnKey
+			}
+		}
+		search()
+	};
+	// 弹框
+	// 审核弹框
+	const reviewModalOnOk = async (_data) => {
+		console.log('into ReviewModalOnOk')
+		console.log(_data)
+		const params = {
+			comp_id: selectedItem.current.id,
+			audit_status: 1,
+			..._data,
+		}
+		await post('/drapi/oam/user/comps/audit', params)
+		setShowReviewModal(false)
+		message.success('审核通过成功')
+		search()
+	}
+	const reviewModalOnCancel = () => {
+		console.log('into ReviewModalOnCancel')
+		setShowReviewModal(false)
+	}
+	const reviewModalOnReject = async (_data) => {
+		console.log('into ReviewModalOnReject')
+		console.log(_data)
+		const params = {
+			comp_id: selectedItem.current.id,
+			audit_status: 2,
+			..._data,
+		}
+		await post('/drapi/oam/user/comps/audit', params)
+		setShowReviewModal(false)
+		message.success('审核驳回成功')
+		search()
+	}
+	// 上线弹框
+	const onlineModalOnOk = async (_data) => {
+		console.log('into OnlineModalOnOk')
+		console.log(_data)
+		const params = {
+			..._data,
+		}
+		await post(`/drapi/oam/comps/publish/${selectedItem.current.id}`, params)
+		setShowOnlineModal(false)
+		message.success('上线成功')
+		search()
+	}
+	const onlineModalOnCancel = () => {
+		console.log('into OnlineModalOnCancel')
+		setShowOnlineModal(false)
+	}
+	// 下线弹框
+	const offlineModalOnOk = async (_data) => {
+		console.log('into OfflineModalOnOk')
+		console.log(_data)
+		await post(`/drapi/oam/comps/offline/${selectedItem.current.id}`)
+		setShowOfflineModal(false)
+		message.success('下线成功')
+		search()
+	}
+	const offlineModalOnCancel = () => {
+		console.log('into OfflineModalOnCancel')
+		setShowOfflineModal(false)
+	}
+	// render
+	return (
+		// 最外层
+		<div className={"w-full bg-white flex flex-col"}>
+			{/*头部区域*/}
+			<div className={"w-full h-[50px] min-h-[50px] flex items-center bg-[#fafafa]"}>
+				<NavigationComponent data={[
+					{label: '数据管理', iconSvg: DataManagementSvg, disabled: true},
+					{label: '用户数据', router: '/oam/data-management/user-data', disabled: true},
+				]}/>
+			</div>
+			{/*内容区域*/}
+			<div className={"w-full pl-8 pr-8 pt-6 flex flex-col rounded-lg"}>
+				{/*搜索和按钮*/}
+				<div className={"mt-4 w-full h-[36px] flex justify-between items-center"}>
+					{/*search框筛选*/}
+					<SearchBig placeholder='请输入模型名称'
+					           ml={false}
+					           style={{width: '284px'}}
+					           defaultValue={keyword.current}
+					           change={e => keyword.current = e.target.value}
+					           keyDown={e => keydown(e)}/>
+				</div>
+				{/*表格和分页*/}
+				<div className={"mt-2 w-full"}>
+					<Table
+						size='small'
+						loading={loading}
+						dataSource={data}
+						// @ts-ignore
+						columns={columns}
+						onChange={handleChange}
+						pagination={false}
+						scroll={{x: 'max-content'}} // 设置自适应宽度
+					/>
+				</div>
+				{/*分页*/}
+				<div className="mt-6 pb-6 w-full flex justify-center">
+					{
+						pageSum > 10 &&
+						<Pagination showSizeChanger
+												showQuickJumper
+												showTitle={false}
+												showTotal={total => `共${total}条`}
+												onShowSizeChange={onShowSizeChange}
+												onChange={value => changePageNum(value)}
+												defaultPageSize={pageSize.current}
+												defaultCurrent={1}
+												pageSizeOptions={[10, 20, 30, 40]}
+												current={pageNum.current}
+												total={pageSum}/>
+					}
+				</div>
+			</div>
+			{/*弹窗*/}
+			{/*上线弹框*/}
+			<DraggableModalPrompt
+				title={'上线'}
+				// hint={'确认是否需要上线数据，数据将进入审核流程，审核流程中无法进行再次编辑信息'}
+				show={showOnlineModal}
+				onOk={onlineModalOnOk}
+				onCancel={onlineModalOnCancel}>
+				<span className="text-sm text-black flex items-center">确认上线<span className="text-main pl-1 pr-1 max-w-[180px] text-hidden">{selectedItem.current?.name}</span>吗？</span>
+			</DraggableModalPrompt>
+			{/*下线弹框*/}
+			<DraggableModalPrompt
+				title={'下线'}
+				// hint={'确认是否下线数据，下线数据后该数据将无法使用，并数据将进入审核流程，审核流程中无法进行再次编辑信息'}
+				show={showOfflineModal}
+				onOk={offlineModalOnOk}
+				onCancel={offlineModalOnCancel}>
+				<span className="text-sm text-black flex items-center">确认下线<span className="text-main pl-1 pr-1 max-w-[180px] text-hidden">{selectedItem.current?.name}</span>吗？</span>
+			</DraggableModalPrompt>
+			<ReviewModal title={'审核'}
+			             hint={hintMap[selectedItem.current?.status_desc]}
+			             show={showReviewModal}
+			             data={selectedItem.current}
+			             onOk={reviewModalOnOk}
+			             onCancel={reviewModalOnCancel}
+			             onReject={reviewModalOnReject}/>
+		</div>
+	)
+}

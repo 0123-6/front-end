@@ -1,0 +1,166 @@
+@import 'variables';
+
+@mixin common-btn($textColor, $color, $hoverColor, $activeColor) {
+  background: $color;
+  border-radius: 4px;
+  font-size: 12px;
+  color: $textColor;
+
+  &:hover {
+    color: $textColor;
+    background: $hoverColor;
+  }
+  &:focus {
+    color: $textColor;
+    background: $hoverColor;
+  }
+  &:active{
+    color: $textColor;
+    background: $activeColor;
+  }
+  &:disabled{
+    color: $textColor;
+    background: $disabled;
+  }
+}
+
+.blue-btn {
+  @include common-btn($white, $blue, $blue-light, $blue-dark)
+}
+.blue-ghost-btn{
+  //
+}
+.white-btn{
+  //@include common-btn($grey, $white, $blue-lighter, $blue-lighter)
+  @include common-btn($blue, $white, $blue-lighter, $blue-lighter)
+}
+
+.white-btn-hpj{
+  background: $white;
+  border-radius: 4px;
+  font-size: 12px;
+  color: $blue;
+  padding: 0 !important;
+  width: 72px;
+  height: 22px;
+  border: 1px solid rgba(191,208,224,1)!important;
+
+  &:hover {
+    color: $blue;
+    background: $blue-lighter;
+  }
+  &:focus {
+    color: $blue;
+    background: $blue-lighter;
+  }
+  &:active{
+    color: $blue;
+    background: $blue-lighter;
+  }
+  &:disabled{
+    color: $blue;
+    background: $disabled;
+  }
+
+}
+
+.return-btn{
+  @include common-btn($grey, $white, $blue-lighter, $blue-lighter);
+  width: 54px;
+  height: 24px;
+  padding: 0;
+}
+
+
+.operation-primary-button {
+  height: 22px;
+  background: $primaryBg;
+  border: 0.5px solid $primaryBorder;
+  font-family: SourceHanSansSC-Normal;
+  font-size: 12px;
+  color: $primaryText;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 4px 13px;
+  border-radius: 4px;
+  &:hover {
+    background: $primaryBgHover;
+    border: 0.5px solid $primaryBorderHover;
+    color: $primaryTextHover;
+    cursor: pointer;
+  }
+  &:focus {
+    background: $primaryBgFocus;
+    border: 0.5px solid $primaryBorderFocus;
+    color: $primaryTextFocus;
+  }
+}
+.operation-danger-button {
+  height: 22px;
+  background: $dangerBg;
+  border: 0.5px solid $dangerBorder;
+  font-family: SourceHanSansSC-Normal;
+  font-size: 12px;
+  color: $dangerText;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 4px 13px;
+  border-radius: 4px;
+  &:hover {
+    background: $dangerBgHover;
+    border: 0.5px solid $dangerBorderHover;
+    color: $dangerTextHover;
+    cursor: pointer;
+  }
+  &:focus {
+    background: $dangerBgFocus;
+    border: 0.5px solid $dangerBorderFocus;
+    color: $dangerTextFocus;
+  }
+}
+.operation-success-button {
+  height: 22px;
+  background: $successBg;
+  border: 0.5px solid $successBorder;
+  font-family: SourceHanSansSC-Normal;
+  font-size: 12px;
+  color: $successText;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 4px 13px;
+  border-radius: 4px;
+  &:hover {
+    background: $successBgHover;
+    border: 0.5px solid $successBorderHover;
+    color: $successTextHover;
+    cursor: pointer;
+  }
+  &:focus {
+    background: $successBgFocus;
+    border: 0.5px solid $successBorderFocus;
+    color: $successTextFocus;
+  }
+}
+.operation-warning-button {
+  height: 22px;
+  background: $warningBg;
+  border: 0.5px solid $warningBorder;
+  font-family: SourceHanSansSC-Normal;
+  font-size: 12px;
+  color: $warningText;
+  letter-spacing: 0;
+  font-weight: 400;
+  padding: 4px 13px;
+  border-radius: 4px;
+  &:hover {
+    background: $warningBgHover;
+    border: 0.5px solid $warningBorderHover;
+    color: $warningTextHover;
+    cursor: pointer;
+  }
+  &:focus {
+    background: $warningBgFocus;
+    border: 0.5px solid $warningBorderFocus;
+    color: $warningTextFocus;
+  }
+}

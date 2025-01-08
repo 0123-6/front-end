@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="产业经济前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="v" transform="translate(-631.000000, -252.000000)">
+            <g id="邮箱" transform="translate(631.000000, 252.000000)">
+                <rect id="矩形备份" fill="#D8D8D8" opacity="0" x="0" y="0" width="24" height="24"></rect>
+                <g id="mail-line-(1)" transform="translate(3.000000, 4.000000)" fill="#9194A2" fill-rule="nonzero">
+                    <path d="M0.9,0 L17.1,0 C17.59707,0 18,0.397973333 18,0.888888889 L18,15.1111111 C18,15.6020444 17.59707,16 17.1,16 L0.9,16 C0.402948,16 0,15.6020444 0,15.1111111 L0,0.888888889 C0,0.397973333 0.402948,0 0.9,0 Z M16.2,3.76704 L9.06462,10.0782222 L1.8,3.74750222 L1.8,14.2222222 L16.2,14.2222222 L16.2,3.76704 Z M2.260314,1.77777778 L9.05571,7.69955556 L15.7509,1.77777778 L2.260314,1.77777778 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

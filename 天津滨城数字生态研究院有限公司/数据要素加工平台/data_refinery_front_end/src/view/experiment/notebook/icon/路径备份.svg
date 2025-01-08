@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径备份</title>
+    <g id="控件" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="列表icon" transform="translate(-186.000000, -9.000000)" fill="#8C8C8C">
+            <g id="插入单月格备份-5" transform="translate(177.000000, 0.000000)">
+                <polygon id="路径备份" transform="translate(14.000000, 14.000000) scale(1, -1) translate(-14.000000, -14.000000) " points="15.1666667 14 15.1666667 18.6666667 12.8333333 18.6666667 12.8333333 14 9.33333333 14 14 9.33333333 18.6666667 14"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

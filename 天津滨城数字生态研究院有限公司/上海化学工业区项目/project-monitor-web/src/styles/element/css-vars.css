@@ -1,0 +1,26 @@
+.my-element {
+  --el-color-primary: #02ADEC;
+  --el-color-primary-light-3: #45C4F3;
+  --el-color-primary-dark-2: #009ED8;
+  --el-color-success: #68CD44;
+  --el-color-error: #E85050;
+  --el-color-warning: #FAB752;
+  --el-color-alert: #F28C53;
+  --el-menu-active-color: #02ADEC;
+}
+
+.my-element .el-button.is-light {
+  --el-color-primary: #E6F7FD;
+  --el-color-primary-light-3: #ECF9FE;
+  --el-color-primary-dark-2: #E5F5FB;
+}
+
+.my-element .el-table {
+  --el-table-text-color: #1A262C;
+  --el-table-header-bg-color: #F5F9FB;
+  --el-table-header-text-color: #344852;
+}
+
+.my-element .el-button.is-link {
+  --el-color-primary-light-5: #45C4F3;
+}

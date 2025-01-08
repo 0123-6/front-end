@@ -1,0 +1,27 @@
+audio::-webkit-media-controls-panel {
+    background-color: #F1F3F4;
+    border-radius: 15px;
+}
+
+audio::-webkit-media-controls-mute-button {
+    color: #A8AAAA;
+}
+audio::-webkit-media-controls-play-button {
+    color: #A8AAAA;
+}
+
+audio::-webkit-media-controls-timeline-container {
+    color: #A8AAAA;
+}
+
+audio::-webkit-media-controls-current-time-display {
+    color: #A8AAAA;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+    color: #A8AAAA;
+}
+
+audio::-webkit-media-controls-timeline {
+    color: #A8AAAA;
+}

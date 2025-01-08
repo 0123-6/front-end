@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="132px" viewBox="0 0 1200 132" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="-2.65964678%" y1="48.2107616%" x2="50%" y2="54.6735093%" id="linearGradient-1">
+            <stop stop-color="#2554FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" stop-opacity="0.164567854" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.652536301">
+        <g id="政策详情_北京的" transform="translate(-360.000000, -121.000000)" fill="url(#linearGradient-1)">
+            <path d="M376,121 L1544,121 C1552.83656,121 1560,128.163444 1560,137 L1560,253 L1560,253 L360,253 L360,137 C360,128.163444 367.163444,121 376,121 Z" id="矩形备份-10"></path>
+        </g>
+    </g>
+</svg>

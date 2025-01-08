@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "工程监测": "node ../../dist-sh.js 上海化工区 project-monitor-web"
+  }
+}

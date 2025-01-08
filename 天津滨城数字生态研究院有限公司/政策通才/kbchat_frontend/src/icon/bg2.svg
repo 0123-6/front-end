@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1402px" height="138px" viewBox="0 0 1402 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形</title>
+    <defs>
+        <linearGradient x1="59.0379402%" y1="50.1646244%" x2="13.128545%" y2="49.4825884%" id="linearGradient-1">
+            <stop stop-color="#EDF4FF" offset="0%"></stop>
+            <stop stop-color="#EEF4FF" offset="65.2494669%"></stop>
+            <stop stop-color="#F2F5FF" offset="100%"></stop>
+        </linearGradient>
+        <filter x="-1.5%" y="-20.2%" width="103.0%" height="140.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="7" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="前台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="主页_生成内容" transform="translate(0.000000, -1072.000000)" fill="url(#linearGradient-1)">
+            <rect id="矩形" filter="url(#filter-2)" transform="translate(692.500000, 1141.000000) scale(1, -1) translate(-692.500000, -1141.000000) " x="0" y="1089" width="1385" height="104" rx="8"></rect>
+        </g>
+    </g>
+</svg>

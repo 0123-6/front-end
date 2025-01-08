@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="后台" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-820.000000, -630.000000)" fill="#C800FF">
+            <g id="编组" transform="translate(820.000000, 630.000000)">
+                <circle id="椭圆形备份-3" fill-opacity="0.0502110194" cx="21.5" cy="21.5" r="21.5"></circle>
+                <path d="M16.45455,28 L12,31.5 L12,13 C12,12.44772 12.44772,12 13,12 L31,12 C31.5523,12 32,12.44772 32,13 L32,27 C32,27.5523 31.5523,28 31,28 L16.45455,28 Z M15.76282,26 L30,26 L30,14 L14,14 L14,27.3851 L15.76282,26 Z M21,19 L23,19 L23,21 L21,21 L21,19 Z M17,19 L19,19 L19,21 L17,21 L17,19 Z M25,19 L27,19 L27,21 L25,21 L25,19 Z" id="形状" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

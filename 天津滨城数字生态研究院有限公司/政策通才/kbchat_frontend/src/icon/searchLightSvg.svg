@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>搜索_ 点击</title>
+    <defs>
+        <linearGradient x1="79.4134469%" y1="89.2507336%" x2="-18.7870083%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2554FF" offset="0%"></stop>
+            <stop stop-color="#53A9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="控件" transform="translate(-246.000000, -243.000000)">
+            <g id="搜索_-点击" transform="translate(246.000000, 243.000000)">
+                <rect id="矩形" fill="#D8D8D8" opacity="0" x="0" y="0" width="26" height="26"></rect>
+                <g id="search-line-(2)备份" transform="translate(3.000000, 3.000000)" fill="url(#linearGradient-1)">
+                    <path d="M16.031,14.6168 L20.3137,18.8995 L18.8995,20.3137 L14.6168,16.031 C13.0769,17.263 11.124,18 9,18 C4.032,18 0,13.968 0,9 C0,4.032 4.032,0 9,0 C13.968,0 18,4.032 18,9 C18,11.124 17.263,13.0769 16.031,14.6168 Z M14.0247,13.8748 C15.2475,12.6146 16,10.8956 16,9 C16,5.1325 12.8675,2 9,2 C5.1325,2 2,5.1325 2,9 C2,12.8675 5.1325,16 9,16 C10.8956,16 12.6146,15.2475 13.8748,14.0247 L14.0247,13.8748 Z" id="形状"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

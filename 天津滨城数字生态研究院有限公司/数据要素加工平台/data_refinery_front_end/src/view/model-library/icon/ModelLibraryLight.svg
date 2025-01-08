@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 34备份 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="画板" transform="translate(-1820.000000, -918.000000)">
+            <g id="编组-34备份" transform="translate(1820.000000, 918.000000)">
+                <rect id="矩形备份-132" fill="#D8D8D8" opacity="0" x="0" y="0" width="16" height="16"></rect>
+                <g id="模型-(1)备份" transform="translate(0.500000, 0.500000)" fill="#4CAAB4">
+                    <polygon id="路径" fill-opacity="0.678480455" points="7.50130676 4.28534483 7.50130676 8.57068966 11.2516988 6.42810345 11.2515245 2.14275862"></polygon>
+                    <polygon id="路径" fill-opacity="0.405634527" points="3.75091473 2.14275862 7.50130676 4.28534483 7.50130676 8.57086207 3.75091473 6.42810345"></polygon>
+                    <polygon id="路径" fill-opacity="0.197570374" points="7.50130676 4.28534483 11.2516988 2.14275862 7.50130676 0 3.75091473 2.14275862"></polygon>
+                    <polygon id="路径" fill-opacity="0.678480455" points="3.75039203 10.7146552 3.75039203 15 7.50078405 12.8574138 7.50060982 8.57189655"></polygon>
+                    <polygon id="路径" fill-opacity="0.405634527" points="0 8.57189655 3.75039203 10.7146552 3.75039203 15 0 12.8574138"></polygon>
+                    <polygon id="路径" fill-opacity="0.197570374" points="3.75039203 10.7146552 7.50078405 8.57189655 3.75039203 6.42931034 0 8.57189655"></polygon>
+                    <polygon id="路径" fill-opacity="0.678480455" points="11.249608 10.7146552 11.249608 15 15 12.8574138 14.9998258 8.57189655"></polygon>
+                    <polygon id="路径" fill-opacity="0.405634527" points="7.49921595 8.57189655 11.249608 10.7146552 11.249608 15 7.49921595 12.8574138"></polygon>
+                    <polygon id="路径" fill-opacity="0.197570374" points="11.249608 10.7146552 15 8.57189655 11.249608 6.42931034 7.49921595 8.57189655"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

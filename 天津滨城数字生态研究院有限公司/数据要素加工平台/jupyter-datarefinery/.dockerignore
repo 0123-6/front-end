@@ -1,0 +1,54 @@
+# Ignore everything:
+# **
+
+node_modules
+*.lock
+!vpf/poetry.lock
+*.pyc
+*.ipynb
+__pycache__
+
+# docs
+__generated__
+\#$
+data/
+etc/
+/src/
+yarn-error.log
+utils/test.py
+
+# mobile/builds
+db/
+logfile
+env/
+venv/
+.venv
+.vscode
+.autoenv
+.env
+.envrc
+.cache
+
+
+
+*.rtl.css
+*.rtl.min.css
+*.idea/*
+.vscode/*
+*.egg-info
+tmp
+.DS_Store
+*.sqlite3
+user_data/static
+user_data/media
+user_data/model
+user_data/mytest.py
+
+
+*.swp
+*.swo
+*.swn
+
+.config/*
+.python_history
+.viminfo

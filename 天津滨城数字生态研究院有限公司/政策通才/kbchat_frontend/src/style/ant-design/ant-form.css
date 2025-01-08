@@ -1,0 +1,118 @@
+.ant-form-item {
+    margin-bottom: 22px!important;
+}
+
+.ant-form-item-label > label::after {
+    content: unset!important;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+    padding-right: 12px!important;
+}
+
+.ant-form-item-control-input {
+    min-height: unset!important;
+}
+
+.ant-form-item-label > label {
+    font-size: 14px!important;
+    color: #646464!important;
+    line-height: 14px!important;
+    height: unset!important;
+}
+
+.label-height-38 .ant-form-item-label > label {
+    height: 38px!important;
+}
+
+.label-height-40 .ant-form-item-label > label {
+    height: 40px!important;
+}
+
+.label-height-62 .ant-form-item-label > label {
+    height: 62px!important;
+}
+
+.label-height-100 .ant-form-item-label > label {
+    height: 100px!important;
+}
+
+.label-width-77 .ant-form-horizontal .ant-form-item-label {
+    width: 77px!important;
+}
+
+.label-width-78 .ant-form-horizontal .ant-form-item-label {
+    width: 78px!important;
+}
+
+.label-width-93 .ant-form-horizontal .ant-form-item-label {
+    width: 93px!important;
+}
+
+.label-width-96 .ant-form-horizontal .ant-form-item-label {
+    width: 96px!important;
+}
+
+.label-width-126 .ant-form-horizontal .ant-form-item-label {
+    width: 126px!important;
+}
+
+.label-width-136 .ant-form-horizontal .ant-form-item-label {
+    width: 136px!important;
+}
+
+.label-width-147 .ant-form-horizontal .ant-form-item-label {
+    width: 147px!important;
+}
+
+.label-width-170 .ant-form-horizontal .ant-form-item-label {
+    width: 170px!important;
+}
+
+.label-width-178 .ant-form-horizontal .ant-form-item-label {
+    width: 178px!important;
+}
+
+.login .ant-form-item-label > label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    display: none!important;
+}
+
+.login .ant-form-item-label > label {
+    font-size: 16px!important;
+    color: #262626!important;
+    font-weight: 500!important;
+}
+
+/*上传文件组件*/
+.ant-progress-success-bg, .ant-progress-bg {
+    background-color: #2554FF!important;
+    height: 5px!important;
+}
+
+.ant-upload-list-item {
+    margin-top: 16px!important;
+}
+
+.ant-upload-list-item-progress {
+    bottom: -25px!important;
+    padding-left: 0!important;
+}
+
+.ant-upload-list-item-card-actions:hover .anticon {
+    color: #2554FF!important;
+}
+.ant-upload-list-text .ant-upload-text-icon .anticon {
+    display: none!important;
+}
+.ant-upload-list-text .ant-upload-list-item-name,
+.ant-upload-list-picture .ant-upload-list-item-name {
+    padding: 0 8px 0 0!important;
+}
+
+.ant-upload-list-item:hover .ant-upload-list-item-info {
+    background-color: unset!important;
+}
+
+.ant-upload-list-item-info > span {
+    /*width: 85%!important;*/
+}

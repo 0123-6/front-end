@@ -1,0 +1,200 @@
+.ant-tooltip {
+    max-width: unset!important;
+}
+
+.ant-tooltip-inner {
+    background: rgba(0,0,0,0.56)!important;
+    font-size: 12px!important;
+    color: white!important;
+    font-weight: 600!important;
+    min-height: unset!important;
+    height: 28px!important;
+    display: flex!important;
+    align-items: center!important;
+    padding: 0 8px!important;
+    border-radius: 4px!important;
+}
+
+.ant-tooltip-placement-bottom .ant-tooltip-arrow-content,
+.ant-tooltip-placement-bottomLeft .ant-tooltip-arrow-content,
+.ant-tooltip-placement-bottomRight .ant-tooltip-arrow-content {
+    background: unset!important;
+}
+
+.ant-tooltip-arrow-content {
+    --antd-arrow-background-color: unset!important;
+    background: unset!important;
+}
+
+.ant-tooltip-arrow-content::before {
+    background: rgba(0,0,0,0.53)!important;
+    --antd-arrow-background-color: unset!important;
+}
+
+.ant-tooltip-arrow {
+    height: 14px!important;
+    width: 14px!important;
+}
+
+.ant-tooltip-placement-left {
+    padding-right: 4px!important;
+}
+
+/*加工流程详情*/
+.tooltip-element-processing .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 14px!important;
+    color: white!important;
+    font-weight: 400!important;
+    padding: 21px 14px!important;
+    background: rgba(0,0,0,0.66)!important;
+}
+
+/*离线数据包详情*/
+.tooltip-risk-factor .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 25px!important;
+    color: #646464!important;
+    font-weight: 400!important;
+    padding: 15px 20px 24px 27px!important;
+    background: white!important;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09)!important;
+    width: 292px!important;
+    height: auto!important;
+}
+.tooltip-risk-factor .ant-tooltip-arrow-content::before {
+    background: white!important;
+}
+.tooltip-risk-factor .ant-tooltip-content {
+    top: 18px!important;
+}
+
+/*已驳回*/
+.tooltip-yi-bo-hui .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 25px!important;
+    color: #646464!important;
+    font-weight: 400!important;
+    padding: 11px 17px!important;
+    background: white!important;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09)!important;
+    height: auto!important;
+}
+
+.tooltip-yi-bo-hui .ant-tooltip-arrow-content::before {
+    background: white!important;
+}
+
+.tooltip-yi-bo-hui .ant-tooltip-content {
+    top: 10px!important;
+}
+
+/*我的模型表格*/
+.my-model-table .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #646464!important;
+    font-weight: 400!important;
+    padding: 11px 20px 11px 22px!important;
+    background: white!important;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09)!important;
+    max-width: 336px!important;
+    height: auto!important;
+}
+.my-model-table .ant-tooltip-arrow-content::before {
+    background: white!important;
+}
+.my-model-table .ant-tooltip-content {
+    top: 18px!important;
+}
+
+/*我的模型详情描述*/
+.my-model-detail-desc .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 20px!important;
+    color: #646464!important;
+    font-weight: 400!important;
+    padding: 15px 22px!important;
+    background: white!important;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.09)!important;
+    max-width: 616px!important;
+    height: auto!important;
+}
+.my-model-detail-desc .ant-tooltip-arrow-content::before {
+    background: white!important;
+}
+.my-model-detail-desc .ant-tooltip-content {
+    top: 18px!important;
+}
+
+/*表格操作列*/
+.operator-line .ant-tooltip-inner{
+    font-size: 14px!important;
+    line-height: 14px!important;
+    color: white!important;
+    font-weight: 400!important;
+    padding: 6px!important;
+    background: black!important;
+    box-shadow: unset!important;
+    height: auto!important;
+}
+.operator-line .ant-tooltip-arrow-content::before {
+    background: black!important;
+}
+
+.operator-line .ant-tooltip-arrow-content {
+    bottom: -5px!important;
+}
+
+.operator-line .ant-tooltip-content {
+    top: 14px!important;
+}
+
+/*点赞和踩*/
+.like-or-unlike-or-copy .ant-tooltip-inner{
+    font-weight: 400!important;
+    padding: 10px 14px!important;
+    background: rgba(0,0,0,0.44)!important;
+    box-shadow: unset!important;
+    height: auto!important;
+    font-size: 16px!important;
+    line-height: 16px!important;
+    color: white!important;
+    border-radius: 8px!important;
+}
+.like-or-unlike-or-copy .ant-tooltip-arrow-content::before {
+    background: rgba(0,0,0,0.44)!important;
+}
+
+.like-or-unlike-or-copy .ant-tooltip-arrow-content {
+    bottom: -5px!important;
+}
+
+.like-or-unlike-or-copy .ant-tooltip-content {
+    top: 14px!important;
+}
+
+/*喜欢和不喜欢*/
+.like-or-unlike .ant-tooltip-inner{
+    font-weight: 500!important;
+    padding: 14px 14px!important;
+    /*background: rgba(0,0,0,0.44);*/
+    background: rgba(43, 42, 42, 0.7)!important;
+    box-shadow: unset!important;
+    height: auto!important;
+    font-size: 14px!important;
+    line-height: 14px!important;
+    color: white!important;
+    border-radius: 8px!important;
+}
+.like-or-unlike .ant-tooltip-arrow-content::before {
+    background: rgba(43, 42, 42, 0.7)!important;
+}
+
+.like-or-unlike .ant-tooltip-arrow-content {
+    bottom: -5px!important;
+}
+
+.like-or-unlike .ant-tooltip-content {
+    top: 14px!important;
+}

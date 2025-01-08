@@ -1,0 +1,202 @@
+/*最外层*/
+.toastui-editor-defaultUI {
+  border: 1px solid rgba(236,238,245,1)!important;
+}
+.toastui-editor-defaultUI:hover {
+  border: 1px solid #70bcc2!important;
+}
+.toastui-editor-defaultUI:focus {
+  border: 1px solid red!important;
+}
+
+
+.toastui-editor-toolbar {
+  height: 40px!important;
+}
+
+.toastui-editor-defaultUI .toastui-editor-md-tab-container {
+  height: 40px!important;
+  border-bottom: unset!important;
+}
+
+.toastui-editor-defaultUI-toolbar {
+  height: 40px!important;
+  border-bottom: unset!important;
+  background-color: #f5fbfb!important;
+}
+
+.toastui-editor-contents h1,.toastui-editor-md-heading1 {
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0 !important;
+  font-weight: 500!important;
+  color:  #323232!important;
+
+}
+
+.toastui-editor-contents h2 ,.toastui-editor-md-heading2{
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0px!important;
+  font-weight: 500!important;
+  color:  #323232!important;
+}
+.toastui-editor-contents h3 ,.toastui-editor-md-heading3{
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0px!important;
+  font-weight: 500!important;
+  color:  #323232!important;
+}
+.toastui-editor-contents h4 ,.toastui-editor-md-heading4{
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0px!important;
+  font-weight: 500!important;
+  color:  #323232!important;
+}
+.toastui-editor-contents h5 ,.toastui-editor-md-heading5{
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0px!important;
+  font-weight: 500!important;
+  color:  #323232!important;
+}
+.toastui-editor-contents h6,.toastui-editor-md-heading6 {
+  font-size: 14px!important;
+  line-height: 14px!important;
+  border-bottom: unset!important;
+  margin: 24px 0 8px 0!important;
+  padding-bottom: 0px!important;
+  font-weight: 500!important;
+  color:  #323232!important;
+}
+
+.toastui-editor-contents p{
+  width: 100%!important;
+  margin: 0px 0 0px 0!important;
+  color: #646464!important;
+  font-size: 14px!important;
+  position: relative!important;
+  display: inline-flex!important;
+  flex-direction: column!important;
+  /*align-items: center!important;*/
+}
+
+.toastui-editor-contents .toastui-editor-md-preview-highlight::after {
+  background-color: unset!important;
+}
+
+.toastui-editor-md-container .toastui-editor-md-preview .toastui-editor-contents {
+  padding-top: 0px!important;
+}
+
+.ProseMirror{
+  height: calc(100% - 8px)!important;
+  margin: 0!important;
+  color: #646464!important;
+  font-size: 14px!important;
+  position: relative!important;
+}
+
+.toastui-editor-defaultUI .ProseMirror {
+  padding: 17px 51px 17px 17px!important;
+}
+
+.toastui-editor-md-container .toastui-editor-md-preview {
+  padding: 17px 51px 17px 17px!important;
+}
+
+.toastui-editor-contents pre{
+  background-color: rgba(148,198,203,0.04)!important;
+}
+
+.toastui-editor-contents table{
+  width: 100%!important;
+  border: unset!important;
+}
+
+.toastui-editor-contents table th {
+  word-break: break-word!important;
+  background-color: #F9FAFA!important;
+  color: #515a6e!important;
+  font-size: 13px!important;
+  border: unset!important;
+  padding: 5px 14px 5px 12px!important;
+  height: 32px!important;
+  text-align: left!important;
+  font-weight: 500!important;
+}
+
+.toastui-editor-contents table td {
+  border: unset!important;
+  padding: 5px 14px 5px 12px!important;
+  height: 32px!important;
+  color: #646464!important;
+  text-align: left!important;
+}
+
+.toastui-editor-md-tab-container .toastui-editor-tabs{
+  margin-left: unset!important;
+  display: flex!important;
+  border: unset!important;
+
+}
+
+.toastui-editor-md-tab-container .tab-item.active {
+  background-color: white!important;
+}
+
+.toastui-editor-md-tab-container .tab-item{
+  margin-top: unset!important;
+  height: 100%!important;
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+  border: unset!important;
+  background-color: #f5fbfb!important;
+  font-weight: 400!important;
+  color: #646464!important;
+  font-family: SourceHanSansSC-Normal, serif;
+}
+
+.toastui-editor-defaultUI-toolbar button {
+  margin: 4px 5px!important;
+}
+
+.toastui-editor-contents code,
+.toastui-editor-md-code.toastui-editor-md-marked-text{
+  font-size: 14px!important;
+  color: #4CAAB4!important;
+  background-color: unset!important;
+}
+
+.toastui-editor-mode-switch{
+  display: none!important;
+  height: 0 !important;
+  overflow: hidden!important;
+}
+
+.ProseMirror,
+.toastui-editor-contents {
+  font-family: PingFang SC,Helvetica Neue,Helvetica,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif!important;
+}
+
+.toastui-editor-contents img {
+  margin: 18px auto 0!important;
+  /*padding: 0 45px!important;*/
+  height: auto!important;
+  max-height: 300px!important;
+  width: fit-content!important;
+  max-width: calc(100% - 90px)!important;
+}

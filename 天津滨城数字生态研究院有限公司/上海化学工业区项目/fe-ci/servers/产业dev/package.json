@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "产业经济平台": "node ../../dist.js dev industrial-economic-platform iep-parent",
+    "产业经济管理后台": "node ../../dist.js dev industrial-economic-platform-manage iep-parent"
+  }
+}

@@ -1,0 +1,63 @@
+.ant-menu {
+    color:  #7D8699!important;
+}
+
+.ant-menu-item-selected {
+    font-weight: 500!important;
+}
+
+.ant-menu svg {
+    position: relative!important;
+    right: 9px!important;
+}
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+    background-color: #dfe6ff!important;
+}
+
+.ant-menu-inline.ant-menu-root .ant-menu-item {
+    /*padding-left: 15px!important;*/
+}
+
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+    height: 36px!important;
+    line-height: 36px!important;
+}
+
+.ant-menu-vertical .ant-menu-item::after,
+.ant-menu-vertical-left .ant-menu-item::after,
+.ant-menu-vertical-right .ant-menu-item::after,
+.ant-menu-inline .ant-menu-item::after {
+    border-right: 0 solid #2554FF!important;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+    border-right: unset!important;
+}
+
+.ant-menu-inline .ant-menu-item,
+.ant-menu-inline .ant-menu-submenu-title {
+    width: 100%!important;
+}
+
+.ant-menu-submenu-expand-icon,
+.ant-menu-submenu-arrow {
+    color: #a3a9ba!important;
+}
+
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-expand-icon,
+.ant-menu-submenu:hover > .ant-menu-submenu-title > .ant-menu-submenu-arrow {
+    color: #2554FF!important;
+}
+
+.ant-menu-sub.ant-menu-inline {
+    background: white!important;
+}
