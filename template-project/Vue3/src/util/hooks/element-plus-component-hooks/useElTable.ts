@@ -78,7 +78,7 @@ export const useElTable = (props: IUseElTableProps) => {
 	})
 
 	// 排序
-	const changeSort = ({prop, order = ''}) => {
+	const changeSort = async ({prop, order = ''}) => {
 		if (order === 'ascending') {
 			order = 'asc'
 		} else if (order === 'descending') {
@@ -90,7 +90,7 @@ export const useElTable = (props: IUseElTableProps) => {
 			orderFiled: order ? camelToSnake(prop) : '',
 			orderStatus: order,
 		})
-		fetchTable.doFetch()
+		await fetchTable.doFetch()
 	}
 
 	return {

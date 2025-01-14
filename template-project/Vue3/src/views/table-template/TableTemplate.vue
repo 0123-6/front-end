@@ -60,13 +60,11 @@ const tableObject = useElTable({
 })
 formObject.addResetHook(tableObject.reset)
 const clickSearch = async () => {
-	try {
-		await formObject.validate()
-		tableObject.reset()
-		tableObject.doFetch()
-	} catch (error) {
-		console.log('校验失败')
+	if (!await formObject.validate()) {
+		return
 	}
+	tableObject.reset()
+	await tableObject.doFetch()
 }
 const clickReset = () => {
 	formObject.reset()

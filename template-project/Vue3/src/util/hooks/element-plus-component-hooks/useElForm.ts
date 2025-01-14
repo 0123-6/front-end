@@ -14,7 +14,7 @@ export interface IUseElFormReturn {
 	rules: object,
 	reset: Function,
 	addResetHook: Function,
-	validate: Function,
+	validate: () => Promise<boolean>,
 }
 
 export const useElForm = (props: IUseElFormProps): IUseElFormReturn => {
@@ -55,8 +55,14 @@ export const useElForm = (props: IUseElFormProps): IUseElFormReturn => {
 		}
 	}
 
-	const validate = async () => {
-		await formRef.value!.validate()
+	const validate = async (): Promise<boolean> => {
+		try {
+			await formRef.value!.validate()
+			return true
+		} catch (error) {
+			console.log('校验失败', error)
+			return false
+		}
 	}
 
 	return {

@@ -17,7 +17,10 @@ const fetchDownload = useBaseFetch({
 	}),
 })
 const clickOk = async () => {
-	await fetchDownload.doFetch()
+	const isOk = await fetchDownload.doFetch()
+	if (!isOk) {
+		return
+	}
 	emits('ok')
 }
 const clickCancel = () => {

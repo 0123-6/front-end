@@ -41,19 +41,20 @@ export const useBaseFetch = (props: IUseBaseFetchParams) => {
 			}
 		}, 0)
 	}
-	const doFetch = async () => {
+	const doFetch = async (): Promise<boolean> => {
 		beforeFetch()
 		try {
-			const response = await baseFetch({
+			const fetchObject = await baseFetch({
 				signal: abortController.signal,
 				...fetchOptionFn(),
 			})
-			if (!response) {
-				return
+			if (!fetchObject.isOk) {
+				return false
 			}
 			if (transformResponseDataFn) {
-				transformResponseDataFn(response?.data)
+				transformResponseDataFn(fetchObject.responseData?.data)
 			}
+			return true
 		} finally {
 			resetIsFetching()
 		}

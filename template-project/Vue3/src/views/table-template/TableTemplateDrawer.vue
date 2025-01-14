@@ -65,14 +65,15 @@ const fetchUpdate = useBaseFetch({
 	}),
 })
 const clickOk = async () => {
-	try {
-		await formObject.validate()
-		await fetchUpdate.doFetch()
-		ElMessage.success('编辑成功!')
-		emits('ok')
-	} catch (error) {
-		console.log('校验失败')
+	if (!await formObject.validate()) {
+		return
 	}
+	const isOk = await fetchUpdate.doFetch()
+	if (!isOk) {
+		return
+	}
+	ElMessage.success('编辑成功!')
+	emits('ok')
 }
 const clickCancel = () => {
 	emits('cancel')

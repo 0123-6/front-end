@@ -69,9 +69,16 @@ interface IResponseData {
 	data: Record<string, any>
 }
 
+interface IBaseFetchReturn {
+	// 是否成功
+	isOk: boolean,
+	// 返回数据
+	responseData?: IResponseData,
+}
+
 // 没有超时功能
 // 没有重试机制
-export async function baseFetch(props: IBaseFetch): Promise<Record<string, any> | void> {
+export async function baseFetch(props: IBaseFetch): Promise<IBaseFetchReturn> {
 	let {
 		url,
 
@@ -124,7 +131,9 @@ export async function baseFetch(props: IBaseFetch): Promise<Record<string, any> 
 		// 接口无效或服务器错误
 		if (!response.ok) {
 			errorMessage('api请求失败：' + response.status + ' 接口无效或服务器错误')
-			return
+			return {
+				isOk: false,
+			}
 		}
 
 		// 如果是json格式
@@ -139,13 +148,20 @@ export async function baseFetch(props: IBaseFetch): Promise<Record<string, any> 
 				if (responseData.code == 901) {
 					goLoginPage()
 				}
-				return
+				return {
+					isOk: false,
+				}
 			} else if (isFile) {
 				// 文件类型得到json表示错误
 				ElMessage.warning('文件下载失败: ' + responseData?.msg || responseData?.message || '')
-				return
+				return {
+					isOk: false,
+				}
 			}
-			return responseData
+			return {
+				isOk: true,
+				responseData,
+			}
 		} else {
 			// 文件类型
 			// 提取文件名
@@ -160,7 +176,9 @@ export async function baseFetch(props: IBaseFetch): Promise<Record<string, any> 
 			const responseBlob = await response.blob()
 			if (responseBlob.size === 0) {
 				ElMessage.warning('文件为空文件,无法下载')
-				return
+				return {
+					isOk: false,
+				}
 			}
 
 			const file = new File([responseBlob], fileName, {type: responseBlob.type,})
@@ -173,13 +191,21 @@ export async function baseFetch(props: IBaseFetch): Promise<Record<string, any> 
 					ElMessage.error(text)
 				}
 			})
+			return {
+				isOk: true,
+			}
 		}
 	} catch (e) {
 		if ((e as Error).name === 'AbortError') {
 			console.log('手动停止的错误')
-			return
+			return {
+				isOk: false,
+			}
 		} else {
 			errorMessage('api请求失败：网络错误')
+			return {
+				isOk: false,
+			}
 		}
 	} finally {
 		// 执行后置钩子
