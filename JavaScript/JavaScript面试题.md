@@ -213,6 +213,8 @@ console.log(a, b)
 
 ## JavaScript运算符优先级
 
+!x, await x,
+
 == 和 === 优先级高,
 
 位运算符 &

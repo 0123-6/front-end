@@ -48,10 +48,6 @@ const routes = [
 				path: '/module-four',
 				component: () => import('@views/module-four/ModuleFour.vue'),
 			},
-			{
-				path: '/module-five',
-				component: () => import('@views/module-five/ModuleFive.vue'),
-			},
 			// 个人中心
 			{
 				path: '/person-center',
