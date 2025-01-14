@@ -219,8 +219,6 @@ interface WidgetPreferences {
   fullscreen: boolean;
   /** 是否启用全局搜索部件 */
   globalSearch: boolean;
-  /** 是否启用语言切换部件 */
-  languageToggle: boolean;
   /** 是否开启锁屏功能 */
   lockScreen: boolean;
   /** 是否显示通知部件 */

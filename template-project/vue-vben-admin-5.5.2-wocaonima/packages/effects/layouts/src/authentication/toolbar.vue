@@ -8,7 +8,6 @@ import { preferences } from '@vben/preferences';
 import {
   AuthenticationColorToggle,
   AuthenticationLayoutToggle,
-  LanguageToggle,
   ThemeToggle,
 } from '../widgets';
 
@@ -26,7 +25,6 @@ const props = withDefaults(defineProps<Props>(), {
 
 const showColor = computed(() => props.toolbarList.includes('color'));
 const showLayout = computed(() => props.toolbarList.includes('layout'));
-const showLanguage = computed(() => props.toolbarList.includes('language'));
 const showTheme = computed(() => props.toolbarList.includes('theme'));
 </script>
 
@@ -43,7 +41,6 @@ const showTheme = computed(() => props.toolbarList.includes('theme'));
       <AuthenticationLayoutToggle v-if="showLayout" />
     </div>
     <!-- Always show Language and Theme toggles -->
-    <LanguageToggle v-if="showLanguage && preferences.widget.languageToggle" />
     <ThemeToggle v-if="showTheme && preferences.widget.themeToggle" />
   </div>
 </template>

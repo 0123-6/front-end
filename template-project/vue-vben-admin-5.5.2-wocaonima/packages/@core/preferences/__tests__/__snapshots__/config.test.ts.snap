@@ -107,7 +107,6 @@ exports[`defaultPreferences immutability test > should not modify the config obj
   "widget": {
     "fullscreen": true,
     "globalSearch": true,
-    "languageToggle": true,
     "lockScreen": true,
     "notification": true,
     "refresh": true,

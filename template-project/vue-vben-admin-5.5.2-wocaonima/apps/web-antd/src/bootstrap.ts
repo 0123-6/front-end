@@ -8,8 +8,6 @@ import '@vben/styles/antd';
 
 import { useTitle } from '@vueuse/core';
 
-import { $t, setupI18n } from '#/locales';
-
 import { initComponentAdapter } from './adapter/component';
 import App from './app.vue';
 import { router } from './router';
@@ -19,9 +17,6 @@ async function bootstrap(namespace: string) {
   await initComponentAdapter();
 
   const app = createApp(App);
-
-  // 国际化 i18n 配置
-  await setupI18n(app);
 
   // 配置 pinia-tore
   await initStores(app, { namespace });

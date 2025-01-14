@@ -360,11 +360,29 @@ corepack enable
 pnpm set registry https://registry.npmmirror.com
 ```
 
+# 可以在前端项目中使用nodejs库吗?
 
+不可以,因为nodejs库运行在nodejs环境,而前端项目运行在浏览器环境,因此,nodejs库不可以在前端项目中直接使用.
 
+# nodejs项目的标准配置文件
 
+.npmrc是标准配置文件
 
+```cmd
+registry = http://ipw.clic/artifactory/api/npm/public-npm-release-virtual/
+```
 
+# npm和pnpm生命周期
 
+```json
+{
+  "scripts": {
+    "preinstall": "echo 'Before install...'",
+    "postinstall": "echo 'After install...'"
+  }
+}
+```
 
+nodejs项目的钩子函数,包括**自己的项目**和**依赖项目**.
 
+pnpm默认禁用生命周期钩子,为了安全.

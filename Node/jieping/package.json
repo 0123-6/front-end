@@ -1,0 +1,17 @@
+{
+  "name": "jieping",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "puppeteer": "^23.11.1"
+  },
+  "packageManager": "pnpm@9.15.3"
+}
