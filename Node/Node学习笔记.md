@@ -338,6 +338,10 @@ ncu --target-minor -u
 
 
 
+**pnpm是推荐选择**.
+
+
+
 使用项目指定的pnpm版本进行依赖安装 
 
 corepack enable

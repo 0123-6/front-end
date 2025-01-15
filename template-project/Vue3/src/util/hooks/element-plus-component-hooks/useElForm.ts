@@ -4,7 +4,7 @@ import {useResetReactive} from "@/util/hooks/useResetState";
 
 export interface IUseElFormProps {
 	formRef: Ref<FormInstance | null>,
-	dataFn: () => object,
+	dataFn: <T>() => T,
 	rules?: object,
 }
 
