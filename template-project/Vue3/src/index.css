@@ -7,13 +7,13 @@
   padding: 0;
   box-sizing: border-box;
   /*overflow不能设置为hidden,因为element plus依赖overflow的默认属性*/
-  /*overflow: hidden;*/
+  overflow: visible;
 
-  /*不会自动增长*/
+  /*默认值,不会自动增长*/
   flex-grow: 0;
-  /*不会自动压缩*/
-  flex-shrink: 0;
-  /*主轴大小自动*/
+  /*默认值不可修改,因为element-plus依赖flex-shrink的默认属性*/
+  flex-shrink: 1;
+  /*默认值,主轴大小自动*/
   flex-basis: auto;
 }
 
