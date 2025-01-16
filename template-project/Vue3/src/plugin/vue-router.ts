@@ -77,10 +77,6 @@ const routes = [
 				path: '/table-template',
 				component: () => import('@views/table-template/TableTemplate.vue'),
 			},
-			{
-				path: '/test2',
-				component: () => import('@views/table-template/TestComp.vue'),
-			},
 		],
 	},
 	// 404
