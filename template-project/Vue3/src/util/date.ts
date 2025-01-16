@@ -1,11 +1,11 @@
-import dayjs from "dayjs";
+import dayjs, {Dayjs} from "dayjs";
 
 // 格式化时间
 export const dateToYYYYMMDD = (date = new Date()) => {
 	return dayjs(date).format('YYYY-MM-DD')
 }
 
-export const dateToYYYYMMDDHHMMSS = (date = new Date()) => {
+export const dateToYYYYMMDDHHMMSS = (date: (string | Date | Dayjs) = new Date()) => {
 	return dayjs(date).format('YYYY-MM-DD HH:mm:ss')
 }
 

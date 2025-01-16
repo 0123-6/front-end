@@ -65,7 +65,7 @@ const isExpanded = ref(false)
 const isOverflow = ref(false)
 // 检测是否完成
 const hasCheckedOverflow = ref(false)
-const textElement = ref<HTMLSpanElement | null>(null)
+const textElement = ref<HTMLSpanElement>()
 
 // 切换展开/收起
 const toggleExpand = () => {

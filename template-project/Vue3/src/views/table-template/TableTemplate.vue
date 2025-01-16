@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import {isPermission} from "@/plugin/pinia.ts";
 import {useAlarmTypeList, useSystemList} from "@views/hooks/commonApi.ts";
-import {computed, useTemplateRef} from "vue";
+import {computed, ref} from "vue";
 import {useElForm} from "@/util/hooks/element-plus-component-hooks/useElForm.ts";
 import {dateShortcutsWeekAndMonthAndYear, dateToYYYYMMDDHHMMSS, isAfterToday} from "@/util/date.ts";
 import dayjs from "dayjs";
@@ -12,6 +12,7 @@ import BaseTableColumn from "@/components/base-table/BaseTableColumn.vue";
 import TableNoData from "@/components/table-no-data/TableNoData.vue";
 import TableTemplateDrawer from "@views/table-template/TableTemplateDrawer.vue";
 import TableTemplateDialog from "@views/table-template/TableTemplateDialog.vue";
+import {FormInstance, TableInstance} from "element-plus";
 
 const fetchSystemList = isPermission('fetchSystemList') ? useSystemList() : null
 const fetchAlarmTypeList = useAlarmTypeList()
@@ -22,7 +23,7 @@ const statusList = [
 	{label: '恢复', value: '0'},
 ]
 
-const formRef = useTemplateRef('formRef')
+const formRef = ref<FormInstance>()
 const formObject = useElForm({
 	formRef,
 	dataFn: () => ({
@@ -49,7 +50,7 @@ if (location.search) {
 	})
 }
 
-const tableRef = useTemplateRef('tableRef')
+const tableRef = ref<TableInstance>()
 const tableObject = useElTable({
 	tableRef,
 	fetchUrl: '/getTableData',
@@ -86,7 +87,7 @@ const clickArrayEdit = () => {
 		isShow: true,
 	})
 }
-const clickEdit = item => {
+const clickEdit = (item: Record<string, any>) => {
 	drawerObject.reset({
 		showDrawerType: 'item',
 		selectItem: item,
@@ -135,7 +136,7 @@ const clickDownload = () => {
 					           collapse-tags-tooltip
 					           style="width: 322px;"
 					>
-						<el-option v-for="(item, index) in fetchSystemList.systemList"
+						<el-option v-for="(item) in fetchSystemList.systemList"
 						           :key="item.value"
 						           :label="`${item.label}[${item.value}]`"
 						           :value="item.value"
@@ -155,7 +156,7 @@ const clickDownload = () => {
 					           collapse-tags-tooltip
 					           style="width: 322px;"
 					>
-						<el-option v-for="(item, index) in fetchAlarmTypeList.alarmTypeList"
+						<el-option v-for="(item) in fetchAlarmTypeList.alarmTypeList"
 						           :key="item.value"
 						           :label="item.label"
 						           :value="item.value"
@@ -173,7 +174,7 @@ const clickDownload = () => {
 					           collapse-tags-tooltip
 					           style="width: 322px;"
 					>
-						<el-option v-for="(item, index) in statusList"
+						<el-option v-for="(item) in statusList"
 						           :key="item.value"
 						           :label="item.label"
 						           :value="item.value"

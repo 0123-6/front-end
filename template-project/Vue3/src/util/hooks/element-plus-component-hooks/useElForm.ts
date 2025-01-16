@@ -1,23 +1,19 @@
-import {FormInstance} from "element-plus";
+import {FormInstance, FormItemRule} from "element-plus";
 import {Ref} from "vue";
 import {useResetReactive} from "@/util/hooks/useResetState";
 
-export interface IUseElFormProps {
-	formRef: Ref<FormInstance | null>,
-	dataFn: <T>() => T,
-	rules?: object,
-}
-
-export interface IUseElFormReturn {
-	formRef: Ref<FormInstance | null>,
-	data: object,
-	rules: object,
-	reset: Function,
-	addResetHook: Function,
+export const useElForm = <T extends Record<string, any>>(props: {
+	formRef: Ref<FormInstance>,
+	dataFn: () => T,
+	rules?: Record<string, FormItemRule[]>,
+}): {
+	readonly formRef: Ref<FormInstance>,
+	data: T,
+	readonly rules: Record<string, FormItemRule[]>,
+	reset: (newValue?: Partial<T>) => void,
+	addResetHook: (fn: Function) => void,
 	validate: () => Promise<boolean>,
-}
-
-export const useElForm = (props: IUseElFormProps): IUseElFormReturn => {
+} => {
 	const {
 		formRef,
 		dataFn,
@@ -40,7 +36,7 @@ export const useElForm = (props: IUseElFormProps): IUseElFormReturn => {
 	}
 
 	// 重置表单组件
-	const reset = (newValue:undefined|object = undefined) => {
+	const reset = (newValue?: Partial<T>) => {
 		// 赋值
 		if (newValue) {
 			resetData(newValue)

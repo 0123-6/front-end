@@ -21,8 +21,8 @@ const props = defineProps({
 		default: '',
 	},
 })
-const editor = ref(null)
-const markdownRef = ref(null)
+const editor = ref()
+const markdownRef = ref<HTMLElement>()
 // mounted
 onMounted(() => {
 	editor.value = Editor.factory({

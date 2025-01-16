@@ -37,8 +37,8 @@ import CropperComp from "@/components/CropperComp.vue";
 import {ableSelectFileByClick, ableSelectFileByDrag, type ISelectFileProps} from "@/util/file.ts";
 
 // state
-const clickElementRef = ref(null)
-const dragElementRef = ref(null)
+const clickElementRef = ref<HTMLElement>()
+const dragElementRef = ref<HTMLDivElement>()
 const dialogVisible = ref(false)
 const imgUrl = ref('')
 const imgUrl2 = ref('')

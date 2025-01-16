@@ -1,15 +1,22 @@
 import {useResetReactive} from "@/util/hooks/useResetState";
 
-export interface IUseFeedbackProps {
-	dataFn?: () => object,
-	resetHook?: Function,
-	okHook?: Function,
-}
-
 // Drawer,Dialog组件使用
-export const useElFeedback = (props: IUseFeedbackProps = {}) => {
+export const useElFeedback = <T extends Record<string, any> = {}>(props: {
+	dataFn?: () => T,
+	resetHook?: () => void,
+	okHook?: () => void,
+} = {}): {
+	data: T & {
+		isShow: boolean,
+		selectItemList: Record<string, any>[],
+		selectItem: Record<string, any>,
+	},
+	reset: (newValue?: Partial<typeof data>) => void,
+	onOk: () => void,
+	onCancel: () => void,
+} => {
 	const {
-		dataFn = () => ({}),
+		dataFn = () => ({} as T),
 		resetHook = () => {},
 		okHook = () => {},
 	} = props
@@ -22,11 +29,11 @@ export const useElFeedback = (props: IUseFeedbackProps = {}) => {
 		// 是否显示
 		isShow: false,
 		// 表格的多选项
-		selectItemList: [],
+		selectItemList: [] as any[],
 		// 选中的单个项
-		selectItem: {},
+		selectItem: {} as Record<string, any>,
 	}))
-	const reset = (newValue:undefined|object = undefined) => {
+	const reset = (newValue?: Partial<typeof data>) => {
 		// 赋值
 		if (newValue) {
 			resetData(newValue)

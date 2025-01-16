@@ -4,7 +4,7 @@
 		<div class="flex">
 			<div
 				class="flex flex-col gap-2 p-4 w-300px h-300px m-auto bg-gray-500/5 rounded"
-				ref="el"
+				ref="elRef"
 			>
 				<div
 					v-for="item in list"
@@ -23,7 +23,7 @@ import {ref} from "vue";
 import {useDraggable} from "vue-draggable-plus";
 
 // state
-const el = ref(null)
+const elRef = ref<HTMLElement>()
 const list = ref([
 	{
 		name: 'Joao',
@@ -44,7 +44,7 @@ const list = ref([
 ])
 // methods
 // 返回值是一个对象，包含了一些方法，比如 start、destroy、pause 等
-const { start } = useDraggable(el, list, {
+const { start } = useDraggable(elRef, list, {
 	animation: 150,
 	ghostClass: 'ghost',
 	onStart() {

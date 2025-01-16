@@ -84,8 +84,8 @@ const props = defineProps({
 	},
 })
 const editor = shallowRef(null)
-const markdownRef = ref(null)
-const importMarkdownFileButtonRef = ref(null)
+const markdownRef = ref()
+const importMarkdownFileButtonRef = ref()
 
 // mounted
 onMounted(() => {

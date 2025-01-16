@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import {useTemplateRef} from "vue";
+import {ref} from "vue";
 
-const iframeRef = useTemplateRef<HTMLIFrameElement>('iframe')
+const iframeRef = ref<HTMLIFrameElement>()
 const menuList = [
 	{
 		label: '模块1',
@@ -47,7 +47,7 @@ const clickMenu = component => {
 <!--				{{item}}-->
 <!--			</div>-->
 <!--		</div>-->
-		<iframe ref="iframe" src="https://jiangjiang0123.cn:444/" width="100%" height="100%"></iframe>
+		<iframe ref="iframeRef" src="https://jiangjiang0123.cn:444/" width="100%" height="100%"></iframe>
 	</div>
 </div>
 </template>

@@ -1,21 +1,21 @@
 <script setup lang="ts">
-import {useTemplateRef} from "vue";
+import {ref} from "vue";
 import {useElForm} from "@/util/hooks/element-plus-component-hooks/useElForm.ts";
 import {useBaseFetch} from "@/util/hooks/useBaseFetch.ts";
-import {ElMessage} from "element-plus";
+import {ElMessage, FormInstance} from "element-plus";
 import BaseDrawerComp from "@/components/base-drawer/BaseDrawerComp.vue";
 import BaseTitle from "@/components/BaseTitle.vue";
 import BaseContent from "@/components/base-content/BaseContent.vue";
 import BaseContentItem from "@/components/base-content/BaseContentItem.vue";
 
 interface IProps {
-	list: object[],
-	alarmTypeList: object[],
+	list: Record<string, any>[],
+	alarmTypeList: Record<string, any>[],
 }
 const props = defineProps<IProps>()
 const emits = defineEmits(['ok', 'cancel'])
 
-const formRef = useTemplateRef('formRef')
+const formRef = ref<FormInstance>()
 const formObject = useElForm({
 	formRef,
 	dataFn: () => ({
@@ -100,7 +100,7 @@ const clickCancel = () => {
 					           filterable
 					           style="width: 240px;"
 					>
-						<el-option v-for="(item, index) in props.alarmTypeList"
+						<el-option v-for="item in props.alarmTypeList"
 						           :key="item.value"
 						           :label="item.label"
 						           :value="item.value"

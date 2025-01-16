@@ -4,14 +4,32 @@ import {useBaseFetch} from "@/util/hooks/useBaseFetch";
 import {camelToSnake} from "@/util/stringUtil";
 import {useResetReactive} from "@/util/hooks/useResetState";
 
-export interface IUseElTableProps {
-	tableRef: Ref<TableInstance | null>,
+export const useElTable = (props: {
+	tableRef: Ref<TableInstance>,
 	fetchUrl: string,
-	fetchData?: () => Object,
+	fetchData?: () => Record<string, any>,
 	fetchMicroTask?: boolean,
-}
-
-export const useElTable = (props: IUseElTableProps) => {
+}): {
+	tableRef: Ref<TableInstance>,
+	params: {
+		pageNum: number,
+		pageSize: number,
+		// 排序属性
+		orderFiled: string,
+		// '', asc升序,desc降序
+		orderStatus: string,
+	},
+	reset: (newValue?: Partial<typeof params> | boolean) => void,
+	data: {
+		total: number,
+		list: any[],
+	},
+	changeSort: (args: { prop: string; order?: string }) => Promise<void>,
+	beforeFetchHookSet: Set<Function>,
+	readonly isFetching: boolean,
+	beforeFetch: () => void,
+	doFetch: () => Promise<boolean>,
+} => {
 	const {
 		tableRef,
 		fetchUrl,
@@ -34,7 +52,7 @@ export const useElTable = (props: IUseElTableProps) => {
 	// undefined: 重置一切
 	// object: 更新params
 	// true: 只重置位置
-	const reset = (newValue: undefined|object|boolean = undefined) => {
+	const reset = (newValue?: Partial<typeof params>|boolean) => {
 		// 重置位置
 		tableRef.value!.setScrollTop(0)
 		tableRef.value!.setScrollLeft(0)
