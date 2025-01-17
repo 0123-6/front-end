@@ -138,7 +138,7 @@ const clickDownload = () => {
 					>
 						<el-option v-for="(item) in fetchSystemList.systemList"
 						           :key="item.value"
-						           :label="`${item.label}[${item.value}]`"
+						           :label="item.label"
 						           :value="item.value"
 						/>
 					</el-select>
