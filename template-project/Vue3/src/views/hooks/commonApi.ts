@@ -20,7 +20,7 @@ export const useSystemList = () => {
 		}),
 		transformResponseDataFn: (responseData: Item[]) => {
 			systemList.value = responseData.map(item => ({
-				label: item.name,
+				label: `${item.name}[${item.id}]`,
 				value: item.id,
 			}))
 		},
