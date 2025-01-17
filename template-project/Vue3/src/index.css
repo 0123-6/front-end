@@ -2,21 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /*overflow不能设置为hidden,因为element plus依赖overflow的默认属性*/
-  overflow: visible;
-
-  /*默认值,不会自动增长*/
-  flex-grow: 0;
-  /*默认值不可修改,因为element-plus依赖flex-shrink的默认属性*/
-  flex-shrink: 1;
-  /*默认值,主轴大小自动*/
-  flex-basis: auto;
-}
-
 /*html文档根元素*/
 html {
 
@@ -40,17 +25,24 @@ body {
   background-color: #f7f7f7;
 }
 
-/*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
-
 *,
 ::before,
 ::after {
-  border-width: 0; /* 2 */
-  border-style: solid; /* 2 */
-  border-color: theme('borderColor.DEFAULT', currentColor); /* 2 */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*overflow不能设置为hidden,因为element plus依赖overflow的默认属性*/
+  overflow: visible;
+
+  /*默认值,不会自动增长*/
+  flex-grow: 0;
+  /*默认值不可修改,因为element-plus依赖flex-shrink的默认属性*/
+  flex-shrink: 1;
+  /*默认值,主轴大小自动*/
+  flex-basis: auto;
+  border-width: 0;
+  border-style: solid;
+  border-color: theme('borderColor.DEFAULT', currentColor);
 }
 
 ::before,
@@ -70,6 +62,7 @@ body {
 
 html,
 :host {
+  line-height: 1.5;
   -webkit-text-size-adjust: 100%; /* 2 */
   -moz-tab-size: 4; /* 3 */
   tab-size: 4; /* 3 */
@@ -208,7 +201,11 @@ textarea {
   color: inherit; /* 1 */
   margin: 0; /* 2 */
   padding: 0; /* 3 */
+  /*兼容element-plus*/
   outline: none;
+  font-feature-settings: inherit; /* 1 */
+  /*新添加,待测试*/
+  letter-spacing: inherit; /* 1 */
 }
 
 /*
@@ -220,16 +217,12 @@ select {
   text-transform: none;
 }
 
-/*
-1. Correct the inability to style clickable types in iOS and Safari.
-2. Remove default button styles.
-*/
-
 button,
-[type='button'],
-[type='reset'],
-[type='submit'] {
+input:where([type='button']),
+input:where([type='reset']),
+input:where([type='submit']) {
   -webkit-appearance: button; /* 1 */
+  /*兼容element-plus*/
   /*background-color: transparent; !* 2 *!*/
   /*background-image: none; !* 2 *!*/
 }
@@ -239,6 +232,7 @@ Use the modern Firefox focus style for all focusable elements.
 */
 
 :-moz-focusring {
+  /*auto -> none*/
   outline: none;
 }
 
@@ -373,6 +367,7 @@ Set the default cursor for buttons.
 button,
 [role="button"] {
   cursor: pointer;
+  /*兼容性*/
   background-color: unset;
 }
 
@@ -413,6 +408,6 @@ video {
 }
 
 /* Make elements with the HTML hidden attribute stay hidden by default */
-[hidden] {
+[hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
