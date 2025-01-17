@@ -27,6 +27,13 @@ const basicLineChartOption: echarts.EChartsOption = {
     // 坐标轴刻度是否朝内，默认朝外
     inside: false,
    },
+    axisLabel: {
+      color: '#646464',
+      // 显示所有label
+      interval: 0,
+      // 隐藏文字溢出的label
+      hideOverlap: true,
+    },
   },
   // y坐标轴,为value时可以不指定data,而是从series中获取
   yAxis: {
