@@ -17,11 +17,6 @@
   flex-basis: auto;
 }
 
-[data-overlayscrollbars-viewport] {
-  /*display: flex!important;*/
-  /*flex-direction: column!important;*/
-}
-
 /*html文档根元素*/
 html {
 
@@ -29,9 +24,7 @@ html {
 
 /*一个伪类,等效于html,比html优先级高*/
 :root {
-  --el-loading-spinner-size: 20px!important;
-  --drawer-header-height: 54px;
-  --drawer-footer-height: 88px;
+
 }
 
 body {

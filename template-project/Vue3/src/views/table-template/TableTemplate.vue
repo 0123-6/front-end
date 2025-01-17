@@ -105,7 +105,7 @@ const clickDownload = () => {
 </script>
 
 <template>
-	<div class="table-template w-full grow rounded bg-white p-4 flex flex-col">
+	<div class="hpj table-template w-full grow rounded bg-white p-4 flex flex-col">
 		<!--标题-->
 		<span class="text-text-title font-medium text-base">表格信息查询</span>
 		<!--form表单-->
@@ -288,36 +288,37 @@ const clickDownload = () => {
 			               @change="tableObject.doFetch"
 			/>
 		</div>
+		<!--feedback交互组件-->
+		<el-drawer v-model="drawerObject.data.isShow"
+		           title="编辑"
+		           :close-on-click-modal="true"
+		           :close-on-press-escape="false"
+		           :destroy-on-close="true"
+		           :size="712"
+		           @close="drawerObject.onCancel"
+		>
+			<table-template-drawer :list="drawerObject.data.showDrawerType === 'item' ? [drawerObject.data.selectItem] : drawerObject.data.selectItemList"
+			                       :alarm-type-list="fetchAlarmTypeList.alarmTypeList"
+			                       @ok="drawerObject.onOk"
+			                       @cancel="drawerObject.onCancel"
+			/>
+		</el-drawer>
+		<el-dialog v-model="dialogObject.data.isShow"
+		           title="下载数据报表"
+		           :width="400"
+		           :close-on-click-modal="true"
+		           :close-on-press-escape="false"
+		           :draggable="true"
+		           :align-center="true"
+		           :destroy-on-close="true"
+		           @close="dialogObject.onCancel"
+		>
+			<table-template-dialog :data="{...formObject.data, ...tableObject.params, }"
+			                       @ok="dialogObject.onOk"
+			                       @cancel="dialogObject.onCancel"
+			/>
+		</el-dialog>
 	</div>
-	<el-drawer v-model="drawerObject.data.isShow"
-	           title="编辑"
-	           :close-on-click-modal="true"
-	           :close-on-press-escape="false"
-	           :destroy-on-close="true"
-	           :size="712"
-	           @close="drawerObject.onCancel"
-	>
-		<table-template-drawer :list="drawerObject.data.showDrawerType === 'item' ? [drawerObject.data.selectItem] : drawerObject.data.selectItemList"
-		                       :alarm-type-list="fetchAlarmTypeList.alarmTypeList"
-		                       @ok="drawerObject.onOk"
-		                       @cancel="drawerObject.onCancel"
-		/>
-	</el-drawer>
-	<el-dialog v-model="dialogObject.data.isShow"
-	           title="下载数据报表"
-	           :width="400"
-	           :close-on-click-modal="true"
-	           :close-on-press-escape="false"
-	           :draggable="true"
-	           :align-center="true"
-	           :destroy-on-close="true"
-	           @close="dialogObject.onCancel"
-	>
-		<table-template-dialog :data="{...formObject.data, ...tableObject.params, }"
-		                       @ok="dialogObject.onOk"
-		                       @cancel="dialogObject.onCancel"
-		/>
-	</el-dialog>
 </template>
 
 
