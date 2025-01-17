@@ -296,6 +296,7 @@ const clickDownload = () => {
 		           :destroy-on-close="true"
 		           :size="712"
 		           @close="drawerObject.onCancel"
+		           modal-class="hpj"
 		>
 			<table-template-drawer :list="drawerObject.data.showDrawerType === 'item' ? [drawerObject.data.selectItem] : drawerObject.data.selectItemList"
 			                       :alarm-type-list="fetchAlarmTypeList.alarmTypeList"
@@ -312,6 +313,7 @@ const clickDownload = () => {
 		           :align-center="true"
 		           :destroy-on-close="true"
 		           @close="dialogObject.onCancel"
+		           modal-class="hpj"
 		>
 			<table-template-dialog :data="{...formObject.data, ...tableObject.params, }"
 			                       @ok="dialogObject.onOk"
