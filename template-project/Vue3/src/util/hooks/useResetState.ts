@@ -3,16 +3,22 @@ import {reactive, Ref, ref} from "vue";
 // 方便恢复ref定义的数据
 export const useResetRef = <T>(factory: () => T): {
 	state: Ref<T>,
-	resetState: (newValue?: T) => void,
+	setState: (newValue: T) => void,
+	resetState: () => void,
 } => {
 	const state = ref(factory()) as Ref<T>
-	// 重置数据或修改数据
-	const resetState = (newValue?: T) => {
-		state.value = newValue ?? factory()
+	// 修改数据
+	const setState = (newValue: T) => {
+		state.value = newValue
+	}
+	// 重置数据
+	const resetState = () => {
+		state.value = factory()
 	}
 
 	return {
 		state,
+		setState,
 		resetState,
 	}
 }
@@ -20,16 +26,22 @@ export const useResetRef = <T>(factory: () => T): {
 // 方便恢复reactive定义的数据
 export const useResetReactive = <T extends Record<string, any>>(factory: () => T): {
 	state: T,
-	resetState: (newValue?: Partial<T>) => void,
+	setState: (newValue: Partial<T>) => void,
+	resetState: () => void,
 } => {
 	const state = reactive(factory()) as T
-	// 重置数据或修改数据
-	const resetState = (newValue?: Partial<T>) => {
-		Object.assign(state, newValue ?? factory())
+	// 修改数据
+	const setState = (newValue: Partial<T>) => {
+		Object.assign(state, newValue)
+	}
+	// 重置数据
+	const resetState = () => {
+		Object.assign(state, factory())
 	}
 
 	return {
 		state,
+		setState,
 		resetState,
 	}
 }
