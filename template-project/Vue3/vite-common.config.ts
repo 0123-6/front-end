@@ -207,7 +207,15 @@ export function getViteConfig(props: IProps) {
 	return defineConfig({
 		// 构建配置
 		build: {
-			// 只支持最新浏览器
+			// 在vite项目中,无需使用babel,因此vite借助esbuild进行语法转换,最低支持es2015(chrome51),
+			// 需要注意的是,esbuild仅仅进行语法转换,而没有polyfill的功能.
+			// 对于更老的版本,使用vite官方插件@itejs/plugin-legacy来进行语法转换和polyfill自动注入
+			// @vitejs/plugin-legacy底层依赖babel.
+			// 2个特殊值,modules,esnext
+			// modules等效于['es2020', 'chrome87'],
+			// esnext为最新JavaScript,即无需任何转换
+			// 其它为自定义类型,可以为string | string[],最低支持es2015(chrome51)
+			// 该模板项目target设置为只支持最新浏览器
 			target: 'esnext',
 			// 自定义底层的 Rollup 打包配置。这与从 Rollup 配置文件导出的选项相同，并将与 Vite 的内部 Rollup 选项合并。
 			rollupOptions: {
