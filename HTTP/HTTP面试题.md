@@ -7,6 +7,7 @@
 ### GET和POST的区别
 
 - GET参数使用url传递有长度限制.POST放在body中,无长度限制.
+- GET因为没有body,所以也没有Content-type属性.
 - GET更不安全
 - GET只接受ASCLL字符,post无限制
 - GET产生一个TCP数据包,POST产生2个TCP数据包.

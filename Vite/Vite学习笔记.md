@@ -198,13 +198,49 @@ import.meta.env.DEV
 
 使用**base**属性.
 
+# 浏览器兼容性
+
+用于生产环境的构建包会假设目标浏览器支持现代JavaScript语法.默认情况下,vite的目标是能够
+
+- 原生支持ESM script标签
+- 原生支持ESM动态导入
+- import.meta
+
+的浏览器:
+
+- Chrome >= 87
+
+你也可以通过build.target指定构建目标,最低支持**es2015**.
+
+默认情况下,**vite只支持语法转义**,且**不包含任何polyfill**.你可以访问https://cdnjs.cloudflare.com/polyfill/ ,这个网站可以根据用户的浏览器UserAgent字符串自动生成polyfill包.
+
+## build.target
+
+- **类型：** `string | string[]`
+- **默认：** `'modules'`
+- **相关内容：** [浏览器兼容性](https://cn.vitejs.dev/guide/build.html#browser-compatibility)
+
+设置最终构建的浏览器兼容目标。默认值是一个 Vite 特有的值：`'modules'`，这是指 [支持原生 ES 模块](https://caniuse.com/es6-module)、[原生 ESM 动态导入](https://caniuse.com/es6-module-dynamic-import) 和 [`import.meta`](https://caniuse.com/mdn-javascript_operators_import_meta) 的浏览器。Vite 将替换 `modules` 为 `['es2020', 'edge88', 'firefox78', 'chrome87', 'safari14']`
+
+另一个特殊值是 `'esnext'` —— 即假设有原生动态导入支持，并只执行最低限度的转译。
+
+转换过程将会由 esbuild 执行，并且此值应该是一个合法的 [esbuild 目标选项](https://esbuild.github.io/api/#target)。自定义目标也可以是一个 ES 版本（例如：`es2015`）、一个浏览器版本（例如：`chrome58`）或是多个目标组成的一个数组。
+
+注意：如果代码包含不能被 `esbuild` 安全地编译的特性，那么构建将会失败.
 
 
 
+# 常见打包工具
 
+- vite: 在开发中使用esbuild,在构建时使用rollup
+- rollup
+- esbuild
 
+# babel
 
+在vite项目中,无需使用babel,vite默认面向现代浏览器并提供简单的语法转换,将ES2016+的代码转换为ES2015.
 
+vite的官方插件@vitejs/plugin-legacy封装了babel,来对旧浏览器提供支持.
 
 
 

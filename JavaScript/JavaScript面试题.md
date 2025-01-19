@@ -367,6 +367,15 @@ function myNew(constructorFunc, ...args) {
 }
 ```
 
+没有参数是,new时可以不写()
+
+```ts
+const set = new Set
+
+```
+
+
+
 ## getter和setter是什么?
 
 可以定义一个非普通属性,此时不能同时存在同名普通属性.
@@ -1416,7 +1425,7 @@ console.dir(s)
 s.hello()
 ```
 
-## ES6添加了哪些东西?
+## ES6(ES2015)添加了哪些东西?
 
 ### 文件相关
 
@@ -1456,13 +1465,32 @@ s.hello()
 - 展开语法，别名扩展运算符(剩余参数的逆运算)
 - 迭代器和for of
 
-## ES2020引入了什么?
-
-### 操作相关
-
-?.
-
-??
+| Syntax transform                                             | Transformed when `--target` is below | Example                     |
+| ------------------------------------------------------------ | ------------------------------------ | --------------------------- |
+| [Exponentiation operator](https://github.com/tc39/proposal-exponentiation-operator) | `es2016`                             | `a ** b`                    |
+| [Async functions](https://github.com/tc39/ecmascript-asyncawait) | `es2017`                             | `async () => {}`            |
+| [Asynchronous iteration](https://github.com/tc39/proposal-async-iteration) | `es2018`                             | `for await (let x of y) {}` |
+| [Async generators](https://github.com/tc39/proposal-async-iteration) | `es2018`                             | `async function* foo() {}`  |
+| [Spread properties](https://github.com/tc39/proposal-object-rest-spread) | `es2018`                             | `let x = {...y}`            |
+| [Rest properties](https://github.com/tc39/proposal-object-rest-spread) | `es2018`                             | `let {...x} = y`            |
+| [Optional catch binding](https://github.com/tc39/proposal-optional-catch-binding) | `es2019`                             | `try {} catch {}`           |
+| [Optional chaining](https://github.com/tc39/proposal-optional-chaining) | `es2020`                             | `a?.b`                      |
+| [Nullish coalescing](https://github.com/tc39/proposal-nullish-coalescing) | `es2020`                             | `a ?? b`                    |
+| [`import.meta`](https://github.com/tc39/proposal-import-meta) | `es2020`                             | `import.meta`               |
+| [Logical assignment operators](https://github.com/tc39/proposal-logical-assignment) | `es2021`                             | `a ??= b`                   |
+| [Class instance fields](https://github.com/tc39/proposal-class-fields) | `es2022`                             | `class { x }`               |
+| [Static class fields](https://github.com/tc39/proposal-static-class-features) | `es2022`                             | `class { static x }`        |
+| [Private instance methods](https://github.com/tc39/proposal-private-methods) | `es2022`                             | `class { #x() {} }`         |
+| [Private instance fields](https://github.com/tc39/proposal-class-fields) | `es2022`                             | `class { #x }`              |
+| [Private static methods](https://github.com/tc39/proposal-static-class-features) | `es2022`                             | `class { static #x() {} }`  |
+| [Private static fields](https://github.com/tc39/proposal-static-class-features) | `es2022`                             | `class { static #x }`       |
+| [Ergonomic brand checks](https://github.com/tc39/proposal-private-fields-in-in) | `es2022`                             | `#x in y`                   |
+| [Class static blocks](https://github.com/tc39/proposal-class-static-block) | `es2022`                             | `class { static {} }`       |
+| [Import assertions](https://github.com/tc39/proposal-import-assertions) | `esnext`                             | `import "x" assert {}`1     |
+| [Import attributes](https://github.com/tc39/proposal-import-attributes) | `esnext`                             | `import "x" with {}`        |
+| [Auto-accessors](https://github.com/tc39/proposal-decorators#class-auto-accessors) | `esnext`                             | `class { accessor x }`      |
+| [`using` declarations](https://github.com/tc39/proposal-explicit-resource-management) | `esnext`                             | `using x = y`               |
+| [Decorators](https://github.com/tc39/proposal-decorators)    | `esnext`                             | `@foo class Bar {}`         |
 
 ## JavaScript如何实现继承?
 
