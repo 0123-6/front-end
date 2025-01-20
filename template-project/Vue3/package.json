@@ -6,8 +6,7 @@
   "type": "module",
   "author": "hpj",
   "license": "ISC",
-  "module": "index.js",
-  "main": "index.js",
+  "module": "src/index.ts",
   "scripts": {
     "dev": "vite",
     "build": "vite build"

@@ -227,6 +227,10 @@ npm list -g
 
 描述信息
 
+### module
+
+type为module时的入口文件,优先级大于main
+
 ### main
 
 入口文件
@@ -312,6 +316,8 @@ npm-check-updates
 
 ```cmd
 npm i -g npm-check-updates
+# 设置安装依赖的链接
+npm i -g xxx --registry=http://ipw.clic/artifactory/api/npm/public-npm-release-virtual/
 
 # 用法
 # 更新全局包
