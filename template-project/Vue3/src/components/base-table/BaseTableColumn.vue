@@ -1,16 +1,3 @@
-<template>
-	<div class="base-table-column w-full h-full flex flex-col justify-center items-center">
-		<slot v-if="$slots.default" name="default"></slot>
-		<span v-else
-		      class="text-left tracking-tight break-all leading-[20px]"
-		      :style="{
-						color: styleMap[props?.contentColor || 'text']
-					}"
-		      :class="[props?.lineClamp == 2 ? 'line-clamp-2' : 'line-clamp-1']"
-		>{{props.content}}</span>
-	</div>
-</template>
-
 <script lang="ts" setup>
 import {defineProps} from "vue";
 
@@ -28,3 +15,16 @@ const styleMap = {
 }
 const props = defineProps<IProps>()
 </script>
+
+<template>
+	<div class="hpj base-table-column w-full h-full flex flex-col justify-center items-center">
+		<slot v-if="$slots.default" name="default"></slot>
+		<span v-else
+		      class="text-left tracking-tight break-all leading-[20px]"
+		      :style="{
+						color: styleMap[props?.contentColor || 'text']
+					}"
+		      :class="[props?.lineClamp == 2 ? 'line-clamp-2' : 'line-clamp-1']"
+		>{{props.content}}</span>
+	</div>
+</template>

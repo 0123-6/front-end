@@ -1,48 +1,3 @@
-<template>
-	<!--最外层-->
-	<div class="w-[1000px] h-[600px] flex justify-between items-center">
-		<!--左-->
-		<cropper-canvas ref="cropperCanvas" background class="w-[600px] h-[100%]">
-			<cropper-image ref="cropperImage"
-			               :src="imgUrl"
-			               rotatable
-			               scalable
-			               skewable
-			               translatable
-			               @transform="onCropperImageTransform"
-			></cropper-image>
-			<cropper-shade hidden></cropper-shade>
-			<cropper-handle action="select" plain></cropper-handle>
-			<cropper-selection ref="cropperSelection"
-			                   id="cropper-selection"
-			                   class="rounded-full"
-			                   aspect-ratio="1"
-			                   initial-coverage="0.5" movable resizable zoomable
-			                   @change="onCropperSelectionChange"
-			>
-				<cropper-grid role="grid" bordered covered></cropper-grid>
-				<cropper-crosshair centered></cropper-crosshair>
-				<cropper-handle action="move" theme-color="rgba(255, 255, 255, 0.35)"></cropper-handle>
-				<cropper-handle action="n-resize"></cropper-handle>
-				<cropper-handle action="e-resize"></cropper-handle>
-				<cropper-handle action="s-resize"></cropper-handle>
-				<cropper-handle action="w-resize"></cropper-handle>
-				<cropper-handle action="ne-resize"></cropper-handle>
-				<cropper-handle action="nw-resize"></cropper-handle>
-				<cropper-handle action="se-resize"></cropper-handle>
-				<cropper-handle action="sw-resize"></cropper-handle>
-			</cropper-selection>
-		</cropper-canvas>
-		<!--右-->
-		<div class="flex flex-col items-center">
-			<cropper-viewer selection="#cropper-selection"
-			                class="w-[300px] h-[300px] border border-orange-400 rounded-full"
-			></cropper-viewer>
-			<button class="mt-5 w-[100px] h-[50px]" @click="exportImg">导出</button>
-		</div>
-	</div>
-</template>
-
 <script>
 import {defineComponent} from 'vue'
 import 'cropperjs'
@@ -153,3 +108,48 @@ export default defineComponent({
 	},
 })
 </script>
+
+<template>
+	<!--最外层-->
+	<div class="hpj w-[1000px] h-[600px] flex justify-between items-center">
+		<!--左-->
+		<cropper-canvas ref="cropperCanvas" background class="w-[600px] h-[100%]">
+			<cropper-image ref="cropperImage"
+			               :src="imgUrl"
+			               rotatable
+			               scalable
+			               skewable
+			               translatable
+			               @transform="onCropperImageTransform"
+			></cropper-image>
+			<cropper-shade hidden></cropper-shade>
+			<cropper-handle action="select" plain></cropper-handle>
+			<cropper-selection ref="cropperSelection"
+			                   id="cropper-selection"
+			                   class="rounded-full"
+			                   aspect-ratio="1"
+			                   initial-coverage="0.5" movable resizable zoomable
+			                   @change="onCropperSelectionChange"
+			>
+				<cropper-grid role="grid" bordered covered></cropper-grid>
+				<cropper-crosshair centered></cropper-crosshair>
+				<cropper-handle action="move" theme-color="rgba(255, 255, 255, 0.35)"></cropper-handle>
+				<cropper-handle action="n-resize"></cropper-handle>
+				<cropper-handle action="e-resize"></cropper-handle>
+				<cropper-handle action="s-resize"></cropper-handle>
+				<cropper-handle action="w-resize"></cropper-handle>
+				<cropper-handle action="ne-resize"></cropper-handle>
+				<cropper-handle action="nw-resize"></cropper-handle>
+				<cropper-handle action="se-resize"></cropper-handle>
+				<cropper-handle action="sw-resize"></cropper-handle>
+			</cropper-selection>
+		</cropper-canvas>
+		<!--右-->
+		<div class="flex flex-col items-center">
+			<cropper-viewer selection="#cropper-selection"
+			                class="w-[300px] h-[300px] border border-orange-400 rounded-full"
+			></cropper-viewer>
+			<button class="mt-5 w-[100px] h-[50px]" @click="exportImg">导出</button>
+		</div>
+	</div>
+</template>

@@ -1,10 +1,3 @@
-<template>
-	<!--最外层-->
-	<div class="w-full">
-		<div ref="markdownRef" class="w-full"></div>
-	</div>
-</template>
-
 <script setup lang="ts">
 import {onMounted, ref} from "vue";
 import {Editor} from "@toast-ui/editor";
@@ -36,5 +29,12 @@ onMounted(() => {
 // methods
 
 </script>
+
+<template>
+	<!--最外层-->
+	<div class="hpj w-full">
+		<div ref="markdownRef" class="w-full"></div>
+	</div>
+</template>
 
 

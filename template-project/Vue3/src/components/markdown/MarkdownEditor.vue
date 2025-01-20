@@ -1,20 +1,3 @@
-<template>
-	<!--最外层-->
-	<div class="w-full flex flex-col">
-		<!--上-->
-		<div class="w-full">
-			<div ref="markdownRef" class="w-full"></div>
-		</div>
-		<!--下-->
-		<div v-if="showImportAndExport"
-		     class="mt-2 w-full flex items-center">
-			<button ref="importMarkdownFileButtonRef">导入</button>
-			<button class="ml-4"
-			        @click="exportMarkdownFile">导出</button>
-		</div>
-	</div>
-</template>
-
 <script setup lang="ts">
 import {onMounted, ref, shallowRef} from "vue";
 import {Editor} from "@toast-ui/editor";
@@ -138,4 +121,19 @@ function exportMarkdownFile() {
 }
 </script>
 
-
+<template>
+	<!--最外层-->
+	<div class="hpj w-full flex flex-col">
+		<!--上-->
+		<div class="w-full">
+			<div ref="markdownRef" class="w-full"></div>
+		</div>
+		<!--下-->
+		<div v-if="showImportAndExport"
+		     class="mt-2 w-full flex items-center">
+			<button ref="importMarkdownFileButtonRef">导入</button>
+			<button class="ml-4"
+			        @click="exportMarkdownFile">导出</button>
+		</div>
+	</div>
+</template>
