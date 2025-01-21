@@ -1,12 +1,3 @@
-<template>
-	<div class="w-full h-full flex flex-col"
-	     :style="{padding: isChildWeb ? '4px 24px 0 16px' : '16px 24px 0 16px',}"
-	>
-		<RouterView></RouterView>
-		<div class="h-[16px] shrink-0"></div>
-	</div>
-</template>
-
 <script lang="ts" setup>
 import {onMounted} from "vue";
 import {getParentUrl} from "@/util/env";
@@ -40,5 +31,13 @@ useEventListener('message', event => {
 	}
 })
 const isChildWeb = window !== window.parent
-
 </script>
+
+<template>
+	<div class="w-full h-full flex flex-col"
+	     :style="{padding: isChildWeb ? '4px 24px 0 16px' : '16px 24px 0 16px',}"
+	>
+		<RouterView></RouterView>
+		<div class="h-[16px] shrink-0"></div>
+	</div>
+</template>
