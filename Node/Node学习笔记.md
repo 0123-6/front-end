@@ -396,3 +396,20 @@ registry = http://ipw.clic/artifactory/api/npm/public-npm-release-virtual/
 nodejs项目的钩子函数,包括**自己的项目**和**依赖项目**.
 
 pnpm默认禁用生命周期钩子,为了安全.
+
+# nodejs多版本管理工具
+
+nvm
+
+```cmd
+# 安装新版本
+nvm install <version>
+nvm install 22.13.0
+
+# 切换版本
+nvm use <version>
+
+# 列出可用版本
+nvm list
+```
+
