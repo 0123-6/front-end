@@ -15,8 +15,8 @@ importers:
         specifier: ^3.2.2
         version: 3.2.2
       '@vueuse/core':
-        specifier: ^12.4.0
-        version: 12.4.0(typescript@5.7.3)
+        specifier: ^12.5.0
+        version: 12.5.0(typescript@5.7.3)
       clipboard:
         specifier: ^2.0.11
         version: 2.0.11
@@ -42,8 +42,8 @@ importers:
         specifier: ^2.10.1
         version: 2.10.1
       pinia:
-        specifier: ^2.3.0
-        version: 2.3.0(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
+        specifier: ^2.3.1
+        version: 2.3.1(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
       vanilla-lazyload:
         specifier: ^19.1.3
         version: 19.1.3
@@ -67,14 +67,14 @@ importers:
         specifier: ^4.17.14
         version: 4.17.14
       '@types/node':
-        specifier: ^22.10.7
-        version: 22.10.7
+        specifier: ^22.10.8
+        version: 22.10.8
       '@types/nprogress':
         specifier: ^0.2.3
         version: 0.2.3
       '@vitejs/plugin-vue':
         specifier: ^5.2.1
-        version: 5.2.1(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
+        version: 5.2.1(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))
       '@vue/tsconfig':
         specifier: ^0.7.0
         version: 0.7.0(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3))
@@ -94,17 +94,17 @@ importers:
         specifier: ^5.7.3
         version: 5.7.3
       vite:
-        specifier: ^6.0.7
-        version: 6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
+        specifier: ^6.0.11
+        version: 6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
       vite-plugin-cdn-import:
         specifier: ^1.0.1
-        version: 1.0.1(rollup@4.31.0)(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
+        version: 1.0.1(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
       vite-plugin-compression2:
         specifier: ^1.3.3
-        version: 1.3.3(rollup@4.31.0)(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
+        version: 1.3.3(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
       vite-plugin-externals:
         specifier: ^0.6.2
-        version: 0.6.2(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
+        version: 0.6.2(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
 
 packages:
 
@@ -588,8 +588,8 @@ packages:
   '@types/lodash@4.17.14':
     resolution: {integrity: sha512-jsxagdikDiDBeIRaPYtArcT8my4tN1og7MtMRquFT3XNA6axxyHDRUemqDz/taRDdOUn0GnGHRCuff4q48sW9A==}
 
-  '@types/node@22.10.7':
-    resolution: {integrity: sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==}
+  '@types/node@22.10.8':
+    resolution: {integrity: sha512-rk+QvAEGsbX/ZPiiyel6hJHNUS9cnSbPWVaZLvE+Er3tLqQFzWMz9JOfWW7XUmKvRPfxJfbl3qYWve+RGXncFw==}
 
   '@types/nprogress@0.2.3':
     resolution: {integrity: sha512-k7kRA033QNtC+gLc4VPlfnue58CM1iQLgn1IMAU8VPHGOj7oIHPp9UlhedEnD/Gl8evoCjwkZjlBORtZ3JByUA==}
@@ -653,20 +653,20 @@ packages:
       vue:
         optional: true
 
-  '@vueuse/core@12.4.0':
-    resolution: {integrity: sha512-XnjQYcJwCsyXyIafyA6SvyN/OBtfPnjvJmbxNxQjCcyWD198urwm5TYvIUUyAxEAN0K7HJggOgT15cOlWFyLeA==}
+  '@vueuse/core@12.5.0':
+    resolution: {integrity: sha512-GVyH1iYqNANwcahAx8JBm6awaNgvR/SwZ1fjr10b8l1HIgDp82ngNbfzJUgOgWEoxjL+URAggnlilAEXwCOZtg==}
 
   '@vueuse/core@9.13.0':
     resolution: {integrity: sha512-pujnclbeHWxxPRqXWmdkKV5OX4Wk4YeK7wusHqRwU0Q7EFusHoqNA/aPhB6KCh9hEqJkLAJo7bb0Lh9b+OIVzw==}
 
-  '@vueuse/metadata@12.4.0':
-    resolution: {integrity: sha512-AhPuHs/qtYrKHUlEoNO6zCXufu8OgbR8S/n2oMw1OQuBQJ3+HOLQ+EpvXs+feOlZMa0p8QVvDWNlmcJJY8rW2g==}
+  '@vueuse/metadata@12.5.0':
+    resolution: {integrity: sha512-Ui7Lo2a7AxrMAXRF+fAp9QsXuwTeeZ8fIB9wsLHqzq9MQk+2gMYE2IGJW48VMJ8ecvCB3z3GsGLKLbSasQ5Qlg==}
 
   '@vueuse/metadata@9.13.0':
     resolution: {integrity: sha512-gdU7TKNAUVlXXLbaF+ZCfte8BjRJQWPCa2J55+7/h+yDtzw3vOoGQDRXzI6pyKyo6bXFT5/QoPE4hAknExjRLQ==}
 
-  '@vueuse/shared@12.4.0':
-    resolution: {integrity: sha512-9yLgbHVIF12OSCojnjTIoZL1+UA10+O4E1aD6Hpfo/DKVm5o3SZIwz6CupqGy3+IcKI8d6Jnl26EQj/YucnW0Q==}
+  '@vueuse/shared@12.5.0':
+    resolution: {integrity: sha512-vMpcL1lStUU6O+kdj6YdHDixh0odjPAUM15uJ9f7MY781jcYkIwFA4iv2EfoIPO6vBmvutI1HxxAwmf0cx5ISQ==}
 
   '@vueuse/shared@9.13.0':
     resolution: {integrity: sha512-UrnhU+Cnufu4S6JLCPZnkWh0WwZGUp72ktOF2DFptMlOs3TOdVv8xJN53zhHGARmVOsz5KqOls09+J1NR6sBKw==}
@@ -1054,8 +1054,8 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
 
-  pinia@2.3.0:
-    resolution: {integrity: sha512-ohZj3jla0LL0OH5PlLTDMzqKiVw2XARmC1XYLdLWIPBMdhDW/123ZWr4zVAhtJm+aoSkFa13pYXskAvAscIkhQ==}
+  pinia@2.3.1:
+    resolution: {integrity: sha512-khUlZSwt9xXCaTbbxFYBKDc/bWAGWJjOgvxETwkTN7KRm66EeT1ZdZj6i2ceh9sP2Pzqsbc704r2yngBrxBVug==}
     peerDependencies:
       typescript: '>=4.4.4'
       vue: ^2.7.0 || ^3.5.11
@@ -1290,8 +1290,8 @@ packages:
     peerDependencies:
       vite: '>=2.0.0'
 
-  vite@6.0.7:
-    resolution: {integrity: sha512-RDt8r/7qx9940f8FcOIAH9PTViRrghKaK2K1jY3RaAURrEUbm9Du1mJ72G+jlhtG3WwodnfzY8ORQZbBavZEAQ==}
+  vite@6.0.11:
+    resolution: {integrity: sha512-4VL9mQPKoHy4+FE0NnRE/kbY51TOfaknxAjt3fJbGJxhIpBZiqVzlZDEesWWsuREXHwNdAoOFZ9MkPEVXczHwg==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -1758,7 +1758,7 @@ snapshots:
 
   '@types/lodash@4.17.14': {}
 
-  '@types/node@22.10.7':
+  '@types/node@22.10.8':
     dependencies:
       undici-types: 6.20.0
 
@@ -1770,9 +1770,9 @@ snapshots:
 
   '@types/web-bluetooth@0.0.20': {}
 
-  '@vitejs/plugin-vue@5.2.1(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
+  '@vitejs/plugin-vue@5.2.1(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))(vue@3.5.13(typescript@5.7.3))':
     dependencies:
-      vite: 6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
+      vite: 6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
       vue: 3.5.13(typescript@5.7.3)
 
   '@vue/compiler-core@3.5.13':
@@ -1836,11 +1836,11 @@ snapshots:
       typescript: 5.7.3
       vue: 3.5.13(typescript@5.7.3)
 
-  '@vueuse/core@12.4.0(typescript@5.7.3)':
+  '@vueuse/core@12.5.0(typescript@5.7.3)':
     dependencies:
       '@types/web-bluetooth': 0.0.20
-      '@vueuse/metadata': 12.4.0
-      '@vueuse/shared': 12.4.0(typescript@5.7.3)
+      '@vueuse/metadata': 12.5.0
+      '@vueuse/shared': 12.5.0(typescript@5.7.3)
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
       - typescript
@@ -1855,11 +1855,11 @@ snapshots:
       - '@vue/composition-api'
       - vue
 
-  '@vueuse/metadata@12.4.0': {}
+  '@vueuse/metadata@12.5.0': {}
 
   '@vueuse/metadata@9.13.0': {}
 
-  '@vueuse/shared@12.4.0(typescript@5.7.3)':
+  '@vueuse/shared@12.5.0(typescript@5.7.3)':
     dependencies:
       vue: 3.5.13(typescript@5.7.3)
     transitivePeerDependencies:
@@ -2250,7 +2250,7 @@ snapshots:
 
   pify@2.3.0: {}
 
-  pinia@2.3.0(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)):
+  pinia@2.3.1(typescript@5.7.3)(vue@3.5.13(typescript@5.7.3)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@5.7.3)
@@ -2518,37 +2518,37 @@ snapshots:
 
   vanilla-lazyload@19.1.3: {}
 
-  vite-plugin-cdn-import@1.0.1(rollup@4.31.0)(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
+  vite-plugin-cdn-import@1.0.1(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
     dependencies:
       rollup-plugin-external-globals: 0.10.0(rollup@4.31.0)
-      vite-plugin-externals: 0.6.2(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
+      vite-plugin-externals: 0.6.2(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0))
     transitivePeerDependencies:
       - rollup
       - vite
 
-  vite-plugin-compression2@1.3.3(rollup@4.31.0)(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
+  vite-plugin-compression2@1.3.3(rollup@4.31.0)(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
     dependencies:
       '@rollup/pluginutils': 5.1.4(rollup@4.31.0)
       tar-mini: 0.2.0
-      vite: 6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
+      vite: 6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
     transitivePeerDependencies:
       - rollup
 
-  vite-plugin-externals@0.6.2(vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
+  vite-plugin-externals@0.6.2(vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)):
     dependencies:
       acorn: 8.14.0
       es-module-lexer: 0.4.1
       fs-extra: 10.1.0
       magic-string: 0.25.9
-      vite: 6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
+      vite: 6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0)
 
-  vite@6.0.7(@types/node@22.10.7)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0):
+  vite@6.0.11(@types/node@22.10.8)(jiti@1.21.7)(sass@1.83.4)(yaml@2.7.0):
     dependencies:
       esbuild: 0.24.2
       postcss: 8.5.1
       rollup: 4.31.0
     optionalDependencies:
-      '@types/node': 22.10.7
+      '@types/node': 22.10.8
       fsevents: 2.3.3
       jiti: 1.21.7
       sass: 1.83.4

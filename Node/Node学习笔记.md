@@ -328,8 +328,7 @@ ncu
 ncu --target minor
 # 更新
 ncu -u
-ncu --target-minor -u
-
+ncu --target minor -u
 ```
 
 # 常见的nodejs包管理工具
@@ -399,7 +398,7 @@ pnpm默认禁用生命周期钩子,为了安全.
 
 # nodejs多版本管理工具
 
-nvm
+nvm不是官方工具,而是社区开发的工具,但被广泛使用.
 
 ```cmd
 # 安装新版本
@@ -408,8 +407,18 @@ nvm install 22.13.0
 
 # 切换版本
 nvm use <version>
+# 根据项目的.nvmrc文件使用nodejs版本
+nvm use
 
 # 列出可用版本
 nvm list
+```
+
+## 如何配置
+
+在项目根目录创建1个.nvmrc文件
+
+```cmd
+18.12
 ```
 
