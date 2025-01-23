@@ -7,6 +7,7 @@ express是快速,灵活且极其简单的Node.js Web框架.
 
 ```cmd
 pnpm add express@latest
+# 最新版本为5.0.1,需要Nodejs 18及以上
 pnpm add express@5.0.1
 ```
 
