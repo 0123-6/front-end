@@ -375,11 +375,19 @@ pnpm set registry https://registry.npmmirror.com
 
 # nodejs项目的标准配置文件
 
-.npmrc是标准配置文件
+.npmrc是标准配置文件,可以设置一些参数.
 
 ```cmd
 registry = http://ipw.clic/artifactory/api/npm/public-npm-release-virtual/
+PUPPETEER_SKIP_DOWNLOAD=true
 ```
+
+```cmd
+# 验证是否设置成功
+npm config get PUPPETEER_SKIP_DOWNLOAD
+```
+
+
 
 # npm和pnpm生命周期
 
