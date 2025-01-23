@@ -2,7 +2,7 @@
   "name": "vue3",
   "description": "Vue3项目模板",
   "private": true,
-  "version": "1.0.0",
+  "version": "0.0.0",
   "type": "module",
   "author": "hpj",
   "license": "ISC",
